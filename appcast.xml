@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Tolk Updates</title>
+    <link>https://github.com/uid4oe/tolk-releases</link>
+    <description>Tolk application updates</description>
+    <!-- New releases are prepended here by publish_release.sh -->
+  </channel>
+</rss>
