@@ -4,5 +4,17 @@
     <title>tolk updates</title>
     <link>https://github.com/uid4oe/tolk-releases</link>
     <description>tolk application updates</description>
+    <item>
+      <title>Version 0.1.0</title>
+      <description><![CDATA[initial release — macOS dictation with dictation, ask, and quick action modes]]></description>
+      <pubDate>Fri, 10 Apr 2026 01:58:05 +0200</pubDate>
+      <sparkle:version>0.1.0</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.0/tolk-0.1.0.dmg"
+                 length="8705349"
+                 type="application/octet-stream"
+                 sparkle:edSignature="oNf3omTXSW+7COClKG1wqJ6kk4QzCyFoYTiH9bzHJkUFR7MLGqVKhdtUlBAWzHu8i/6p4F2mO58FbjSWep0FBA=="/>
+    </item>
   </channel>
 </rss>
