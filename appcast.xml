@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Tolk Updates</title>
+    <title>tolk updates</title>
     <link>https://github.com/uid4oe/tolk-releases</link>
-    <description>Tolk application updates</description>
-    <!-- New releases are prepended here by publish_release.sh -->
-    <item>
-      <title>Version 0.1.0</title>
-      <description><![CDATA[Initial release — macOS dictation with dictation, ask, and quick action modes]]></description>
-      <pubDate>Fri, 10 Apr 2026 01:43:53 +0200</pubDate>
-      <sparkle:version>0.1.0</sparkle:version>
-      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.0/Tolk-0.1.0.dmg"
-                 length="7671497"
-                 type="application/octet-stream"
-                 sparkle:edSignature="c1iayFps+tWIH2DUQql9tUMpDiNVU26EoZZ0hc4V9Ktn2lkuOv6wkRslVHX1FJxf90EQlNcARMT4ihnAX/zxCA=="/>
-    </item>
+    <description>tolk application updates</description>
   </channel>
 </rss>
