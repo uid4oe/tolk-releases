@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tolk Releases</title>
+<title>tolk</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0d0d0d; color: #e0e0e0; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
@@ -16,25 +16,32 @@
   .meta a { color: #888; text-decoration: none; }
   .meta a:hover { text-decoration: underline; }
   .version { display: inline-block; margin-top: 16px; font-size: 12px; color: #444; font-family: 'SF Mono', monospace; }
+  .notes { margin-top: 12px; font-size: 12px; color: #555; max-width: 360px; margin-left: auto; margin-right: auto; }
 </style>
 </head>
 <body>
 <div class="card">
   <h1>tolk</h1>
   <p class="tagline">press. speak. done.</p>
-  <a class="download" id="dl" href="https://github.com/uid4oe/tolk-releases/releases/latest">Download for macOS</a>
+  <a class="download" id="dl" href="https://github.com/uid4oe/tolk-releases/releases/latest">download for macOS</a>
   <div class="meta">
-    <a href="https://github.com/uid4oe/tolk-releases/releases">All releases</a>
+    <a href="https://github.com/uid4oe/tolk-releases/releases">all releases</a>
   </div>
   <span class="version" id="ver"></span>
+  <p class="notes" id="notes"></p>
 </div>
 <script>
 fetch('appcast.xml').then(r=>r.text()).then(xml=>{
   const d=new DOMParser().parseFromString(xml,'text/xml');
-  const v=d.querySelector('shortVersionString');
-  const u=d.querySelector('enclosure');
+  const items=d.querySelectorAll('item');
+  if(!items.length)return;
+  const latest=items[items.length-1];
+  const v=latest.querySelector('shortVersionString');
+  const u=latest.querySelector('enclosure');
+  const desc=latest.querySelector('description');
   if(v)document.getElementById('ver').textContent='v'+v.textContent;
   if(u)document.getElementById('dl').href=u.getAttribute('url');
+  if(desc&&desc.textContent)document.getElementById('notes').textContent=desc.textContent;
 });
 </script>
 </body>
