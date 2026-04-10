@@ -16,5 +16,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="oNf3omTXSW+7COClKG1wqJ6kk4QzCyFoYTiH9bzHJkUFR7MLGqVKhdtUlBAWzHu8i/6p4F2mO58FbjSWep0FBA=="/>
     </item>
+    <item>
+      <title>Version 0.1.1</title>
+      <description><![CDATA[Quick action UX, Sparkle auto-updates, dead code cleanup, lowercase naming]]></description>
+      <pubDate>Fri, 10 Apr 2026 02:08:27 +0200</pubDate>
+      <sparkle:version>0.1.1</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.1/tolk-0.1.1.dmg"
+                 length="8707253"
+                 type="application/octet-stream"
+                 sparkle:edSignature="wQhmlSzNXhkE8oOeH0rdzRGScMWc8gV0nZzFt14VoETIvrZXP9u+7WTX5nKZLSJmfgl4yFVxAFuWohSmZDixBA=="/>
+    </item>
   </channel>
 </rss>
