@@ -64,5 +64,25 @@
                  type="application/octet-stream"
                  sparkle:edSignature="EKDmFg6Ja6Hv03u/7JxxSPJ+duEbN2Hukpq/Ar8ysmez/nPZ3YxUGbHDVE4G2cPOLowzvLkvJkf8UASiBeF/Dw=="/>
     </item>
+    <item>
+      <title>Version 0.1.1</title>
+      <description><![CDATA[Bug fixes and polish.
+
+• Voice isolation / mic indicator now clears immediately when a recording session ends — previously the engine stayed warm for the entire app lifetime.
+• Fresh AVAudioEngine per session; simpler lifecycle, no lingering hardware allocation.
+• Fixed cancel-while-starting race that could leave an orphan engine running if the hotkey was released during engine setup.
+• Start sound no longer gets cut off by voice-processing setup — it now plays after the engine is ready.
+• ASR model download progress bar is smooth instead of only showing 1% → 49% → 50% → done.
+• LLM result card height reduced ~20% — more compact without being cramped.
+• Removed the "Apple Silicon" tag from the speech model list (it was redundant).]]></description>
+      <pubDate>Sat, 11 Apr 2026 00:35:02 +0200</pubDate>
+      <sparkle:version>0.1.1</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.1/tolk-0.1.1.dmg"
+                 length="8546910"
+                 type="application/octet-stream"
+                 sparkle:edSignature="uy19WO3dE9P+YpVvz0WHjonStHpZcUX1JtEMjSyVxk3oWB18xF3hwzElM32RYqs60L/tkyNkbqf0TnOHDn/uCw=="/>
+    </item>
   </channel>
 </rss>
