@@ -28,5 +28,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="wQhmlSzNXhkE8oOeH0rdzRGScMWc8gV0nZzFt14VoETIvrZXP9u+7WTX5nKZLSJmfgl4yFVxAFuWohSmZDixBA=="/>
     </item>
+    <item>
+      <title>Version 0.1.2</title>
+      <description><![CDATA[Fix M1 Pro sound crash + QuickAction card edge overflow]]></description>
+      <pubDate>Fri, 10 Apr 2026 18:22:30 +0200</pubDate>
+      <sparkle:version>0.1.2</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.2/tolk-0.1.2.dmg"
+                 length="8707557"
+                 type="application/octet-stream"
+                 sparkle:edSignature="NND7GKuakKbwCQmC5I8gw6zl+VmeiVLng5Lpch/SrIfYPxXk9arWXzWfOgiOU1kksYS1Vg+eeMlMK5aNc1VXCQ=="/>
+    </item>
   </channel>
 </rss>
