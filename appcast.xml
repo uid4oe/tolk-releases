@@ -120,5 +120,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="XNebRrIaZ8B+mFS1h35J2D9/DUjwKc2cnVJ3tUK4dh075S7SbZMPc54EE1ozetRtTKcAQEd7H1LpZ9P95I1XCQ=="/>
     </item>
+    <item>
+      <title>Version 0.1.9</title>
+      <description><![CDATA[Settings redesign: Dictation and Quick Actions are now separate pages in the sidebar, making it easier to find and configure each feature independently. The Quick Action voice instruction prompt is now user-editable. Plain text mode removed.]]></description>
+      <pubDate>Sun, 12 Apr 2026 01:59:08 +0200</pubDate>
+      <sparkle:version>0.1.9</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.9/tolk-0.1.9.dmg"
+                 length="8728017"
+                 type="application/octet-stream"
+                 sparkle:edSignature="5NVr9xTPxUSOfuFdlfnNH/VqfvpC0NIwSJQkOf3IKMhAQh5gbvY2MzDg/8p6E1HzHPfagO84cBdC2QaKVpiQCw=="/>
+    </item>
   </channel>
 </rss>
