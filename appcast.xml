@@ -84,5 +84,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="BIhCvRbKvb0scB9A00wGf6u8xD+n2pwow8V6SpVOt5Dz0yCpXqS2/a4jzhU2W8d8QHab2lkt4NuleAm8ccUmDg=="/>
     </item>
+    <item>
+      <title>Version 0.1.6</title>
+      <description><![CDATA[Add onboarding flow and extract UI theme components (TolkBadge, tolkCaption, tolkSecondary, tolkPrimary)]]></description>
+      <pubDate>Sat, 11 Apr 2026 08:11:56 +0200</pubDate>
+      <sparkle:version>0.1.6</sparkle:version>
+      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.6/tolk-0.1.6.dmg"
+                 length="8700979"
+                 type="application/octet-stream"
+                 sparkle:edSignature="9GMS6R2+pXjKZDT/ABkJ/B/BFD1X/FiNg6TFawdRoj3fsJ1wkWNHt/z9d/6CPpXICJbZk7n3ApKzRQ2q5gKKAg=="/>
+    </item>
   </channel>
 </rss>
