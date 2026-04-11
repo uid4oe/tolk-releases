@@ -96,5 +96,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="9GMS6R2+pXjKZDT/ABkJ/B/BFD1X/FiNg6TFawdRoj3fsJ1wkWNHt/z9d/6CPpXICJbZk7n3ApKzRQ2q5gKKAg=="/>
     </item>
+    <item>
+      <title>Version 0.1.7</title>
+      <description><![CDATA[Bug fixes and UI improvements]]></description>
+      <pubDate>Sat, 11 Apr 2026 14:02:27 +0200</pubDate>
+      <sparkle:version>0.1.7</sparkle:version>
+      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.7/tolk-0.1.7.dmg"
+                 length="8730890"
+                 type="application/octet-stream"
+                 sparkle:edSignature="4X8ne21pWsM0YI3dFhc5pbfVU92W2t3+LxKy4vwzKB/bfXIoQDCa0o7rv7bJNIQFWsCszPR830cL/NmoQ6TNBg=="/>
+    </item>
   </channel>
 </rss>
