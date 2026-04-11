@@ -108,5 +108,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="4X8ne21pWsM0YI3dFhc5pbfVU92W2t3+LxKy4vwzKB/bfXIoQDCa0o7rv7bJNIQFWsCszPR830cL/NmoQ6TNBg=="/>
     </item>
+    <item>
+      <title>Version 0.1.8</title>
+      <description><![CDATA[Single unified hotkey — routes to Quick Action when text is selected, Dictation otherwise. Removes separate Ask hotkey. Design system polish: frosted glass overlays, consistent button styles, shared animation tokens.]]></description>
+      <pubDate>Sat, 11 Apr 2026 23:19:17 +0200</pubDate>
+      <sparkle:version>0.1.8</sparkle:version>
+      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.8/tolk-0.1.8.dmg"
+                 length="8711460"
+                 type="application/octet-stream"
+                 sparkle:edSignature="XNebRrIaZ8B+mFS1h35J2D9/DUjwKc2cnVJ3tUK4dh075S7SbZMPc54EE1ozetRtTKcAQEd7H1LpZ9P95I1XCQ=="/>
+    </item>
   </channel>
 </rss>
