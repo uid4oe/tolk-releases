@@ -148,5 +148,19 @@
                  type="application/octet-stream"
                  sparkle:edSignature="daxvrEX9FSpW+ZA1TMay31BfLWJ1g5KLL5VP1mKYY42z/XalOy35GwvAmIoeoe4AWgTNv7mNZOZKCO1RfhghCA=="/>
     </item>
+    <item>
+      <title>Version 0.1.11</title>
+      <description><![CDATA[Fix: text selection now works in Chrome web content, Slack, Claude desktop, and other Chromium/Electron apps.
+
+• Activates the accessibility tree (AXEnhancedUserInterface / AXManualAccessibility) for Chrome and Electron apps before querying selected text. Previously only worked on machines where something else had already activated Chrome's AX tree.]]></description>
+      <pubDate>Sun, 12 Apr 2026 20:53:54 +0200</pubDate>
+      <sparkle:version>0.1.11</sparkle:version>
+      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.11/tolk-0.1.11.dmg"
+                 length="8722754"
+                 type="application/octet-stream"
+                 sparkle:edSignature="sqGKqo18V3z9L+6bw9CbuA2Xp1YXt6DekSDmDwoBOIkwA8vGCjHaAmupPAj1ijRd8p1HZ3V2mety22bOLq+mAg=="/>
+    </item>
   </channel>
 </rss>
