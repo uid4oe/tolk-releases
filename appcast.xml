@@ -178,5 +178,21 @@
                  type="application/octet-stream"
                  sparkle:edSignature="vxDpwHPvcVYN21hfoZqJ/ouVCEQkFmftdvkSD/rnR7k06mGPkTscZ2sm7MxMOsTsSJnMwWlInByup9V+6CQiAA=="/>
     </item>
+    <item>
+      <title>Version 0.1.13</title>
+      <description><![CDATA[Fix: text selection now works universally — Chrome, Slack, Claude desktop, Numbers, and all other apps.
+
+• Root cause: the unified hotkey used a fast AX-only check that skipped the full fallback chain (AX tree activation, Edit→Copy menu action, Cmd+C simulation). Apps without native AX text support always fell through to dictation.
+• Now: fast AX peek first, then full fallback chain before deciding. ~500ms delay in the "no selection" case for non-native-AX apps; instant for native apps.
+• Added detailed diagnostic logging ([SEL] [DIAG]) for future debugging.]]></description>
+      <pubDate>Sun, 12 Apr 2026 21:20:17 +0200</pubDate>
+      <sparkle:version>0.1.13</sparkle:version>
+      <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.13/tolk-0.1.13.dmg"
+                 length="8724030"
+                 type="application/octet-stream"
+                 sparkle:edSignature="zuVdMdiza1hh4EKuNFAHUslRBPQnE3T7+mZgGRolwlsgz/Y5KhWDf/MWA1imoXQI5rjFRkQF5rxQvlpPv9VnCw=="/>
+    </item>
   </channel>
 </rss>
