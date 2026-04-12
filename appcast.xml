@@ -211,5 +211,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="9JiVgTpOgs+wYYxUnTUCGfzC5M4wOhk0niWcd29EUYM+GvdGB/zOXf207G7BkGvKJwdGCxZNTDvMaF3yb/CHCA=="/>
     </item>
+    <item>
+      <title>Version 0.1.15</title>
+      <description><![CDATA[Quick Action result buttons now match chip style. Faster hotkey routing: instant AX peek for native apps, AX tree activation for Chrome/Electron (≤200ms), skips slow Cmd+C path entirely.]]></description>
+      <pubDate>Sun, 12 Apr 2026 22:51:30 +0200</pubDate>
+      <sparkle:version>0.1.15</sparkle:version>
+      <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.15/tolk-0.1.15.dmg"
+                 length="8723252"
+                 type="application/octet-stream"
+                 sparkle:edSignature="kJMyYPU1Eg7VEzz9WQL2H3hcAMBtNrPj7SVlWTSq30eWzgGXBK8uXIDsS3jx2t2HqrZR7YfUySdbuTSiMvaeBA=="/>
+    </item>
   </channel>
 </rss>
