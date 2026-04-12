@@ -194,5 +194,22 @@
                  type="application/octet-stream"
                  sparkle:edSignature="zuVdMdiza1hh4EKuNFAHUslRBPQnE3T7+mZgGRolwlsgz/Y5KhWDf/MWA1imoXQI5rjFRkQF5rxQvlpPv9VnCw=="/>
     </item>
+    <item>
+      <title>Version 0.1.14</title>
+      <description><![CDATA[Codebase cleanup: remove dead code and stale artifacts from prior refactors.
+
+• Deleted 4 orphaned files (RecordingMode, EmbeddingService, unimplemented Firebase plan)
+• Removed 5 dead AppSettings fields, 4 dead properties/methods
+• Simplified text insertion to always use clipboard paste
+• Updated CLAUDE.md architecture docs to match current state]]></description>
+      <pubDate>Sun, 12 Apr 2026 21:36:22 +0200</pubDate>
+      <sparkle:version>0.1.14</sparkle:version>
+      <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.14/tolk-0.1.14.dmg"
+                 length="8725456"
+                 type="application/octet-stream"
+                 sparkle:edSignature="9JiVgTpOgs+wYYxUnTUCGfzC5M4wOhk0niWcd29EUYM+GvdGB/zOXf207G7BkGvKJwdGCxZNTDvMaF3yb/CHCA=="/>
+    </item>
   </channel>
 </rss>
