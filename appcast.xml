@@ -162,5 +162,21 @@
                  type="application/octet-stream"
                  sparkle:edSignature="sqGKqo18V3z9L+6bw9CbuA2Xp1YXt6DekSDmDwoBOIkwA8vGCjHaAmupPAj1ijRd8p1HZ3V2mety22bOLq+mAg=="/>
     </item>
+    <item>
+      <title>Version 0.1.12</title>
+      <description><![CDATA[Text selection: delegate to SelectedTextKit's full strategy chain for broader app compatibility.
+
+• Replaced custom Cmd+C fallback with SelectedTextKit's shortcut strategy (5ms polling, 400ms timeout, muted alert, robust clipboard handling).
+• Kept fast AX query + Chrome/Electron AX activation as first steps.
+• Should improve detection on apps where our custom Cmd+C was failing.]]></description>
+      <pubDate>Sun, 12 Apr 2026 21:05:07 +0200</pubDate>
+      <sparkle:version>0.1.12</sparkle:version>
+      <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.12/tolk-0.1.12.dmg"
+                 length="8728159"
+                 type="application/octet-stream"
+                 sparkle:edSignature="vxDpwHPvcVYN21hfoZqJ/ouVCEQkFmftdvkSD/rnR7k06mGPkTscZ2sm7MxMOsTsSJnMwWlInByup9V+6CQiAA=="/>
+    </item>
   </channel>
 </rss>
