@@ -132,5 +132,21 @@
                  type="application/octet-stream"
                  sparkle:edSignature="5NVr9xTPxUSOfuFdlfnNH/VqfvpC0NIwSJQkOf3IKMhAQh5gbvY2MzDg/8p6E1HzHPfagO84cBdC2QaKVpiQCw=="/>
     </item>
+    <item>
+      <title>Version 0.1.6</title>
+      <description><![CDATA[Patch: text selection, overlay sizing, test fixes.
+
+• Text selection now works reliably on all machines — Cmd+C fallback uses clipboard polling (up to 300ms) instead of a fixed 100ms wait that was too short for Chrome on slower systems.
+• Fixed QuickAction card sizing corruption when retriggering the hotkey — chip row overflow during the result→recording resize animation.
+• Fixed 12 broken tests from prior refactors; integration test suite now compiles (test count 237→241).]]></description>
+      <pubDate>Sun, 12 Apr 2026 20:44:38 +0200</pubDate>
+      <sparkle:version>0.1.6</sparkle:version>
+      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.6/tolk-0.1.6.dmg"
+                 length="8721273"
+                 type="application/octet-stream"
+                 sparkle:edSignature="+MWQcna+Pm9TXK3jDNK4p8l16xxZuXV0dZBtMo5YVJFXUAg2hQDl4TxWt1yZHkf9lBER1Wmkc2X97l8LJl50Cw=="/>
+    </item>
   </channel>
 </rss>
