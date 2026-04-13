@@ -1,6 +1,15 @@
 # tolk
 
-A lightweight, system-wide macOS app for seamless dictation and writing tools.
+A lightweight, system-wide macOS app. Press and hold a hotkey to record — release to transcribe and type into whatever app is active.
+
+---
+
+## Demo
+
+| Dictation | Quick Action |
+|:---:|:---:|
+| ![Dictation demo](media/dictation-demo.gif) | ![Quick Action demo](media/quickaction-demo.gif) |
+| Hold hotkey → speak → release → typed | Select text → hold hotkey → edit inline |
 
 ---
 
@@ -9,12 +18,12 @@ A lightweight, system-wide macOS app for seamless dictation and writing tools.
 Tolk gives you two hotkey-driven modes that work in any app:
 
 ### Dictation
-Press and hold your dictate hotkey → speak → release → your words are transcribed and typed directly into whatever app is active. No clicking, no switching windows.
+Press and hold your hotkey → speak → release → your words are transcribed and typed directly into whatever app is active. No clicking, no switching windows.
 
 Hotkey mode is configurable: use press-and-hold or toggle (press to start, press to stop).
 
 ### Quick Action
-Select any text → press your ask hotkey → an inline card appears near the selection with one-tap writing tools:
+Select any text → press your hotkey → an inline card appears near the selection with one-tap writing tools:
 
 | Action | What it does |
 |---|---|
@@ -69,6 +78,22 @@ Configure multiple providers and switch between them in Settings.
 3. Launch Tolk and follow the setup assistant (permissions + speech model + AI provider)
 
 Tolk auto-updates in the background via Sparkle — you'll be notified when a new version is available.
+
+### First Launch — Gatekeeper
+
+Tolk is not notarized by Apple. macOS will block it on the first launch with a security warning.
+
+**Option 1 — right-click to open (recommended):**
+1. Open Finder → Applications
+2. Right-click **Tolk** → **Open**
+3. Click **Open** in the security dialog (one-time prompt)
+
+**Option 2 — Terminal:**
+```bash
+xattr -dr com.apple.quarantine /Applications/Tolk.app
+```
+
+After either step, Tolk opens normally on every subsequent launch.
 
 ---
 
