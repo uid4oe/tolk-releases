@@ -223,5 +223,20 @@
                  type="application/octet-stream"
                  sparkle:edSignature="kJMyYPU1Eg7VEzz9WQL2H3hcAMBtNrPj7SVlWTSq30eWzgGXBK8uXIDsS3jx2t2HqrZR7YfUySdbuTSiMvaeBA=="/>
     </item>
+    <item>
+      <title>Version 0.1.15</title>
+      <description><![CDATA[Fix: text selection in Slack and Terminal now routes to Quick Action correctly.
+
+• Adds menuAction (Edit→Copy via AX menu) to the fast routing path. Apps that don't expose AX selection but have a working Edit menu (Slack, Terminal, Discord, etc.) are now detected.
+• Dictation overlay still appears within ~250ms when no text is selected — fast-rejects via menu-disabled check.]]></description>
+      <pubDate>Tue, 14 Apr 2026 21:09:04 +0200</pubDate>
+      <sparkle:version>0.1.15</sparkle:version>
+      <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.15/tolk-0.1.15.dmg"
+                 length="8723947"
+                 type="application/octet-stream"
+                 sparkle:edSignature="UlrqxVF0PVG4dFzBsmg0bT+5joZxu+cBlAtaiIqpeylZhN8mtyf023Px7zEQhjlXIjSFSw46Yjm+YA51oZlIDA=="/>
+    </item>
   </channel>
 </rss>
