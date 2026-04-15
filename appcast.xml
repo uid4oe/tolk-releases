@@ -250,5 +250,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="9eesYpMRDQ0J7BaHuY2yozOKFcZFiY9m6By7eAAhJAXCpBvnEe6XFN7wMCJKVeY7gauLucl34/jqFEwYgAEtCA=="/>
     </item>
+    <item>
+      <title>Version 0.1.18</title>
+      <description><![CDATA[Fix QuickAction dismiss outcome tracking]]></description>
+      <pubDate>Thu, 16 Apr 2026 01:30:39 +0200</pubDate>
+      <sparkle:version>0.1.18</sparkle:version>
+      <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.18/tolk-0.1.18.dmg"
+                 length="8725557"
+                 type="application/octet-stream"
+                 sparkle:edSignature="kWXIprtMKc5FoiDFo8f9QYSCtsS1t4ABeZJs4RbZ4WtC44iQXukrP06xgPUilsfjqWG0SD4k0EjiJRji2CoCDA=="/>
+    </item>
   </channel>
 </rss>
