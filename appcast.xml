@@ -274,5 +274,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="g3DwTSrN5SzWnEDpKrBDLlLRpqrUFL8MzKT0+AWuodBZbl/J/8zV+sC6jSJs8HY7GRPoUxu3BJde/TYR9wysDg=="/>
     </item>
+    <item>
+      <title>Version 0.1.20</title>
+      <description><![CDATA[Real E2E integration tests for ASR, LLM, Dictation and Quick Action modes]]></description>
+      <pubDate>Thu, 16 Apr 2026 01:59:39 +0200</pubDate>
+      <sparkle:version>0.1.20</sparkle:version>
+      <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.20/tolk-0.1.20.dmg"
+                 length="8725590"
+                 type="application/octet-stream"
+                 sparkle:edSignature="1/JP90yzMce1pCDPmc4MwW+b7vPRz3JT63AtwtUVW88IlmsikoYKJUiC4HHWGtJkM4XDDJgobNN3ngfZweS2DQ=="/>
+    </item>
   </channel>
 </rss>
