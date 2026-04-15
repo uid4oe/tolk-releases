@@ -262,5 +262,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="kWXIprtMKc5FoiDFo8f9QYSCtsS1t4ABeZJs4RbZ4WtC44iQXukrP06xgPUilsfjqWG0SD4k0EjiJRji2CoCDA=="/>
     </item>
+    <item>
+      <title>Version 0.1.19</title>
+      <description><![CDATA[E2E test coverage for coordinator flows and selection routing]]></description>
+      <pubDate>Thu, 16 Apr 2026 01:40:49 +0200</pubDate>
+      <sparkle:version>0.1.19</sparkle:version>
+      <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.19/tolk-0.1.19.dmg"
+                 length="8725555"
+                 type="application/octet-stream"
+                 sparkle:edSignature="g3DwTSrN5SzWnEDpKrBDLlLRpqrUFL8MzKT0+AWuodBZbl/J/8zV+sC6jSJs8HY7GRPoUxu3BJde/TYR9wysDg=="/>
+    </item>
   </channel>
 </rss>
