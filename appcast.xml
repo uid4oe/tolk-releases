@@ -310,5 +310,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="gyHKakORtyjcpFGHehyBYF/uL6odAsNFRmWMqNeOjQThcWNX1pBoMODKAgt1sSzKyeHZIM1YV6cTiroX0Y1WCA=="/>
     </item>
+    <item>
+      <title>Version 0.1.23</title>
+      <description><![CDATA[Fix hotkey partial-release stuck state, History freeze, add diagnostic logs]]></description>
+      <pubDate>Mon, 20 Apr 2026 12:10:21 +0200</pubDate>
+      <sparkle:version>0.1.23</sparkle:version>
+      <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.23/tolk-0.1.23.dmg"
+                 length="8733059"
+                 type="application/octet-stream"
+                 sparkle:edSignature="qqvT52T607UOkgIU2h3kdksYdsyHNTvHsx85xpWkwK6AfyqC1BgQfjjnBFmBUho6GoADtACd3xvqVusjGqZwDw=="/>
+    </item>
   </channel>
 </rss>
