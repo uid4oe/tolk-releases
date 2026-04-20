@@ -298,5 +298,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="gIVdbdM8WokpPTx8BSiiUiY3lobU15olx0SDb3zqnOVVWrp+MzOBNomfAP5xxQbt16pG9/bOVDCBRNMVbuQXAg=="/>
     </item>
+    <item>
+      <title>Version 0.1.22</title>
+      <description><![CDATA[Add Logs viewer in Settings for easy bug reporting, fix hotkey labels for non-US keyboards]]></description>
+      <pubDate>Mon, 20 Apr 2026 11:54:26 +0200</pubDate>
+      <sparkle:version>0.1.22</sparkle:version>
+      <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.22/tolk-0.1.22.dmg"
+                 length="8731530"
+                 type="application/octet-stream"
+                 sparkle:edSignature="gyHKakORtyjcpFGHehyBYF/uL6odAsNFRmWMqNeOjQThcWNX1pBoMODKAgt1sSzKyeHZIM1YV6cTiroX0Y1WCA=="/>
+    </item>
   </channel>
 </rss>
