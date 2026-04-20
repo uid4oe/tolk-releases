@@ -286,5 +286,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="1/JP90yzMce1pCDPmc4MwW+b7vPRz3JT63AtwtUVW88IlmsikoYKJUiC4HHWGtJkM4XDDJgobNN3ngfZweS2DQ=="/>
     </item>
+    <item>
+      <title>Version 0.1.21</title>
+      <description><![CDATA[Fix hotkey display label for non-US keyboard layouts (AZERTY, Dvorak, etc.)]]></description>
+      <pubDate>Mon, 20 Apr 2026 11:50:39 +0200</pubDate>
+      <sparkle:version>0.1.21</sparkle:version>
+      <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.21/tolk-0.1.21.dmg"
+                 length="8716499"
+                 type="application/octet-stream"
+                 sparkle:edSignature="gIVdbdM8WokpPTx8BSiiUiY3lobU15olx0SDb3zqnOVVWrp+MzOBNomfAP5xxQbt16pG9/bOVDCBRNMVbuQXAg=="/>
+    </item>
   </channel>
 </rss>
