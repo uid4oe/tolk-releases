@@ -322,5 +322,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="qqvT52T607UOkgIU2h3kdksYdsyHNTvHsx85xpWkwK6AfyqC1BgQfjjnBFmBUho6GoADtACd3xvqVusjGqZwDw=="/>
     </item>
+    <item>
+      <title>Version 0.1.24</title>
+      <description><![CDATA[Remove press-and-hold mode — toggle is the only behavior now (simpler, more reliable)]]></description>
+      <pubDate>Wed, 22 Apr 2026 22:49:24 +0200</pubDate>
+      <sparkle:version>0.1.24</sparkle:version>
+      <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.24/tolk-0.1.24.dmg"
+                 length="8728161"
+                 type="application/octet-stream"
+                 sparkle:edSignature="pQdz/8dn1yUYY1/Z5EwtWNumf3He76PqMyl6dfc3jblp4+2X85eWd8FN3OMdqBW+YRiekpfwQ4wrVlCpgx6HAA=="/>
+    </item>
   </channel>
 </rss>
