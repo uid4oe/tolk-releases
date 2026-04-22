@@ -334,5 +334,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="pQdz/8dn1yUYY1/Z5EwtWNumf3He76PqMyl6dfc3jblp4+2X85eWd8FN3OMdqBW+YRiekpfwQ4wrVlCpgx6HAA=="/>
     </item>
+    <item>
+      <title>Version 0.1.25</title>
+      <description><![CDATA[Auto-send by holding the hotkey on stop (configurable threshold)]]></description>
+      <pubDate>Wed, 22 Apr 2026 23:24:27 +0200</pubDate>
+      <sparkle:version>0.1.25</sparkle:version>
+      <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.25/tolk-0.1.25.dmg"
+                 length="8720742"
+                 type="application/octet-stream"
+                 sparkle:edSignature="BmojlMDrIFX/Fr4E4ouptOPbzm4RhRZAZ7Ilrr2QbCRGy5725Mb2+oo/T0yQazbf1vBjJb/2+wvyoGAZvD3PCQ=="/>
+    </item>
   </channel>
 </rss>
