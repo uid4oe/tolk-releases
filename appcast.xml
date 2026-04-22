@@ -346,5 +346,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="BmojlMDrIFX/Fr4E4ouptOPbzm4RhRZAZ7Ilrr2QbCRGy5725Mb2+oo/T0yQazbf1vBjJb/2+wvyoGAZvD3PCQ=="/>
     </item>
+    <item>
+      <title>Version 0.1.26</title>
+      <description><![CDATA[Onboarding fixes + fix hotkey autorepeat leaking characters during long-press]]></description>
+      <pubDate>Wed, 22 Apr 2026 23:39:00 +0200</pubDate>
+      <sparkle:version>0.1.26</sparkle:version>
+      <sparkle:shortVersionString>0.1.26</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.26/tolk-0.1.26.dmg"
+                 length="8730696"
+                 type="application/octet-stream"
+                 sparkle:edSignature="YvkRLiLEhwraeoowtbTwJXZ1qOUwSR9jJyEvaXSmF9DABFyK7qBFeXhBQIU9XYLSjjx2Z5oRpGcpSJe8DUZuAQ=="/>
+    </item>
   </channel>
 </rss>
