@@ -1,6 +1,6 @@
 # tolk
 
-A lightweight, system-wide macOS app. Press and hold a hotkey to record — release to transcribe and type into whatever app is active.
+A lightweight, system-wide macOS app. Press a hotkey to start recording, press again to stop — tolk transcribes and types into whatever app is active.
 
 ---
 
@@ -9,18 +9,18 @@ A lightweight, system-wide macOS app. Press and hold a hotkey to record — rele
 | Dictation | Quick Action |
 |:---:|:---:|
 | ![Dictation demo](media/dictation-demo.gif) | ![Quick Action demo](media/quickaction-demo.gif) |
-| Hold hotkey → speak → release → typed | Select text → hold hotkey → edit inline |
+| Press hotkey → speak → press again → typed | Select text → press hotkey → edit inline |
 
 ---
 
 ## What it does
 
-Tolk gives you two hotkey-driven modes that work in any app:
+tolk gives you two hotkey-driven modes that work in any app:
 
 ### Dictation
-Press and hold your hotkey → speak → release → your words are transcribed and typed directly into whatever app is active. No clicking, no switching windows.
+Press your hotkey → speak → press again → your words are transcribed and typed directly into whatever app is active. No clicking, no switching windows.
 
-Hotkey mode is configurable: use press-and-hold or toggle (press to start, press to stop).
+Hold the toggle-off press past the long-press threshold to auto-send (press Return after pasting).
 
 ### Quick Action
 Select any text → press your hotkey → an inline card appears near the selection with one-tap writing tools:
@@ -41,7 +41,7 @@ Quick actions are fully customizable in Settings.
 
 ## Speech Models
 
-Tolk runs transcription on-device. Pick the model that fits your needs:
+tolk runs transcription on-device. Pick the model that fits your needs:
 
 | Model | Languages | Size |
 |---|---|---|
@@ -75,13 +75,13 @@ Configure multiple providers and switch between them in Settings.
 
 1. Download the latest `.dmg` from [Releases](https://github.com/uid4oe/tolk-releases/releases)
 2. Open the `.dmg` and drag **Tolk** to your Applications folder
-3. Launch Tolk and follow the setup assistant (permissions + speech model + AI provider)
+3. Launch tolk and follow the setup assistant (permissions + speech model + AI provider)
 
-Tolk auto-updates in the background via Sparkle — you'll be notified when a new version is available.
+tolk auto-updates in the background via Sparkle — you'll be notified when a new version is available.
 
 ### First Launch — Gatekeeper
 
-Tolk is not notarized by Apple. macOS will block it on the first launch with a security warning.
+tolk is not notarized by Apple. macOS will block it on the first launch with a security warning.
 
 **Option 1 — right-click to open (recommended):**
 1. Open Finder → Applications
@@ -93,12 +93,12 @@ Tolk is not notarized by Apple. macOS will block it on the first launch with a s
 xattr -dr com.apple.quarantine /Applications/Tolk.app
 ```
 
-After either step, Tolk opens normally on every subsequent launch.
+After either step, tolk opens normally on every subsequent launch.
 
 ---
 
 ## Privacy
 
-- Audio is captured only while your hotkey is held (or during a toggle session) and processed entirely on-device
+- Audio is captured only during an active recording session and processed entirely on-device
 - Transcribed text is never stored or sent anywhere unless you explicitly use an AI provider
 - AI providers are opt-in and only receive the text you choose to transform
