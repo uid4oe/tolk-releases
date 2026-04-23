@@ -358,5 +358,28 @@
                  type="application/octet-stream"
                  sparkle:edSignature="YvkRLiLEhwraeoowtbTwJXZ1qOUwSR9jJyEvaXSmF9DABFyK7qBFeXhBQIU9XYLSjjx2Z5oRpGcpSJe8DUZuAQ=="/>
     </item>
+    <item>
+      <title>Version 0.1.27</title>
+      <description><![CDATA[**Reliability + hardening release.**
+
+- Live model-load progress on first run; no more frozen overlay
+- Empty LLM result shows a proper error card with Retry instead of blank Copy/Replace
+- Hotkey recorder rejects system-reserved combos (⌘Q, ⌘Space, ⌘Tab, ⌘⇧3/4/5, ⌘⌥Esc, …) with inline feedback
+- Default prompt profile protected from deletion; provider selection auto-resets when the active provider is deleted
+- Keychain API-keys file: chmod before atomic rename closes a brief world-readable window
+- ASR model switches mid-load cancel the prior prepare cleanly; downloads have a 30-minute hard deadline
+- Hotkey re-registration during an active session now serialises against cancel
+- VAD buffer bounded so a stalled drain can't runaway-allocate
+- Many smaller robustness, UX, and consistency fixes
+- Build is now warning-free; all 280 tests pass]]></description>
+      <pubDate>Thu, 23 Apr 2026 20:13:10 +0200</pubDate>
+      <sparkle:version>0.1.27</sparkle:version>
+      <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.27/tolk-0.1.27.dmg"
+                 length="8760096"
+                 type="application/octet-stream"
+                 sparkle:edSignature="d/zNX5ZN8Vzt2kbSGgETLmPahtVII9lGKdVU6k5zTGjaXzE46IeFru5OYoswSAMatezA8TT/k16Re3+fVnh1Aw=="/>
+    </item>
   </channel>
 </rss>
