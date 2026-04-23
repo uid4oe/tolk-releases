@@ -381,5 +381,20 @@
                  type="application/octet-stream"
                  sparkle:edSignature="d/zNX5ZN8Vzt2kbSGgETLmPahtVII9lGKdVU6k5zTGjaXzE46IeFru5OYoswSAMatezA8TT/k16Re3+fVnh1Aw=="/>
     </item>
+    <item>
+      <title>Version 0.1.28</title>
+      <description><![CDATA[**UI consistency fix.**
+
+- Logs tab now uses the same Form + grouped-sections layout as General, AI, and Quick Actions — no more jarring layout jump on tab switch
+- AI settings page title fixed (was stale "Dictation" after the sidebar rename in v0.1.27)]]></description>
+      <pubDate>Thu, 23 Apr 2026 22:05:14 +0200</pubDate>
+      <sparkle:version>0.1.28</sparkle:version>
+      <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.28/tolk-0.1.28.dmg"
+                 length="8762157"
+                 type="application/octet-stream"
+                 sparkle:edSignature="9VwJw28KO8nnAniHKNQIEXwAMj93Fu7i4Og1bBSvjxtguHol9Wl9ZizCOIsNhxdEB6QqN8ciV2KofnKm6+PNDg=="/>
+    </item>
   </channel>
 </rss>
