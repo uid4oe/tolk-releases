@@ -396,17 +396,5 @@
                  type="application/octet-stream"
                  sparkle:edSignature="9VwJw28KO8nnAniHKNQIEXwAMj93Fu7i4Og1bBSvjxtguHol9Wl9ZizCOIsNhxdEB6QqN8ciV2KofnKm6+PNDg=="/>
     </item>
-    <item>
-      <title>Version 0.1.28</title>
-      <description><![CDATA[Vocabulary for AI post-processing: add terms (with optional hints) that the LLM applies contextually during cleanup. Faster Logs panel for large session logs.]]></description>
-      <pubDate>Fri, 24 Apr 2026 10:40:35 +0200</pubDate>
-      <sparkle:version>0.1.28</sparkle:version>
-      <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.28/tolk-0.1.28.dmg"
-                 length="8837975"
-                 type="application/octet-stream"
-                 sparkle:edSignature="pY5AEgGCiQ90T4CrEhNOPAAeCvNrwK0qNbA9tQAxJk2PNC5a9p5ANtriVoiByaNtKUmc0C1L5V6YXmtBwGBZCA=="/>
-    </item>
   </channel>
 </rss>
