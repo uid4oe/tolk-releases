@@ -396,5 +396,17 @@
                  type="application/octet-stream"
                  sparkle:edSignature="9VwJw28KO8nnAniHKNQIEXwAMj93Fu7i4Og1bBSvjxtguHol9Wl9ZizCOIsNhxdEB6QqN8ciV2KofnKm6+PNDg=="/>
     </item>
+    <item>
+      <title>Version 0.1.29</title>
+      <description><![CDATA[Vocabulary for AI post-processing: add terms (with optional hints) that the LLM applies contextually during cleanup. Faster Logs panel for large session logs.]]></description>
+      <pubDate>Fri, 24 Apr 2026 10:41:49 +0200</pubDate>
+      <sparkle:version>0.1.29</sparkle:version>
+      <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.29/tolk-0.1.29.dmg"
+                 length="8837986"
+                 type="application/octet-stream"
+                 sparkle:edSignature="tBjn6tOQb6UczDrk/LdOrj6rENL2FNPPwcNOPFDVayitdfzeSULVWYgYorPF23L2sPcwqXYI+yXz2GICtxJnAw=="/>
+    </item>
   </channel>
 </rss>
