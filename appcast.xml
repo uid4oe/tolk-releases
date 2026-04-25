@@ -408,5 +408,35 @@
                  type="application/octet-stream"
                  sparkle:edSignature="tBjn6tOQb6UczDrk/LdOrj6rENL2FNPPwcNOPFDVayitdfzeSULVWYgYorPF23L2sPcwqXYI+yXz2GICtxJnAw=="/>
     </item>
+    <item>
+      <title>Version 0.1.30</title>
+      <description><![CDATA[**Vocabulary polish + system prompt fine-tuning.**
+
+Vocabulary
+- Per-entry on/off toggle removed — delete is the cleaner verb for entries you don't want
+- "AI off" banner now reacts live to the master toggle right above it
+- Soft cap (50 entries) is visible: Add Term disables at the cap with an inline note
+- Long hints are truncated at 200 chars in the rendered prompt; the editor shows a live counter
+- Save/delete only fires its UI-update notification when the disk write actually succeeded — no more ghost rows
+
+System prompts
+- Cleaner, halved dictation prompt with the same anchors: transcript-as-content, fillers-out, voice preserved, URLs and dictated punctuation intact
+- All five Quick Action chips share the same scaffold (task → one example → identical output-contract footer) so the model sees a consistent format
+- New "Restore Defaults" button in the prompt list to adopt the new built-in text without losing your other profiles
+
+Eval harness
+- New cross-provider prompt eval suite covers every built-in prompt against Apple Intelligence and (when a key is configured) Gemini
+- Property-based assertions catch real prompt regressions while tolerating LLM jitter
+
+268 prior tests + 10 new cross-provider evals all passing.]]></description>
+      <pubDate>Sat, 25 Apr 2026 02:21:58 +0200</pubDate>
+      <sparkle:version>0.1.30</sparkle:version>
+      <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.30/tolk-0.1.30.dmg"
+                 length="8833897"
+                 type="application/octet-stream"
+                 sparkle:edSignature="JoZtTnaBtnHUpzQubgvh7lI83qLbF01no9TE54D4biwZAzX7QrP3SvSUejzYhBGCqdq6XxRF9XVK/vvzfHnxBA=="/>
+    </item>
   </channel>
 </rss>
