@@ -39,6 +39,20 @@ Quick actions are fully customizable in Settings.
 
 ---
 
+## Vocabulary
+
+Add proper nouns, names, or technical terms that the model should keep spelled correctly when AI post-processing is on. Each entry is a canonical spelling plus an optional one-line hint to disambiguate from common-word collisions.
+
+| Term | Hint |
+|---|---|
+| **Claude** | Anthropic's AI; not "cloud" |
+| **Parakeet** | Speech model name; not the bird |
+| **TanStack** | JavaScript library family |
+
+Vocabulary terms are injected into the system prompt your AI provider sees during dictation cleanup and Quick Action rewrites — no ASR-layer customization, just LLM-layer hints. Entries never leave your machine unless you've enabled an external AI provider.
+
+---
+
 ## Speech Models
 
 tolk runs transcription on-device. Pick the model that fits your needs:
