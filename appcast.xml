@@ -472,5 +472,17 @@ Eval harness
                  type="application/octet-stream"
                  sparkle:edSignature="GmMmjdN/lANc3t2F0M4zvn1zDKP13o8o5000dMxhJWGb8FmGcrWslECiOfh3gbWZFu/wNvLIa8oQ88GPQT8qDQ=="/>
     </item>
+    <item>
+      <title>Version 0.1.33</title>
+      <description><![CDATA[Faster paste — the overlay now dismisses immediately after dictation lands instead of waiting on background clipboard cleanup. VS Code & other Electron editors no longer trigger the Quick Action overlay when you fire the hotkey with nothing selected.]]></description>
+      <pubDate>Sun, 26 Apr 2026 01:50:36 +0200</pubDate>
+      <sparkle:version>0.1.33</sparkle:version>
+      <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.33/tolk-0.1.33.dmg"
+                 length="8859675"
+                 type="application/octet-stream"
+                 sparkle:edSignature="OwZYU4O5WzLHCATcV4AlVoyyQW5tKTpA2zN4Q/3Dw6wrD2wczIRayccENgbh+OAQMYoIPcafueko0NEPRI+bAg=="/>
+    </item>
   </channel>
 </rss>
