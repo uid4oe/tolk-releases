@@ -438,5 +438,27 @@ Eval harness
                  type="application/octet-stream"
                  sparkle:edSignature="JoZtTnaBtnHUpzQubgvh7lI83qLbF01no9TE54D4biwZAzX7QrP3SvSUejzYhBGCqdq6XxRF9XVK/vvzfHnxBA=="/>
     </item>
+    <item>
+      <title>Version 0.1.31</title>
+      <description><![CDATA[**Cleaner reveal + auto-Enter cue.**
+
+- Dictation overlay now does a deliberate double-pulse on appear (two slow glows separated by a 1-second gap), much easier to spot in peripheral vision than the previous quick fade
+- Long-press auto-Enter feedback redesigned: replaced the "progress ring" (which read as loading-cut-off when released early) with a green halo that appears only when you cross the threshold. Below threshold: nothing visible — the recording breath does the "still listening" job
+- The green halo persists through processing so the success cue carries through the entire flow
+- Smoother halo arrival (300 ms ease-out vs the previous 80 ms snap), no scale effect (sides + top/bottom of the pill now arrive together)
+- "Loading" / "Loading 42%" instead of "Loading speech model…" on first-run model download
+- Reduce Motion respected: halo and breath skipped, threshold progress kept (it's information, not motion)
+- Internal cleanups: clock unification, bounded TimelineViews, cached threshold without lock, several smaller reliability tweaks
+
+279 tests passing.]]></description>
+      <pubDate>Sat, 25 Apr 2026 16:13:13 +0200</pubDate>
+      <sparkle:version>0.1.31</sparkle:version>
+      <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.31/tolk-0.1.31.dmg"
+                 length="8857356"
+                 type="application/octet-stream"
+                 sparkle:edSignature="t9l3vFeJOgmYfDMrpGXWMtLOp7lAPqTFjeZbGnaI3YRrnO3YqRX6D7tbShtKObyA7r23YKQiEBdyhTof0WnZDw=="/>
+    </item>
   </channel>
 </rss>
