@@ -460,5 +460,17 @@ Eval harness
                  type="application/octet-stream"
                  sparkle:edSignature="t9l3vFeJOgmYfDMrpGXWMtLOp7lAPqTFjeZbGnaI3YRrnO3YqRX6D7tbShtKObyA7r23YKQiEBdyhTof0WnZDw=="/>
     </item>
+    <item>
+      <title>Version 0.1.32</title>
+      <description><![CDATA[Halo polish — the green auto-Enter confirmation no longer gets shaved at the top and bottom edges of the overlay.]]></description>
+      <pubDate>Sat, 25 Apr 2026 17:55:51 +0200</pubDate>
+      <sparkle:version>0.1.32</sparkle:version>
+      <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.32/tolk-0.1.32.dmg"
+                 length="8858254"
+                 type="application/octet-stream"
+                 sparkle:edSignature="GmMmjdN/lANc3t2F0M4zvn1zDKP13o8o5000dMxhJWGb8FmGcrWslECiOfh3gbWZFu/wNvLIa8oQ88GPQT8qDQ=="/>
+    </item>
   </channel>
 </rss>
