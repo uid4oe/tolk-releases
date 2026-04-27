@@ -496,5 +496,17 @@ Eval harness
                  type="application/octet-stream"
                  sparkle:edSignature="0EbiChFK18cmC9rNFjPGEhFCm/hCRZZhltFIDNvu0wldaZfyPlQlumKNJiuKxu2Bw7HJdWTnAGIRwguvRojZCA=="/>
     </item>
+    <item>
+      <title>Version 0.1.35</title>
+      <description><![CDATA[Internal cleanup release — no user-visible feature changes. Removes dead media-playback service, prunes 9 unused error cases, drops the placebo "Include beta releases" toggle (Sparkle was never wired through it), tightens save+notify behavior so settings UI accurately reflects writes, and consolidates a handful of duplicate constants and helpers.]]></description>
+      <pubDate>Mon, 27 Apr 2026 22:33:23 +0200</pubDate>
+      <sparkle:version>0.1.35</sparkle:version>
+      <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.35/tolk-0.1.35.dmg"
+                 length="8857521"
+                 type="application/octet-stream"
+                 sparkle:edSignature="QNUPaiABlUsGTcQH+M8FrGyrMcDZqM4AGR7oYLnTzJuNai3TRetYlUpU0ZPOiMSjLllDLTT6VdlFtkmwLcwfCQ=="/>
+    </item>
   </channel>
 </rss>
