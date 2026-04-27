@@ -484,5 +484,17 @@ Eval harness
                  type="application/octet-stream"
                  sparkle:edSignature="OwZYU4O5WzLHCATcV4AlVoyyQW5tKTpA2zN4Q/3Dw6wrD2wczIRayccENgbh+OAQMYoIPcafueko0NEPRI+bAg=="/>
     </item>
+    <item>
+      <title>Version 0.1.34</title>
+      <description><![CDATA[Reliability fixes — settings writes (API providers, prompt profiles, app bindings) now surface failures instead of silently dropping; duplicate Default profiles no longer accumulate after a transient SwiftData error; Quick Action no longer paste-replaces into the wrong app if activation refused; auto-Enter window halved to reduce wrong-target risk; concurrent paste calls serialized; final log lines survive hard exits.]]></description>
+      <pubDate>Mon, 27 Apr 2026 20:50:51 +0200</pubDate>
+      <sparkle:version>0.1.34</sparkle:version>
+      <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.34/tolk-0.1.34.dmg"
+                 length="8862872"
+                 type="application/octet-stream"
+                 sparkle:edSignature="0EbiChFK18cmC9rNFjPGEhFCm/hCRZZhltFIDNvu0wldaZfyPlQlumKNJiuKxu2Bw7HJdWTnAGIRwguvRojZCA=="/>
+    </item>
   </channel>
 </rss>
