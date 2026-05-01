@@ -508,19 +508,5 @@ Eval harness
                  type="application/octet-stream"
                  sparkle:edSignature="QNUPaiABlUsGTcQH+M8FrGyrMcDZqM4AGR7oYLnTzJuNai3TRetYlUpU0ZPOiMSjLllDLTT6VdlFtkmwLcwfCQ=="/>
     </item>
-    <item>
-      <title>Version 0.1.17</title>
-      <description><![CDATA[Fix: media playback volume now restored reliably after dictation ends.
-
-When dictation runs, macOS automatically reduces other apps' audio (Spotify, YouTube, Music, etc.) — this is voice-processing ducking. The volume should snap back to normal when dictation completes, but sometimes stayed reduced until you ran dictation again. Now explicitly disables voice processing before stopping the audio engine, so the session state cleans up correctly every time.]]></description>
-      <pubDate>Fri, 01 May 2026 14:49:47 +0200</pubDate>
-      <sparkle:version>0.1.17</sparkle:version>
-      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.17/tolk-0.1.17.dmg"
-                 length="8857723"
-                 type="application/octet-stream"
-                 sparkle:edSignature="uJ5o/vBrl1UAtpTIgRbrI4o4tbGtt86N2bHRFjGD7rBHc97C/ulFi403AipX1TAMN+BD21apEt/dMWtetaJAAw=="/>
-    </item>
   </channel>
 </rss>
