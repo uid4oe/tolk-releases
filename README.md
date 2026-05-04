@@ -1,5 +1,7 @@
 # tolk
 
+https://github.com/user-attachments/assets/bbe0ce2e-4259-40e9-b986-90780c832b0d
+
 A lightweight, system-wide macOS app. Press a hotkey to start recording, press again to stop — tolk transcribes and types into whatever app is active.
 
 ---
