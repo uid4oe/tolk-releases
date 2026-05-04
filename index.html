@@ -6,8 +6,43 @@
 <title>tolk</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0d0d0d; color: #e0e0e0; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
-  .card { max-width: 480px; width: 90%; padding: 48px 40px; text-align: center; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* App-icon sine wave as a quiet page-scale watermark — single gentle
+     period, rounded caps, white stroke, low opacity. Matches the tolk
+     icon's glyph and stays out of the card's way. */
+  .wave-bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    display: grid;
+    place-items: center;
+  }
+  .wave-bg svg {
+    width: min(90vw, 1100px);
+    height: auto;
+    opacity: 0.08;
+  }
+  .wave-bg path {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .card { max-width: 480px; width: 90%; padding: 48px 40px; text-align: center; position: relative; z-index: 1; }
   h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; color: #fff; }
   .tagline { font-size: 15px; color: #888; margin-bottom: 32px; }
   .download { display: inline-block; padding: 12px 32px; background: #fff; color: #0d0d0d; font-size: 15px; font-weight: 600; border-radius: 8px; text-decoration: none; transition: opacity 0.15s; }
@@ -20,6 +55,17 @@
 </style>
 </head>
 <body>
+
+<div class="wave-bg" aria-hidden="true">
+  <!-- One full sine period: rises to a peak, falls through mid, dips to a
+       trough, rises back to mid. ViewBox 600×200 with amplitude ≈70 so the
+       cubic-bezier control points yield a curve that visually matches the
+       icon glyph's shape. -->
+  <svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet">
+    <path d="M 30 100 C 130 30 200 30 300 100 C 400 170 470 170 570 100"/>
+  </svg>
+</div>
+
 <div class="card">
   <h1>tolk</h1>
   <p class="tagline">press. speak. done.</p>
