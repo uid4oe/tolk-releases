@@ -18,21 +18,27 @@
     overflow: hidden;
   }
 
-  /* App-icon sine wave as a quiet page-scale watermark — single gentle
-     period, rounded caps, white stroke, low opacity. Matches the tolk
-     icon's glyph and stays out of the card's way. */
+  /* App-icon sine wave as a quiet page-scale watermark. Drifts slowly
+     left to suggest motion. A radial mask punches a hole behind the
+     card so the wave never crosses the title/tagline/button. */
   .wave-bg {
     position: fixed;
     inset: 0;
     z-index: 0;
     pointer-events: none;
+    overflow: hidden;
     display: grid;
     place-items: center;
+    -webkit-mask-image: radial-gradient(ellipse 360px 220px at center, transparent 35%, black 85%);
+            mask-image: radial-gradient(ellipse 360px 220px at center, transparent 35%, black 85%);
   }
   .wave-bg svg {
-    width: min(90vw, 1100px);
+    /* Twice the viewport so a -50% translate completes one full period
+       seamlessly. Path inside spans two identical periods. */
+    width: min(180vw, 2200px);
     height: auto;
-    opacity: 0.08;
+    opacity: 0.12;
+    animation: wave-drift 22s linear infinite;
   }
   .wave-bg path {
     fill: none;
@@ -40,6 +46,13 @@
     stroke-width: 10;
     stroke-linecap: round;
     stroke-linejoin: round;
+  }
+  @keyframes wave-drift {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wave-bg svg { animation: none; }
   }
 
   .card { max-width: 480px; width: 90%; padding: 48px 40px; text-align: center; position: relative; z-index: 1; }
@@ -57,12 +70,11 @@
 <body>
 
 <div class="wave-bg" aria-hidden="true">
-  <!-- One full sine period: rises to a peak, falls through mid, dips to a
-       trough, rises back to mid. ViewBox 600×200 with amplitude ≈70 so the
-       cubic-bezier control points yield a curve that visually matches the
-       icon glyph's shape. -->
-  <svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet">
-    <path d="M 30 100 C 130 30 200 30 300 100 C 400 170 470 170 570 100"/>
+  <!-- Two identical sine periods (0–600, 600–1200). Translating the
+       SVG by -50% moves the visible portion forward by exactly one
+       period, so the loop wraps with no visible seam. -->
+  <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+    <path d="M 0 100 C 100 30 200 30 300 100 C 400 170 500 170 600 100 C 700 30 800 30 900 100 C 1000 170 1100 170 1200 100"/>
   </svg>
 </div>
 
