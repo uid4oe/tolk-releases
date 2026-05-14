@@ -570,5 +570,17 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
                  type="application/octet-stream"
                  sparkle:edSignature="tu6QdF4DPOz68uxGYUWhC3SfDbPFNJM0S1NRl+zfbsHLKPOnVGiio/IRR0hFm8B5hRFAodR4NpcC9xBPfjVuAA=="/>
     </item>
+    <item>
+      <title>Version 0.1.41</title>
+      <description><![CDATA[Escape key reliability.]]></description>
+      <pubDate>Thu, 14 May 2026 15:20:48 +0200</pubDate>
+      <sparkle:version>0.1.41</sparkle:version>
+      <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.41/tolk-0.1.41.dmg"
+                 length="8955230"
+                 type="application/octet-stream"
+                 sparkle:edSignature="IgXQ4UOtmH7mSo3kDJqIMjhmqtncP1WVagxi6y96UPDaYI3NexZFd1K9DjTDE257aWbZW/UVMNJpc99ogS8uBg=="/>
+    </item>
   </channel>
 </rss>
