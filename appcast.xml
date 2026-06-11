@@ -618,5 +618,17 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
                  type="application/octet-stream"
                  sparkle:edSignature="SH+pjwUxPLEwYqIEgphity9O+ID0RGGCLfcv8FPEfPQx0ylSYhjGQXnrtiWicTmHd4MTRtabcCBZbPvO/VJgAA=="/>
     </item>
+    <item>
+      <title>Version 0.2.2</title>
+      <description><![CDATA[Reliability improvements: protects your clipboard when you copy during a dictation paste, surfaces an error when the microphone disconnects mid-recording instead of silently cutting off the transcript, more accurate model download progress, and consistent AI provider availability across onboarding and settings.]]></description>
+      <pubDate>Fri, 12 Jun 2026 01:29:24 +0200</pubDate>
+      <sparkle:version>0.2.2</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.2/tolk-0.2.2.dmg"
+                 length="9767059"
+                 type="application/octet-stream"
+                 sparkle:edSignature="WagEVZVPXEO/lms2VZftCZ1iQyJjdUWu0FP/W9Nl7YssDJZv92jiGRg5Xuk8MUDdcUUvntL2GxjToFBVZUziAQ=="/>
+    </item>
   </channel>
 </rss>
