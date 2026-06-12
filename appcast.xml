@@ -630,5 +630,20 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
                  type="application/octet-stream"
                  sparkle:edSignature="WagEVZVPXEO/lms2VZftCZ1iQyJjdUWu0FP/W9Nl7YssDJZv92jiGRg5Xuk8MUDdcUUvntL2GxjToFBVZUziAQ=="/>
     </item>
+    <item>
+      <title>Version 0.2.3</title>
+      <description><![CDATA[Performance & reliability:
+- Faster hotkey response and lower dictation cold-start (ASR prewarm during routing, panel reuse)
+- Smoother Settings (recorder hotkey suppression, cached app resolver, bounded polling)
+- Log rotation moved off the write path to avoid hitches]]></description>
+      <pubDate>Fri, 12 Jun 2026 19:19:05 +0200</pubDate>
+      <sparkle:version>0.2.3</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.3/tolk-0.2.3.dmg"
+                 length="9779971"
+                 type="application/octet-stream"
+                 sparkle:edSignature="L8YPeVyvucvNIrKCdnddmGh972ZCubXfR2RQvWnzdDOFbKNby183dA3TF5X+5B7J1tHFEDc2Xl7Y1RGHE6+uAA=="/>
+    </item>
   </channel>
 </rss>
