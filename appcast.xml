@@ -1,72 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>tolk updates</title>
     <link>https://github.com/uid4oe/tolk-releases</link>
     <description>tolk application updates</description>
     <item>
       <title>Version 0.1.0</title>
-      <description><![CDATA[initial release — macOS dictation with dictation, ask, and quick action modes]]></description>
+      <description>initial release — macOS dictation with dictation, ask, and quick action modes</description>
       <pubDate>Fri, 10 Apr 2026 01:58:05 +0200</pubDate>
       <sparkle:version>0.1.0</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.0/tolk-0.1.0.dmg"
-                 length="8705349"
-                 type="application/octet-stream"
-                 sparkle:edSignature="oNf3omTXSW+7COClKG1wqJ6kk4QzCyFoYTiH9bzHJkUFR7MLGqVKhdtUlBAWzHu8i/6p4F2mO58FbjSWep0FBA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.0/tolk-0.1.0.dmg" length="8705349" type="application/octet-stream" sparkle:edSignature="oNf3omTXSW+7COClKG1wqJ6kk4QzCyFoYTiH9bzHJkUFR7MLGqVKhdtUlBAWzHu8i/6p4F2mO58FbjSWep0FBA==" />
     </item>
     <item>
       <title>Version 0.1.1</title>
-      <description><![CDATA[Quick action UX, Sparkle auto-updates, dead code cleanup, lowercase naming]]></description>
+      <description>Quick action UX, Sparkle auto-updates, dead code cleanup, lowercase naming</description>
       <pubDate>Fri, 10 Apr 2026 02:08:27 +0200</pubDate>
       <sparkle:version>0.1.1</sparkle:version>
       <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.1/tolk-0.1.1.dmg"
-                 length="8707253"
-                 type="application/octet-stream"
-                 sparkle:edSignature="wQhmlSzNXhkE8oOeH0rdzRGScMWc8gV0nZzFt14VoETIvrZXP9u+7WTX5nKZLSJmfgl4yFVxAFuWohSmZDixBA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.1/tolk-0.1.1.dmg" length="8707253" type="application/octet-stream" sparkle:edSignature="wQhmlSzNXhkE8oOeH0rdzRGScMWc8gV0nZzFt14VoETIvrZXP9u+7WTX5nKZLSJmfgl4yFVxAFuWohSmZDixBA==" />
     </item>
     <item>
       <title>Version 0.1.2</title>
-      <description><![CDATA[Fix M1 Pro sound crash + QuickAction card edge overflow]]></description>
+      <description>Fix M1 Pro sound crash + QuickAction card edge overflow</description>
       <pubDate>Fri, 10 Apr 2026 18:22:30 +0200</pubDate>
       <sparkle:version>0.1.2</sparkle:version>
       <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.2/tolk-0.1.2.dmg"
-                 length="8707557"
-                 type="application/octet-stream"
-                 sparkle:edSignature="NND7GKuakKbwCQmC5I8gw6zl+VmeiVLng5Lpch/SrIfYPxXk9arWXzWfOgiOU1kksYS1Vg+eeMlMK5aNc1VXCQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.2/tolk-0.1.2.dmg" length="8707557" type="application/octet-stream" sparkle:edSignature="NND7GKuakKbwCQmC5I8gw6zl+VmeiVLng5Lpch/SrIfYPxXk9arWXzWfOgiOU1kksYS1Vg+eeMlMK5aNc1VXCQ==" />
     </item>
     <item>
       <title>Version 0.1.3</title>
-      <description><![CDATA[Fix crash on launch for non-build machines (Bundle.module issue)]]></description>
+      <description>Fix crash on launch for non-build machines (Bundle.module issue)</description>
       <pubDate>Fri, 10 Apr 2026 19:05:37 +0200</pubDate>
       <sparkle:version>0.1.3</sparkle:version>
       <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.3/tolk-0.1.3.dmg"
-                 length="8751684"
-                 type="application/octet-stream"
-                 sparkle:edSignature="qzEnvw7t1qVoaKqPXkLdzsnd6RNxhil8aXGoM59K/rvv7Vhs0ZB4elv9Zp5wY8ATXPgRLqXkHKPTPCssqVt7Aw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.3/tolk-0.1.3.dmg" length="8751684" type="application/octet-stream" sparkle:edSignature="qzEnvw7t1qVoaKqPXkLdzsnd6RNxhil8aXGoM59K/rvv7Vhs0ZB4elv9Zp5wY8ATXPgRLqXkHKPTPCssqVt7Aw==" />
     </item>
     <item>
       <title>Version 0.1.4</title>
-      <description><![CDATA[Refreshed app icon and menu bar icon to match the overlay waveform.]]></description>
+      <description>Refreshed app icon and menu bar icon to match the overlay waveform.</description>
       <pubDate>Fri, 10 Apr 2026 22:21:21 +0200</pubDate>
       <sparkle:version>0.1.4</sparkle:version>
       <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.4/tolk-0.1.4.dmg"
-                 length="8723940"
-                 type="application/octet-stream"
-                 sparkle:edSignature="EKDmFg6Ja6Hv03u/7JxxSPJ+duEbN2Hukpq/Ar8ysmez/nPZ3YxUGbHDVE4G2cPOLowzvLkvJkf8UASiBeF/Dw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.4/tolk-0.1.4.dmg" length="8723940" type="application/octet-stream" sparkle:edSignature="EKDmFg6Ja6Hv03u/7JxxSPJ+duEbN2Hukpq/Ar8ysmez/nPZ3YxUGbHDVE4G2cPOLowzvLkvJkf8UASiBeF/Dw==" />
     </item>
     <item>
       <title>Version 0.1.5</title>
-      <description><![CDATA[Bug fixes and polish.
+      <description>Bug fixes and polish.
 
 • Voice isolation / mic indicator now clears immediately when a recording session ends — previously the engine stayed warm for the entire app lifetime.
 • Fresh AVAudioEngine per session; simpler lifecycle, no lingering hardware allocation.
@@ -74,293 +59,227 @@
 • Start sound no longer gets cut off by voice-processing setup — it now plays after the engine is ready.
 • ASR model download progress bar is smooth instead of only showing 1% → 49% → 50% → done.
 • LLM result card height reduced ~20% — more compact without being cramped.
-• Removed the "Apple Silicon" tag from the speech model list (it was redundant).]]></description>
+• Removed the "Apple Silicon" tag from the speech model list (it was redundant).</description>
       <pubDate>Sat, 11 Apr 2026 00:36:02 +0200</pubDate>
       <sparkle:version>0.1.5</sparkle:version>
       <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.5/tolk-0.1.5.dmg"
-                 length="8546862"
-                 type="application/octet-stream"
-                 sparkle:edSignature="BIhCvRbKvb0scB9A00wGf6u8xD+n2pwow8V6SpVOt5Dz0yCpXqS2/a4jzhU2W8d8QHab2lkt4NuleAm8ccUmDg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.5/tolk-0.1.5.dmg" length="8546862" type="application/octet-stream" sparkle:edSignature="BIhCvRbKvb0scB9A00wGf6u8xD+n2pwow8V6SpVOt5Dz0yCpXqS2/a4jzhU2W8d8QHab2lkt4NuleAm8ccUmDg==" />
     </item>
     <item>
       <title>Version 0.1.6</title>
-      <description><![CDATA[Add onboarding flow and extract UI theme components (TolkBadge, tolkCaption, tolkSecondary, tolkPrimary)]]></description>
+      <description>Add onboarding flow and extract UI theme components (TolkBadge, tolkCaption, tolkSecondary, tolkPrimary)</description>
       <pubDate>Sat, 11 Apr 2026 08:11:56 +0200</pubDate>
       <sparkle:version>0.1.6</sparkle:version>
       <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.6/tolk-0.1.6.dmg"
-                 length="8700979"
-                 type="application/octet-stream"
-                 sparkle:edSignature="9GMS6R2+pXjKZDT/ABkJ/B/BFD1X/FiNg6TFawdRoj3fsJ1wkWNHt/z9d/6CPpXICJbZk7n3ApKzRQ2q5gKKAg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.6/tolk-0.1.6.dmg" length="8700979" type="application/octet-stream" sparkle:edSignature="9GMS6R2+pXjKZDT/ABkJ/B/BFD1X/FiNg6TFawdRoj3fsJ1wkWNHt/z9d/6CPpXICJbZk7n3ApKzRQ2q5gKKAg==" />
     </item>
     <item>
       <title>Version 0.1.7</title>
-      <description><![CDATA[Bug fixes and UI improvements]]></description>
+      <description>Bug fixes and UI improvements</description>
       <pubDate>Sat, 11 Apr 2026 14:02:27 +0200</pubDate>
       <sparkle:version>0.1.7</sparkle:version>
       <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.7/tolk-0.1.7.dmg"
-                 length="8730890"
-                 type="application/octet-stream"
-                 sparkle:edSignature="4X8ne21pWsM0YI3dFhc5pbfVU92W2t3+LxKy4vwzKB/bfXIoQDCa0o7rv7bJNIQFWsCszPR830cL/NmoQ6TNBg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.7/tolk-0.1.7.dmg" length="8730890" type="application/octet-stream" sparkle:edSignature="4X8ne21pWsM0YI3dFhc5pbfVU92W2t3+LxKy4vwzKB/bfXIoQDCa0o7rv7bJNIQFWsCszPR830cL/NmoQ6TNBg==" />
     </item>
     <item>
       <title>Version 0.1.8</title>
-      <description><![CDATA[Single unified hotkey — routes to Quick Action when text is selected, Dictation otherwise. Removes separate Ask hotkey. Design system polish: frosted glass overlays, consistent button styles, shared animation tokens.]]></description>
+      <description>Single unified hotkey — routes to Quick Action when text is selected, Dictation otherwise. Removes separate Ask hotkey. Design system polish: frosted glass overlays, consistent button styles, shared animation tokens.</description>
       <pubDate>Sat, 11 Apr 2026 23:19:17 +0200</pubDate>
       <sparkle:version>0.1.8</sparkle:version>
       <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.8/tolk-0.1.8.dmg"
-                 length="8711460"
-                 type="application/octet-stream"
-                 sparkle:edSignature="XNebRrIaZ8B+mFS1h35J2D9/DUjwKc2cnVJ3tUK4dh075S7SbZMPc54EE1ozetRtTKcAQEd7H1LpZ9P95I1XCQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.8/tolk-0.1.8.dmg" length="8711460" type="application/octet-stream" sparkle:edSignature="XNebRrIaZ8B+mFS1h35J2D9/DUjwKc2cnVJ3tUK4dh075S7SbZMPc54EE1ozetRtTKcAQEd7H1LpZ9P95I1XCQ==" />
     </item>
     <item>
       <title>Version 0.1.9</title>
-      <description><![CDATA[Settings redesign: Dictation and Quick Actions are now separate pages in the sidebar, making it easier to find and configure each feature independently. The Quick Action voice instruction prompt is now user-editable. Plain text mode removed.]]></description>
+      <description>Settings redesign: Dictation and Quick Actions are now separate pages in the sidebar, making it easier to find and configure each feature independently. The Quick Action voice instruction prompt is now user-editable. Plain text mode removed.</description>
       <pubDate>Sun, 12 Apr 2026 01:59:08 +0200</pubDate>
       <sparkle:version>0.1.9</sparkle:version>
       <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.9/tolk-0.1.9.dmg"
-                 length="8728017"
-                 type="application/octet-stream"
-                 sparkle:edSignature="5NVr9xTPxUSOfuFdlfnNH/VqfvpC0NIwSJQkOf3IKMhAQh5gbvY2MzDg/8p6E1HzHPfagO84cBdC2QaKVpiQCw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.9/tolk-0.1.9.dmg" length="8728017" type="application/octet-stream" sparkle:edSignature="5NVr9xTPxUSOfuFdlfnNH/VqfvpC0NIwSJQkOf3IKMhAQh5gbvY2MzDg/8p6E1HzHPfagO84cBdC2QaKVpiQCw==" />
     </item>
     <item>
       <title>Version 0.1.10</title>
-      <description><![CDATA[Patch: text selection, overlay sizing, test fixes.
+      <description>Patch: text selection, overlay sizing, test fixes.
 
 • Text selection now works reliably on all machines — Cmd+C fallback uses clipboard polling (up to 300ms) instead of a fixed 100ms wait that was too short for Chrome on slower systems.
 • Fixed QuickAction card sizing corruption when retriggering the hotkey — chip row overflow during the result→recording resize animation.
-• Fixed 12 broken tests from prior refactors; integration test suite now compiles (test count 237→241).]]></description>
+• Fixed 12 broken tests from prior refactors; integration test suite now compiles (test count 237→241).</description>
       <pubDate>Sun, 12 Apr 2026 20:45:08 +0200</pubDate>
       <sparkle:version>0.1.10</sparkle:version>
       <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.10/tolk-0.1.10.dmg"
-                 length="8721235"
-                 type="application/octet-stream"
-                 sparkle:edSignature="daxvrEX9FSpW+ZA1TMay31BfLWJ1g5KLL5VP1mKYY42z/XalOy35GwvAmIoeoe4AWgTNv7mNZOZKCO1RfhghCA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.10/tolk-0.1.10.dmg" length="8721235" type="application/octet-stream" sparkle:edSignature="daxvrEX9FSpW+ZA1TMay31BfLWJ1g5KLL5VP1mKYY42z/XalOy35GwvAmIoeoe4AWgTNv7mNZOZKCO1RfhghCA==" />
     </item>
     <item>
       <title>Version 0.1.11</title>
-      <description><![CDATA[Fix: text selection now works in Chrome web content, Slack, Claude desktop, and other Chromium/Electron apps.
+      <description>Fix: text selection now works in Chrome web content, Slack, Claude desktop, and other Chromium/Electron apps.
 
-• Activates the accessibility tree (AXEnhancedUserInterface / AXManualAccessibility) for Chrome and Electron apps before querying selected text. Previously only worked on machines where something else had already activated Chrome's AX tree.]]></description>
+• Activates the accessibility tree (AXEnhancedUserInterface / AXManualAccessibility) for Chrome and Electron apps before querying selected text. Previously only worked on machines where something else had already activated Chrome's AX tree.</description>
       <pubDate>Sun, 12 Apr 2026 20:53:54 +0200</pubDate>
       <sparkle:version>0.1.11</sparkle:version>
       <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.11/tolk-0.1.11.dmg"
-                 length="8722754"
-                 type="application/octet-stream"
-                 sparkle:edSignature="sqGKqo18V3z9L+6bw9CbuA2Xp1YXt6DekSDmDwoBOIkwA8vGCjHaAmupPAj1ijRd8p1HZ3V2mety22bOLq+mAg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.11/tolk-0.1.11.dmg" length="8722754" type="application/octet-stream" sparkle:edSignature="sqGKqo18V3z9L+6bw9CbuA2Xp1YXt6DekSDmDwoBOIkwA8vGCjHaAmupPAj1ijRd8p1HZ3V2mety22bOLq+mAg==" />
     </item>
     <item>
       <title>Version 0.1.12</title>
-      <description><![CDATA[Text selection: delegate to SelectedTextKit's full strategy chain for broader app compatibility.
+      <description>Text selection: delegate to SelectedTextKit's full strategy chain for broader app compatibility.
 
 • Replaced custom Cmd+C fallback with SelectedTextKit's shortcut strategy (5ms polling, 400ms timeout, muted alert, robust clipboard handling).
 • Kept fast AX query + Chrome/Electron AX activation as first steps.
-• Should improve detection on apps where our custom Cmd+C was failing.]]></description>
+• Should improve detection on apps where our custom Cmd+C was failing.</description>
       <pubDate>Sun, 12 Apr 2026 21:05:07 +0200</pubDate>
       <sparkle:version>0.1.12</sparkle:version>
       <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.12/tolk-0.1.12.dmg"
-                 length="8728159"
-                 type="application/octet-stream"
-                 sparkle:edSignature="vxDpwHPvcVYN21hfoZqJ/ouVCEQkFmftdvkSD/rnR7k06mGPkTscZ2sm7MxMOsTsSJnMwWlInByup9V+6CQiAA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.12/tolk-0.1.12.dmg" length="8728159" type="application/octet-stream" sparkle:edSignature="vxDpwHPvcVYN21hfoZqJ/ouVCEQkFmftdvkSD/rnR7k06mGPkTscZ2sm7MxMOsTsSJnMwWlInByup9V+6CQiAA==" />
     </item>
     <item>
       <title>Version 0.1.13</title>
-      <description><![CDATA[Fix: text selection now works universally — Chrome, Slack, Claude desktop, Numbers, and all other apps.
+      <description>Fix: text selection now works universally — Chrome, Slack, Claude desktop, Numbers, and all other apps.
 
 • Root cause: the unified hotkey used a fast AX-only check that skipped the full fallback chain (AX tree activation, Edit→Copy menu action, Cmd+C simulation). Apps without native AX text support always fell through to dictation.
 • Now: fast AX peek first, then full fallback chain before deciding. ~500ms delay in the "no selection" case for non-native-AX apps; instant for native apps.
-• Added detailed diagnostic logging ([SEL] [DIAG]) for future debugging.]]></description>
+• Added detailed diagnostic logging ([SEL] [DIAG]) for future debugging.</description>
       <pubDate>Sun, 12 Apr 2026 21:20:17 +0200</pubDate>
       <sparkle:version>0.1.13</sparkle:version>
       <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.13/tolk-0.1.13.dmg"
-                 length="8724030"
-                 type="application/octet-stream"
-                 sparkle:edSignature="zuVdMdiza1hh4EKuNFAHUslRBPQnE3T7+mZgGRolwlsgz/Y5KhWDf/MWA1imoXQI5rjFRkQF5rxQvlpPv9VnCw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.13/tolk-0.1.13.dmg" length="8724030" type="application/octet-stream" sparkle:edSignature="zuVdMdiza1hh4EKuNFAHUslRBPQnE3T7+mZgGRolwlsgz/Y5KhWDf/MWA1imoXQI5rjFRkQF5rxQvlpPv9VnCw==" />
     </item>
     <item>
       <title>Version 0.1.14</title>
-      <description><![CDATA[Codebase cleanup: remove dead code and stale artifacts from prior refactors.
+      <description>Codebase cleanup: remove dead code and stale artifacts from prior refactors.
 
 • Deleted 4 orphaned files (RecordingMode, EmbeddingService, unimplemented Firebase plan)
 • Removed 5 dead AppSettings fields, 4 dead properties/methods
 • Simplified text insertion to always use clipboard paste
-• Updated CLAUDE.md architecture docs to match current state]]></description>
+• Updated CLAUDE.md architecture docs to match current state</description>
       <pubDate>Sun, 12 Apr 2026 21:36:22 +0200</pubDate>
       <sparkle:version>0.1.14</sparkle:version>
       <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.14/tolk-0.1.14.dmg"
-                 length="8725456"
-                 type="application/octet-stream"
-                 sparkle:edSignature="9JiVgTpOgs+wYYxUnTUCGfzC5M4wOhk0niWcd29EUYM+GvdGB/zOXf207G7BkGvKJwdGCxZNTDvMaF3yb/CHCA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.14/tolk-0.1.14.dmg" length="8725456" type="application/octet-stream" sparkle:edSignature="9JiVgTpOgs+wYYxUnTUCGfzC5M4wOhk0niWcd29EUYM+GvdGB/zOXf207G7BkGvKJwdGCxZNTDvMaF3yb/CHCA==" />
     </item>
     <item>
       <title>Version 0.1.15</title>
-      <description><![CDATA[Quick Action result buttons now match chip style. Faster hotkey routing: instant AX peek for native apps, AX tree activation for Chrome/Electron (≤200ms), skips slow Cmd+C path entirely.]]></description>
+      <description>Quick Action result buttons now match chip style. Faster hotkey routing: instant AX peek for native apps, AX tree activation for Chrome/Electron (≤200ms), skips slow Cmd+C path entirely.</description>
       <pubDate>Sun, 12 Apr 2026 22:51:30 +0200</pubDate>
       <sparkle:version>0.1.15</sparkle:version>
       <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.15/tolk-0.1.15.dmg"
-                 length="8723252"
-                 type="application/octet-stream"
-                 sparkle:edSignature="kJMyYPU1Eg7VEzz9WQL2H3hcAMBtNrPj7SVlWTSq30eWzgGXBK8uXIDsS3jx2t2HqrZR7YfUySdbuTSiMvaeBA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.15/tolk-0.1.15.dmg" length="8723252" type="application/octet-stream" sparkle:edSignature="kJMyYPU1Eg7VEzz9WQL2H3hcAMBtNrPj7SVlWTSq30eWzgGXBK8uXIDsS3jx2t2HqrZR7YfUySdbuTSiMvaeBA==" />
     </item>
     <item>
       <title>Version 0.1.16</title>
-      <description><![CDATA[Fix: text selection in Slack and Terminal now routes to Quick Action correctly.
+      <description>Fix: text selection in Slack and Terminal now routes to Quick Action correctly.
 
 • Adds menuAction (Edit→Copy via AX menu) to the fast routing path. Apps that don't expose AX selection but have a working Edit menu (Slack, Terminal, Discord, etc.) are now detected.
-• Dictation overlay still appears within ~250ms when no text is selected — fast-rejects via menu-disabled check.]]></description>
+• Dictation overlay still appears within ~250ms when no text is selected — fast-rejects via menu-disabled check.</description>
       <pubDate>Tue, 14 Apr 2026 21:09:50 +0200</pubDate>
       <sparkle:version>0.1.16</sparkle:version>
       <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.16/tolk-0.1.16.dmg"
-                 length="8723977"
-                 type="application/octet-stream"
-                 sparkle:edSignature="X9DmLm1x9vOdIkn7tNw192ZMGczEwcfAx5UwAZSm6TCJ0Mt/M1NE90xsLFNvQwXpc2bQjelg7pxd7xxRYWYdAQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.16/tolk-0.1.16.dmg" length="8723977" type="application/octet-stream" sparkle:edSignature="X9DmLm1x9vOdIkn7tNw192ZMGczEwcfAx5UwAZSm6TCJ0Mt/M1NE90xsLFNvQwXpc2bQjelg7pxd7xxRYWYdAQ==" />
     </item>
     <item>
       <title>Version 0.1.17</title>
-      <description><![CDATA[Reliability hardening, performance fixes, improved AI prompts]]></description>
+      <description>Reliability hardening, performance fixes, improved AI prompts</description>
       <pubDate>Thu, 16 Apr 2026 01:10:01 +0200</pubDate>
       <sparkle:version>0.1.17</sparkle:version>
       <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.17/tolk-0.1.17.dmg"
-                 length="8725300"
-                 type="application/octet-stream"
-                 sparkle:edSignature="9eesYpMRDQ0J7BaHuY2yozOKFcZFiY9m6By7eAAhJAXCpBvnEe6XFN7wMCJKVeY7gauLucl34/jqFEwYgAEtCA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.17/tolk-0.1.17.dmg" length="8725300" type="application/octet-stream" sparkle:edSignature="9eesYpMRDQ0J7BaHuY2yozOKFcZFiY9m6By7eAAhJAXCpBvnEe6XFN7wMCJKVeY7gauLucl34/jqFEwYgAEtCA==" />
     </item>
     <item>
       <title>Version 0.1.18</title>
-      <description><![CDATA[Fix QuickAction dismiss outcome tracking]]></description>
+      <description>Fix QuickAction dismiss outcome tracking</description>
       <pubDate>Thu, 16 Apr 2026 01:30:39 +0200</pubDate>
       <sparkle:version>0.1.18</sparkle:version>
       <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.18/tolk-0.1.18.dmg"
-                 length="8725557"
-                 type="application/octet-stream"
-                 sparkle:edSignature="kWXIprtMKc5FoiDFo8f9QYSCtsS1t4ABeZJs4RbZ4WtC44iQXukrP06xgPUilsfjqWG0SD4k0EjiJRji2CoCDA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.18/tolk-0.1.18.dmg" length="8725557" type="application/octet-stream" sparkle:edSignature="kWXIprtMKc5FoiDFo8f9QYSCtsS1t4ABeZJs4RbZ4WtC44iQXukrP06xgPUilsfjqWG0SD4k0EjiJRji2CoCDA==" />
     </item>
     <item>
       <title>Version 0.1.19</title>
-      <description><![CDATA[E2E test coverage for coordinator flows and selection routing]]></description>
+      <description>E2E test coverage for coordinator flows and selection routing</description>
       <pubDate>Thu, 16 Apr 2026 01:40:49 +0200</pubDate>
       <sparkle:version>0.1.19</sparkle:version>
       <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.19/tolk-0.1.19.dmg"
-                 length="8725555"
-                 type="application/octet-stream"
-                 sparkle:edSignature="g3DwTSrN5SzWnEDpKrBDLlLRpqrUFL8MzKT0+AWuodBZbl/J/8zV+sC6jSJs8HY7GRPoUxu3BJde/TYR9wysDg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.19/tolk-0.1.19.dmg" length="8725555" type="application/octet-stream" sparkle:edSignature="g3DwTSrN5SzWnEDpKrBDLlLRpqrUFL8MzKT0+AWuodBZbl/J/8zV+sC6jSJs8HY7GRPoUxu3BJde/TYR9wysDg==" />
     </item>
     <item>
       <title>Version 0.1.20</title>
-      <description><![CDATA[Real E2E integration tests for ASR, LLM, Dictation and Quick Action modes]]></description>
+      <description>Real E2E integration tests for ASR, LLM, Dictation and Quick Action modes</description>
       <pubDate>Thu, 16 Apr 2026 01:59:39 +0200</pubDate>
       <sparkle:version>0.1.20</sparkle:version>
       <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.20/tolk-0.1.20.dmg"
-                 length="8725590"
-                 type="application/octet-stream"
-                 sparkle:edSignature="1/JP90yzMce1pCDPmc4MwW+b7vPRz3JT63AtwtUVW88IlmsikoYKJUiC4HHWGtJkM4XDDJgobNN3ngfZweS2DQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.20/tolk-0.1.20.dmg" length="8725590" type="application/octet-stream" sparkle:edSignature="1/JP90yzMce1pCDPmc4MwW+b7vPRz3JT63AtwtUVW88IlmsikoYKJUiC4HHWGtJkM4XDDJgobNN3ngfZweS2DQ==" />
     </item>
     <item>
       <title>Version 0.1.21</title>
-      <description><![CDATA[Fix hotkey display label for non-US keyboard layouts (AZERTY, Dvorak, etc.)]]></description>
+      <description>Fix hotkey display label for non-US keyboard layouts (AZERTY, Dvorak, etc.)</description>
       <pubDate>Mon, 20 Apr 2026 11:50:39 +0200</pubDate>
       <sparkle:version>0.1.21</sparkle:version>
       <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.21/tolk-0.1.21.dmg"
-                 length="8716499"
-                 type="application/octet-stream"
-                 sparkle:edSignature="gIVdbdM8WokpPTx8BSiiUiY3lobU15olx0SDb3zqnOVVWrp+MzOBNomfAP5xxQbt16pG9/bOVDCBRNMVbuQXAg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.21/tolk-0.1.21.dmg" length="8716499" type="application/octet-stream" sparkle:edSignature="gIVdbdM8WokpPTx8BSiiUiY3lobU15olx0SDb3zqnOVVWrp+MzOBNomfAP5xxQbt16pG9/bOVDCBRNMVbuQXAg==" />
     </item>
     <item>
       <title>Version 0.1.22</title>
-      <description><![CDATA[Add Logs viewer in Settings for easy bug reporting, fix hotkey labels for non-US keyboards]]></description>
+      <description>Add Logs viewer in Settings for easy bug reporting, fix hotkey labels for non-US keyboards</description>
       <pubDate>Mon, 20 Apr 2026 11:54:26 +0200</pubDate>
       <sparkle:version>0.1.22</sparkle:version>
       <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.22/tolk-0.1.22.dmg"
-                 length="8731530"
-                 type="application/octet-stream"
-                 sparkle:edSignature="gyHKakORtyjcpFGHehyBYF/uL6odAsNFRmWMqNeOjQThcWNX1pBoMODKAgt1sSzKyeHZIM1YV6cTiroX0Y1WCA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.22/tolk-0.1.22.dmg" length="8731530" type="application/octet-stream" sparkle:edSignature="gyHKakORtyjcpFGHehyBYF/uL6odAsNFRmWMqNeOjQThcWNX1pBoMODKAgt1sSzKyeHZIM1YV6cTiroX0Y1WCA==" />
     </item>
     <item>
       <title>Version 0.1.23</title>
-      <description><![CDATA[Fix hotkey partial-release stuck state, History freeze, add diagnostic logs]]></description>
+      <description>Fix hotkey partial-release stuck state, History freeze, add diagnostic logs</description>
       <pubDate>Mon, 20 Apr 2026 12:10:21 +0200</pubDate>
       <sparkle:version>0.1.23</sparkle:version>
       <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.23/tolk-0.1.23.dmg"
-                 length="8733059"
-                 type="application/octet-stream"
-                 sparkle:edSignature="qqvT52T607UOkgIU2h3kdksYdsyHNTvHsx85xpWkwK6AfyqC1BgQfjjnBFmBUho6GoADtACd3xvqVusjGqZwDw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.23/tolk-0.1.23.dmg" length="8733059" type="application/octet-stream" sparkle:edSignature="qqvT52T607UOkgIU2h3kdksYdsyHNTvHsx85xpWkwK6AfyqC1BgQfjjnBFmBUho6GoADtACd3xvqVusjGqZwDw==" />
     </item>
     <item>
       <title>Version 0.1.24</title>
-      <description><![CDATA[Remove press-and-hold mode — toggle is the only behavior now (simpler, more reliable)]]></description>
+      <description>Remove press-and-hold mode — toggle is the only behavior now (simpler, more reliable)</description>
       <pubDate>Wed, 22 Apr 2026 22:49:24 +0200</pubDate>
       <sparkle:version>0.1.24</sparkle:version>
       <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.24/tolk-0.1.24.dmg"
-                 length="8728161"
-                 type="application/octet-stream"
-                 sparkle:edSignature="pQdz/8dn1yUYY1/Z5EwtWNumf3He76PqMyl6dfc3jblp4+2X85eWd8FN3OMdqBW+YRiekpfwQ4wrVlCpgx6HAA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.24/tolk-0.1.24.dmg" length="8728161" type="application/octet-stream" sparkle:edSignature="pQdz/8dn1yUYY1/Z5EwtWNumf3He76PqMyl6dfc3jblp4+2X85eWd8FN3OMdqBW+YRiekpfwQ4wrVlCpgx6HAA==" />
     </item>
     <item>
       <title>Version 0.1.25</title>
-      <description><![CDATA[Auto-send by holding the hotkey on stop (configurable threshold)]]></description>
+      <description>Auto-send by holding the hotkey on stop (configurable threshold)</description>
       <pubDate>Wed, 22 Apr 2026 23:24:27 +0200</pubDate>
       <sparkle:version>0.1.25</sparkle:version>
       <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.25/tolk-0.1.25.dmg"
-                 length="8720742"
-                 type="application/octet-stream"
-                 sparkle:edSignature="BmojlMDrIFX/Fr4E4ouptOPbzm4RhRZAZ7Ilrr2QbCRGy5725Mb2+oo/T0yQazbf1vBjJb/2+wvyoGAZvD3PCQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.25/tolk-0.1.25.dmg" length="8720742" type="application/octet-stream" sparkle:edSignature="BmojlMDrIFX/Fr4E4ouptOPbzm4RhRZAZ7Ilrr2QbCRGy5725Mb2+oo/T0yQazbf1vBjJb/2+wvyoGAZvD3PCQ==" />
     </item>
     <item>
       <title>Version 0.1.26</title>
-      <description><![CDATA[Onboarding fixes + fix hotkey autorepeat leaking characters during long-press]]></description>
+      <description>Onboarding fixes + fix hotkey autorepeat leaking characters during long-press</description>
       <pubDate>Wed, 22 Apr 2026 23:39:00 +0200</pubDate>
       <sparkle:version>0.1.26</sparkle:version>
       <sparkle:shortVersionString>0.1.26</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.26/tolk-0.1.26.dmg"
-                 length="8730696"
-                 type="application/octet-stream"
-                 sparkle:edSignature="YvkRLiLEhwraeoowtbTwJXZ1qOUwSR9jJyEvaXSmF9DABFyK7qBFeXhBQIU9XYLSjjx2Z5oRpGcpSJe8DUZuAQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.26/tolk-0.1.26.dmg" length="8730696" type="application/octet-stream" sparkle:edSignature="YvkRLiLEhwraeoowtbTwJXZ1qOUwSR9jJyEvaXSmF9DABFyK7qBFeXhBQIU9XYLSjjx2Z5oRpGcpSJe8DUZuAQ==" />
     </item>
     <item>
       <title>Version 0.1.27</title>
-      <description><![CDATA[**Reliability + hardening release.**
+      <description>**Reliability + hardening release.**
 
 - Live model-load progress on first run; no more frozen overlay
 - Empty LLM result shows a proper error card with Retry instead of blank Copy/Replace
@@ -371,46 +290,37 @@
 - Hotkey re-registration during an active session now serialises against cancel
 - VAD buffer bounded so a stalled drain can't runaway-allocate
 - Many smaller robustness, UX, and consistency fixes
-- Build is now warning-free; all 280 tests pass]]></description>
+- Build is now warning-free; all 280 tests pass</description>
       <pubDate>Thu, 23 Apr 2026 20:13:10 +0200</pubDate>
       <sparkle:version>0.1.27</sparkle:version>
       <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.27/tolk-0.1.27.dmg"
-                 length="8760096"
-                 type="application/octet-stream"
-                 sparkle:edSignature="d/zNX5ZN8Vzt2kbSGgETLmPahtVII9lGKdVU6k5zTGjaXzE46IeFru5OYoswSAMatezA8TT/k16Re3+fVnh1Aw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.27/tolk-0.1.27.dmg" length="8760096" type="application/octet-stream" sparkle:edSignature="d/zNX5ZN8Vzt2kbSGgETLmPahtVII9lGKdVU6k5zTGjaXzE46IeFru5OYoswSAMatezA8TT/k16Re3+fVnh1Aw==" />
     </item>
     <item>
       <title>Version 0.1.28</title>
-      <description><![CDATA[**UI consistency fix.**
+      <description>**UI consistency fix.**
 
 - Logs tab now uses the same Form + grouped-sections layout as General, AI, and Quick Actions — no more jarring layout jump on tab switch
-- AI settings page title fixed (was stale "Dictation" after the sidebar rename in v0.1.27)]]></description>
+- AI settings page title fixed (was stale "Dictation" after the sidebar rename in v0.1.27)</description>
       <pubDate>Thu, 23 Apr 2026 22:05:14 +0200</pubDate>
       <sparkle:version>0.1.28</sparkle:version>
       <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.28/tolk-0.1.28.dmg"
-                 length="8762157"
-                 type="application/octet-stream"
-                 sparkle:edSignature="9VwJw28KO8nnAniHKNQIEXwAMj93Fu7i4Og1bBSvjxtguHol9Wl9ZizCOIsNhxdEB6QqN8ciV2KofnKm6+PNDg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.28/tolk-0.1.28.dmg" length="8762157" type="application/octet-stream" sparkle:edSignature="9VwJw28KO8nnAniHKNQIEXwAMj93Fu7i4Og1bBSvjxtguHol9Wl9ZizCOIsNhxdEB6QqN8ciV2KofnKm6+PNDg==" />
     </item>
     <item>
       <title>Version 0.1.29</title>
-      <description><![CDATA[Vocabulary for AI post-processing: add terms (with optional hints) that the LLM applies contextually during cleanup. Faster Logs panel for large session logs.]]></description>
+      <description>Vocabulary for AI post-processing: add terms (with optional hints) that the LLM applies contextually during cleanup. Faster Logs panel for large session logs.</description>
       <pubDate>Fri, 24 Apr 2026 10:41:49 +0200</pubDate>
       <sparkle:version>0.1.29</sparkle:version>
       <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.29/tolk-0.1.29.dmg"
-                 length="8837986"
-                 type="application/octet-stream"
-                 sparkle:edSignature="tBjn6tOQb6UczDrk/LdOrj6rENL2FNPPwcNOPFDVayitdfzeSULVWYgYorPF23L2sPcwqXYI+yXz2GICtxJnAw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.29/tolk-0.1.29.dmg" length="8837986" type="application/octet-stream" sparkle:edSignature="tBjn6tOQb6UczDrk/LdOrj6rENL2FNPPwcNOPFDVayitdfzeSULVWYgYorPF23L2sPcwqXYI+yXz2GICtxJnAw==" />
     </item>
     <item>
       <title>Version 0.1.30</title>
-      <description><![CDATA[**Vocabulary polish + system prompt fine-tuning.**
+      <description>**Vocabulary polish + system prompt fine-tuning.**
 
 Vocabulary
 - Per-entry on/off toggle removed — delete is the cleaner verb for entries you don't want
@@ -428,19 +338,16 @@ Eval harness
 - New cross-provider prompt eval suite covers every built-in prompt against Apple Intelligence and (when a key is configured) Gemini
 - Property-based assertions catch real prompt regressions while tolerating LLM jitter
 
-268 prior tests + 10 new cross-provider evals all passing.]]></description>
+268 prior tests + 10 new cross-provider evals all passing.</description>
       <pubDate>Sat, 25 Apr 2026 02:21:58 +0200</pubDate>
       <sparkle:version>0.1.30</sparkle:version>
       <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.30/tolk-0.1.30.dmg"
-                 length="8833897"
-                 type="application/octet-stream"
-                 sparkle:edSignature="JoZtTnaBtnHUpzQubgvh7lI83qLbF01no9TE54D4biwZAzX7QrP3SvSUejzYhBGCqdq6XxRF9XVK/vvzfHnxBA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.30/tolk-0.1.30.dmg" length="8833897" type="application/octet-stream" sparkle:edSignature="JoZtTnaBtnHUpzQubgvh7lI83qLbF01no9TE54D4biwZAzX7QrP3SvSUejzYhBGCqdq6XxRF9XVK/vvzfHnxBA==" />
     </item>
     <item>
       <title>Version 0.1.31</title>
-      <description><![CDATA[**Cleaner reveal + auto-Enter cue.**
+      <description>**Cleaner reveal + auto-Enter cue.**
 
 - Dictation overlay now does a deliberate double-pulse on appear (two slow glows separated by a 1-second gap), much easier to spot in peripheral vision than the previous quick fade
 - Long-press auto-Enter feedback redesigned: replaced the "progress ring" (which read as loading-cut-off when released early) with a green halo that appears only when you cross the threshold. Below threshold: nothing visible — the recording breath does the "still listening" job
@@ -450,212 +357,161 @@ Eval harness
 - Reduce Motion respected: halo and breath skipped, threshold progress kept (it's information, not motion)
 - Internal cleanups: clock unification, bounded TimelineViews, cached threshold without lock, several smaller reliability tweaks
 
-279 tests passing.]]></description>
+279 tests passing.</description>
       <pubDate>Sat, 25 Apr 2026 16:13:13 +0200</pubDate>
       <sparkle:version>0.1.31</sparkle:version>
       <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.31/tolk-0.1.31.dmg"
-                 length="8857356"
-                 type="application/octet-stream"
-                 sparkle:edSignature="t9l3vFeJOgmYfDMrpGXWMtLOp7lAPqTFjeZbGnaI3YRrnO3YqRX6D7tbShtKObyA7r23YKQiEBdyhTof0WnZDw=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.31/tolk-0.1.31.dmg" length="8857356" type="application/octet-stream" sparkle:edSignature="t9l3vFeJOgmYfDMrpGXWMtLOp7lAPqTFjeZbGnaI3YRrnO3YqRX6D7tbShtKObyA7r23YKQiEBdyhTof0WnZDw==" />
     </item>
     <item>
       <title>Version 0.1.32</title>
-      <description><![CDATA[Halo polish — the green auto-Enter confirmation no longer gets shaved at the top and bottom edges of the overlay.]]></description>
+      <description>Halo polish — the green auto-Enter confirmation no longer gets shaved at the top and bottom edges of the overlay.</description>
       <pubDate>Sat, 25 Apr 2026 17:55:51 +0200</pubDate>
       <sparkle:version>0.1.32</sparkle:version>
       <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.32/tolk-0.1.32.dmg"
-                 length="8858254"
-                 type="application/octet-stream"
-                 sparkle:edSignature="GmMmjdN/lANc3t2F0M4zvn1zDKP13o8o5000dMxhJWGb8FmGcrWslECiOfh3gbWZFu/wNvLIa8oQ88GPQT8qDQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.32/tolk-0.1.32.dmg" length="8858254" type="application/octet-stream" sparkle:edSignature="GmMmjdN/lANc3t2F0M4zvn1zDKP13o8o5000dMxhJWGb8FmGcrWslECiOfh3gbWZFu/wNvLIa8oQ88GPQT8qDQ==" />
     </item>
     <item>
       <title>Version 0.1.33</title>
-      <description><![CDATA[Faster paste — the overlay now dismisses immediately after dictation lands instead of waiting on background clipboard cleanup. VS Code & other Electron editors no longer trigger the Quick Action overlay when you fire the hotkey with nothing selected.]]></description>
+      <description>Faster paste — the overlay now dismisses immediately after dictation lands instead of waiting on background clipboard cleanup. VS Code &amp; other Electron editors no longer trigger the Quick Action overlay when you fire the hotkey with nothing selected.</description>
       <pubDate>Sun, 26 Apr 2026 01:50:36 +0200</pubDate>
       <sparkle:version>0.1.33</sparkle:version>
       <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.33/tolk-0.1.33.dmg"
-                 length="8859675"
-                 type="application/octet-stream"
-                 sparkle:edSignature="OwZYU4O5WzLHCATcV4AlVoyyQW5tKTpA2zN4Q/3Dw6wrD2wczIRayccENgbh+OAQMYoIPcafueko0NEPRI+bAg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.33/tolk-0.1.33.dmg" length="8859675" type="application/octet-stream" sparkle:edSignature="OwZYU4O5WzLHCATcV4AlVoyyQW5tKTpA2zN4Q/3Dw6wrD2wczIRayccENgbh+OAQMYoIPcafueko0NEPRI+bAg==" />
     </item>
     <item>
       <title>Version 0.1.34</title>
-      <description><![CDATA[Reliability fixes — settings writes (API providers, prompt profiles, app bindings) now surface failures instead of silently dropping; duplicate Default profiles no longer accumulate after a transient SwiftData error; Quick Action no longer paste-replaces into the wrong app if activation refused; auto-Enter window halved to reduce wrong-target risk; concurrent paste calls serialized; final log lines survive hard exits.]]></description>
+      <description>Reliability fixes — settings writes (API providers, prompt profiles, app bindings) now surface failures instead of silently dropping; duplicate Default profiles no longer accumulate after a transient SwiftData error; Quick Action no longer paste-replaces into the wrong app if activation refused; auto-Enter window halved to reduce wrong-target risk; concurrent paste calls serialized; final log lines survive hard exits.</description>
       <pubDate>Mon, 27 Apr 2026 20:50:51 +0200</pubDate>
       <sparkle:version>0.1.34</sparkle:version>
       <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.34/tolk-0.1.34.dmg"
-                 length="8862872"
-                 type="application/octet-stream"
-                 sparkle:edSignature="0EbiChFK18cmC9rNFjPGEhFCm/hCRZZhltFIDNvu0wldaZfyPlQlumKNJiuKxu2Bw7HJdWTnAGIRwguvRojZCA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.34/tolk-0.1.34.dmg" length="8862872" type="application/octet-stream" sparkle:edSignature="0EbiChFK18cmC9rNFjPGEhFCm/hCRZZhltFIDNvu0wldaZfyPlQlumKNJiuKxu2Bw7HJdWTnAGIRwguvRojZCA==" />
     </item>
     <item>
       <title>Version 0.1.35</title>
-      <description><![CDATA[Internal cleanup release — no user-visible feature changes. Removes dead media-playback service, prunes 9 unused error cases, drops the placebo "Include beta releases" toggle (Sparkle was never wired through it), tightens save+notify behavior so settings UI accurately reflects writes, and consolidates a handful of duplicate constants and helpers.]]></description>
+      <description>Internal cleanup release — no user-visible feature changes. Removes dead media-playback service, prunes 9 unused error cases, drops the placebo "Include beta releases" toggle (Sparkle was never wired through it), tightens save+notify behavior so settings UI accurately reflects writes, and consolidates a handful of duplicate constants and helpers.</description>
       <pubDate>Mon, 27 Apr 2026 22:33:23 +0200</pubDate>
       <sparkle:version>0.1.35</sparkle:version>
       <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.35/tolk-0.1.35.dmg"
-                 length="8857521"
-                 type="application/octet-stream"
-                 sparkle:edSignature="QNUPaiABlUsGTcQH+M8FrGyrMcDZqM4AGR7oYLnTzJuNai3TRetYlUpU0ZPOiMSjLllDLTT6VdlFtkmwLcwfCQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.35/tolk-0.1.35.dmg" length="8857521" type="application/octet-stream" sparkle:edSignature="QNUPaiABlUsGTcQH+M8FrGyrMcDZqM4AGR7oYLnTzJuNai3TRetYlUpU0ZPOiMSjLllDLTT6VdlFtkmwLcwfCQ==" />
     </item>
     <item>
       <title>Version 0.1.36</title>
-      <description><![CDATA[Fix: media playback volume now restored reliably after dictation ends.
+      <description>Fix: media playback volume now restored reliably after dictation ends.
 
-When dictation runs, macOS automatically reduces other apps' audio (Spotify, YouTube, Music, etc.) via voice-processing ducking. The volume should snap back to normal when dictation completes, but sometimes stayed reduced until you ran dictation again. Now explicitly disables voice processing before stopping the audio engine, so the session state cleans up correctly every time.]]></description>
+When dictation runs, macOS automatically reduces other apps' audio (Spotify, YouTube, Music, etc.) via voice-processing ducking. The volume should snap back to normal when dictation completes, but sometimes stayed reduced until you ran dictation again. Now explicitly disables voice processing before stopping the audio engine, so the session state cleans up correctly every time.</description>
       <pubDate>Fri, 01 May 2026 14:50:14 +0200</pubDate>
       <sparkle:version>0.1.36</sparkle:version>
       <sparkle:shortVersionString>0.1.36</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.36/tolk-0.1.36.dmg"
-                 length="8857664"
-                 type="application/octet-stream"
-                 sparkle:edSignature="UzJ42Ju6UJ2jHXT1GJ8xEETaazKA+97paIRJiLDe8e6mKkQeB2H+MFx06d8exTRSYU7S4mIZSy4GMOciaA+6Cg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.36/tolk-0.1.36.dmg" length="8857664" type="application/octet-stream" sparkle:edSignature="UzJ42Ju6UJ2jHXT1GJ8xEETaazKA+97paIRJiLDe8e6mKkQeB2H+MFx06d8exTRSYU7S4mIZSy4GMOciaA+6Cg==" />
     </item>
     <item>
       <title>Version 0.1.37</title>
-      <description><![CDATA[macOS 15 (Sequoia) support — tolk now runs on every Mac that can run Sequoia. Apple Intelligence stays available on macOS 26.]]></description>
+      <description>macOS 15 (Sequoia) support — tolk now runs on every Mac that can run Sequoia. Apple Intelligence stays available on macOS 26.</description>
       <pubDate>Sat, 02 May 2026 01:31:12 +0200</pubDate>
       <sparkle:version>0.1.37</sparkle:version>
       <sparkle:shortVersionString>0.1.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.37/tolk-0.1.37.dmg"
-                 length="8858876"
-                 type="application/octet-stream"
-                 sparkle:edSignature="skbabMLl0Dbk1NcT7VxcNtis59jRqRVWxMY3Qaw4NtDf1BxRm/xlXsSlLX3hQmToKw3TbNu1odQq7X0nGUoUCQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.37/tolk-0.1.37.dmg" length="8858876" type="application/octet-stream" sparkle:edSignature="skbabMLl0Dbk1NcT7VxcNtis59jRqRVWxMY3Qaw4NtDf1BxRm/xlXsSlLX3hQmToKw3TbNu1odQq7X0nGUoUCQ==" />
     </item>
     <item>
       <title>Version 0.1.38</title>
-      <description><![CDATA[Now usable without AI configured — dictation still works, Quick Actions gracefully disabled with clear settings indicators.]]></description>
+      <description>Now usable without AI configured — dictation still works, Quick Actions gracefully disabled with clear settings indicators.</description>
       <pubDate>Sat, 02 May 2026 14:00:10 +0200</pubDate>
       <sparkle:version>0.1.38</sparkle:version>
       <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.38/tolk-0.1.38.dmg"
-                 length="8865599"
-                 type="application/octet-stream"
-                 sparkle:edSignature="DtRfnaXzWSeK496whJi3fXoHCTSYlo1Kcq72upcFqLqvEMCggAj48S8csDi+HAmn6x8pY3xfzWk40BMXDhYODg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.38/tolk-0.1.38.dmg" length="8865599" type="application/octet-stream" sparkle:edSignature="DtRfnaXzWSeK496whJi3fXoHCTSYlo1Kcq72upcFqLqvEMCggAj48S8csDi+HAmn6x8pY3xfzWk40BMXDhYODg==" />
     </item>
     <item>
       <title>Version 0.1.39</title>
-      <description><![CDATA[macOS 15 (Sequoia) launch fix — v0.1.37 and v0.1.38 silently failed to launch on Sequoia. This release works.]]></description>
+      <description>macOS 15 (Sequoia) launch fix — v0.1.37 and v0.1.38 silently failed to launch on Sequoia. This release works.</description>
       <pubDate>Tue, 05 May 2026 20:11:58 +0200</pubDate>
       <sparkle:version>0.1.39</sparkle:version>
       <sparkle:shortVersionString>0.1.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.39/tolk-0.1.39.dmg"
-                 length="8865631"
-                 type="application/octet-stream"
-                 sparkle:edSignature="fT4h8/e3cHxFKoBTkUFSV4lKcegvB6cQsxPKItG+AZeG+WUga28ZKlu/knfcn4SkwV8MaMrrWJVnu2eGc4ObAQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.39/tolk-0.1.39.dmg" length="8865631" type="application/octet-stream" sparkle:edSignature="fT4h8/e3cHxFKoBTkUFSV4lKcegvB6cQsxPKItG+AZeG+WUga28ZKlu/knfcn4SkwV8MaMrrWJVnu2eGc4ObAQ==" />
     </item>
     <item>
       <title>Version 0.1.40</title>
-      <description><![CDATA[Reliability improvements, design tweaks.]]></description>
+      <description>Reliability improvements, design tweaks.</description>
       <pubDate>Thu, 14 May 2026 00:17:20 +0200</pubDate>
       <sparkle:version>0.1.40</sparkle:version>
       <sparkle:shortVersionString>0.1.40</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.40/tolk-0.1.40.dmg"
-                 length="8956622"
-                 type="application/octet-stream"
-                 sparkle:edSignature="tu6QdF4DPOz68uxGYUWhC3SfDbPFNJM0S1NRl+zfbsHLKPOnVGiio/IRR0hFm8B5hRFAodR4NpcC9xBPfjVuAA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.40/tolk-0.1.40.dmg" length="8956622" type="application/octet-stream" sparkle:edSignature="tu6QdF4DPOz68uxGYUWhC3SfDbPFNJM0S1NRl+zfbsHLKPOnVGiio/IRR0hFm8B5hRFAodR4NpcC9xBPfjVuAA==" />
     </item>
     <item>
       <title>Version 0.1.41</title>
-      <description><![CDATA[Escape key reliability.]]></description>
+      <description>Escape key reliability.</description>
       <pubDate>Thu, 14 May 2026 15:20:48 +0200</pubDate>
       <sparkle:version>0.1.41</sparkle:version>
       <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.41/tolk-0.1.41.dmg"
-                 length="8955230"
-                 type="application/octet-stream"
-                 sparkle:edSignature="IgXQ4UOtmH7mSo3kDJqIMjhmqtncP1WVagxi6y96UPDaYI3NexZFd1K9DjTDE257aWbZW/UVMNJpc99ogS8uBg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.41/tolk-0.1.41.dmg" length="8955230" type="application/octet-stream" sparkle:edSignature="IgXQ4UOtmH7mSo3kDJqIMjhmqtncP1WVagxi6y96UPDaYI3NexZFd1K9DjTDE257aWbZW/UVMNJpc99ogS8uBg==" />
     </item>
     <item>
       <title>Version 0.1.42</title>
-      <description><![CDATA[Onboarding, overlay, and provider modal polish.]]></description>
+      <description>Onboarding, overlay, and provider modal polish.</description>
       <pubDate>Fri, 15 May 2026 17:49:41 +0200</pubDate>
       <sparkle:version>0.1.42</sparkle:version>
       <sparkle:shortVersionString>0.1.42</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.42/tolk-0.1.42.dmg"
-                 length="8939618"
-                 type="application/octet-stream"
-                 sparkle:edSignature="2dr6FI01+cBrXzk0C0RjZW+GpXnl7gcKYrgzbXM5otoF9FTU5UXl/QUKmE38H2WFz4cuzNIADBjsB7syILOTCg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.42/tolk-0.1.42.dmg" length="8939618" type="application/octet-stream" sparkle:edSignature="2dr6FI01+cBrXzk0C0RjZW+GpXnl7gcKYrgzbXM5otoF9FTU5UXl/QUKmE38H2WFz4cuzNIADBjsB7syILOTCg==" />
     </item>
     <item>
       <title>Version 0.2.0</title>
-      <description><![CDATA[Smoother first-run setup, more reliable model downloads and AI provider configuration, more robust settings storage, refreshed UI consistency, and many stability fixes. Note: this release rotates the update-signing key — if the in-app update fails, please download this version manually from the releases page; auto-updates resume afterward.]]></description>
+      <description>Smoother first-run setup, more reliable model downloads and AI provider configuration, more robust settings storage, refreshed UI consistency, and many stability fixes. Note: this release rotates the update-signing key — if the in-app update fails, please download this version manually from the releases page; auto-updates resume afterward.</description>
       <pubDate>Wed, 10 Jun 2026 19:47:13 +0200</pubDate>
       <sparkle:version>0.2.0</sparkle:version>
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.0/tolk-0.2.0.dmg"
-                 length="9766721"
-                 type="application/octet-stream"
-                 sparkle:edSignature="3tm1S0/bsNV6IBjaPc7a8hCnMd5qdgSq6RFqCvlMV5PVWdzV3SFFRLku6ZXtdg5d2ci1sud/NSIQOEeYJU2jBg=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.0/tolk-0.2.0.dmg" length="9766721" type="application/octet-stream" sparkle:edSignature="3tm1S0/bsNV6IBjaPc7a8hCnMd5qdgSq6RFqCvlMV5PVWdzV3SFFRLku6ZXtdg5d2ci1sud/NSIQOEeYJU2jBg==" />
     </item>
     <item>
       <title>Version 0.2.1</title>
-      <description><![CDATA[Fixes the crash that prevented tolk from launching on macOS 15 (Sequoia). If you're on macOS 15 and an earlier version never opened, download this version manually — auto-update can't run if the app never launched. No changes for macOS 26 users beyond minor internal cleanups.]]></description>
+      <description>Fixes the crash that prevented tolk from launching on macOS 15 (Sequoia). If you're on macOS 15 and an earlier version never opened, download this version manually — auto-update can't run if the app never launched. No changes for macOS 26 users beyond minor internal cleanups.</description>
       <pubDate>Wed, 10 Jun 2026 23:32:42 +0200</pubDate>
       <sparkle:version>0.2.1</sparkle:version>
       <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.1/tolk-0.2.1.dmg"
-                 length="9764827"
-                 type="application/octet-stream"
-                 sparkle:edSignature="SH+pjwUxPLEwYqIEgphity9O+ID0RGGCLfcv8FPEfPQx0ylSYhjGQXnrtiWicTmHd4MTRtabcCBZbPvO/VJgAA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.1/tolk-0.2.1.dmg" length="9764827" type="application/octet-stream" sparkle:edSignature="SH+pjwUxPLEwYqIEgphity9O+ID0RGGCLfcv8FPEfPQx0ylSYhjGQXnrtiWicTmHd4MTRtabcCBZbPvO/VJgAA==" />
     </item>
     <item>
       <title>Version 0.2.2</title>
-      <description><![CDATA[Reliability improvements: protects your clipboard when you copy during a dictation paste, surfaces an error when the microphone disconnects mid-recording instead of silently cutting off the transcript, more accurate model download progress, and consistent AI provider availability across onboarding and settings.]]></description>
+      <description>Reliability improvements: protects your clipboard when you copy during a dictation paste, surfaces an error when the microphone disconnects mid-recording instead of silently cutting off the transcript, more accurate model download progress, and consistent AI provider availability across onboarding and settings.</description>
       <pubDate>Fri, 12 Jun 2026 01:29:24 +0200</pubDate>
       <sparkle:version>0.2.2</sparkle:version>
       <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.2/tolk-0.2.2.dmg"
-                 length="9767059"
-                 type="application/octet-stream"
-                 sparkle:edSignature="WagEVZVPXEO/lms2VZftCZ1iQyJjdUWu0FP/W9Nl7YssDJZv92jiGRg5Xuk8MUDdcUUvntL2GxjToFBVZUziAQ=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.2/tolk-0.2.2.dmg" length="9767059" type="application/octet-stream" sparkle:edSignature="WagEVZVPXEO/lms2VZftCZ1iQyJjdUWu0FP/W9Nl7YssDJZv92jiGRg5Xuk8MUDdcUUvntL2GxjToFBVZUziAQ==" />
     </item>
     <item>
       <title>Version 0.2.3</title>
-      <description><![CDATA[Performance & reliability:
+      <description>Performance &amp; reliability:
 - Faster hotkey response and lower dictation cold-start (ASR prewarm during routing, panel reuse)
 - Smoother Settings (recorder hotkey suppression, cached app resolver, bounded polling)
-- Log rotation moved off the write path to avoid hitches]]></description>
+- Log rotation moved off the write path to avoid hitches</description>
       <pubDate>Fri, 12 Jun 2026 19:19:05 +0200</pubDate>
       <sparkle:version>0.2.3</sparkle:version>
       <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.3/tolk-0.2.3.dmg"
-                 length="9779971"
-                 type="application/octet-stream"
-                 sparkle:edSignature="L8YPeVyvucvNIrKCdnddmGh972ZCubXfR2RQvWnzdDOFbKNby183dA3TF5X+5B7J1tHFEDc2Xl7Y1RGHE6+uAA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.3/tolk-0.2.3.dmg" length="9779971" type="application/octet-stream" sparkle:edSignature="L8YPeVyvucvNIrKCdnddmGh972ZCubXfR2RQvWnzdDOFbKNby183dA3TF5X+5B7J1tHFEDc2Xl7Y1RGHE6+uAA==" />
     </item>
     <item>
       <title>Version 0.2.4</title>
-      <description><![CDATA[Smarter dictation prompts: multilingual dictation stays in your language (no more accidental translation), and the Continue quick action now keeps your original text instead of replacing it with only the continuation. Vocabulary terms also improve Apple Speech recognition directly — even with AI post-processing off — and the vocabulary settings now show when the term limit is reached.]]></description>
+      <description>Smarter dictation prompts: multilingual dictation stays in your language (no more accidental translation), and the Continue quick action now keeps your original text instead of replacing it with only the continuation. Vocabulary terms also improve Apple Speech recognition directly — even with AI post-processing off — and the vocabulary settings now show when the term limit is reached.</description>
       <pubDate>Fri, 12 Jun 2026 19:36:41 +0200</pubDate>
       <sparkle:version>0.2.4</sparkle:version>
       <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.4/tolk-0.2.4.dmg"
-                 length="9784624"
-                 type="application/octet-stream"
-                 sparkle:edSignature="xTNcVFhintW+IKM1s2dWw9k9I+bFQXmOHFgbG+/tGtELbLlRcIfLSvYZv+Pr947oHLAzIYU1sMiTNg3qwvZoDA=="/>
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.4/tolk-0.2.4.dmg" length="9784624" type="application/octet-stream" sparkle:edSignature="xTNcVFhintW+IKM1s2dWw9k9I+bFQXmOHFgbG+/tGtELbLlRcIfLSvYZv+Pr947oHLAzIYU1sMiTNg3qwvZoDA==" />
     </item>
-  </channel>
+  <item><title>Version 0.3.0</title><description>Redesigned Settings, new speech engines, updated AI options, and more reliable dictation. Improved macOS app selection and corrected automatic updates. Requires Apple Silicon and macOS 15 or later.</description><pubDate>Sat, 07 Nov 2026 15:38:00 +0000</pubDate><sparkle:version>2</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.3.0/tolk-0.3.0.dmg" length="9082657" type="application/octet-stream" sparkle:edSignature="RQAjm/3OJN2BBeREFdf8R0NA/sjtIeBhA9/mUo4WUMYI4SyPlKYJFo/GHyuPCd+mUaolhL1z6nrMbthHi7LtDQ==" /></item></channel>
 </rss>
