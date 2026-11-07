@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>tolk</title>
+<link rel="icon" href="data:,">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -15,7 +16,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: hidden;
+    overflow-y: auto;
   }
 
   /* App-icon sine wave as a quiet page-scale watermark. Drifts slowly
@@ -81,8 +82,9 @@
 <div class="card">
   <h1>tolk</h1>
   <p class="tagline">press. speak. done.</p>
-  <a class="download" id="dl" href="https://github.com/uid4oe/tolk-releases/releases/latest">download for macOS</a>
+  <a class="download" id="dl" href="https://github.com/uid4oe/tolk-releases/releases/latest">download for Apple Silicon</a>
   <div class="meta">
+    <p>macOS 15 or later · Apple Silicon</p>
     <a href="https://github.com/uid4oe/tolk-releases/releases">all releases</a>
   </div>
   <span class="version" id="ver"></span>
@@ -93,7 +95,8 @@ fetch('appcast.xml').then(r=>r.text()).then(xml=>{
   const d=new DOMParser().parseFromString(xml,'text/xml');
   const items=d.querySelectorAll('item');
   if(!items.length)return;
-  const latest=items[items.length-1];
+  const latest=[...items].reverse().find(item=>!item.getElementsByTagNameNS('http://www.andymatuschak.org/xml-namespaces/sparkle','channel').length);
+  if(!latest)return;
   const v=latest.querySelector('shortVersionString');
   const u=latest.querySelector('enclosure');
   const desc=latest.querySelector('description');
