@@ -1,6 +1,6 @@
 # tolk
 
-System-wide dictation and writing tools for macOS.
+System-wide dictation, writing tools, and meeting workflows for macOS.
 Press your shortcut, speak, and press again to paste the transcript into the active app.
 
 [Download the latest release](https://github.com/uid4oe/tolk-releases/releases/latest).
@@ -31,7 +31,7 @@ Hold the stop press past the long-press threshold to send Return after pasting.
 
 Select text and press the shortcut to open writing tools when AI is available.
 Choose an action or speak a custom instruction.
-Results stream into the card.
+Results appear in the card as generation progresses when the connection supports streaming.
 Replace requires a supported editable selection. Copy also works with read-only selections.
 Customize the actions in Settings.
 
@@ -41,8 +41,6 @@ Customize the actions in Settings.
 |---|---|
 | Parakeet Ultra | Default on Apple Silicon; multilingual recognition |
 | Parakeet Redux | Smaller Parakeet alternative |
-| Parakeet v2 and v3 | Existing model choices remain available |
-| Whisper Base | Multilingual recognition through whisper.cpp |
 | Apple Speech | Built-in on-device recognition |
 
 Downloadable engines require model files during setup.
@@ -50,20 +48,39 @@ Recording and transcription run on the device.
 
 ## AI processing
 
-Use Apple Intelligence, OpenAI, Anthropic, Google Gemini, xAI, OpenRouter, Ollama, or a custom OpenAI-compatible endpoint.
+Use installed Claude Code or Codex CLIs with their existing subscription login.
+Install and sign in through the command first, then add its connection in Tolk.
+CLI connections send text to their provider servers. Account limits still apply.
+Tolk does not store CLI login credentials.
+
+API-key connections include OpenAI, Anthropic, Google Gemini, xAI, OpenRouter, and custom OpenAI-compatible endpoints.
+Cloud providers can require your own credentials and charge for use.
+Ollama and available Apple Intelligence offer local processing options.
 Settings separates provider connections, model selection, reasoning options, and processing behavior.
-Suggested models use current provider capabilities. Exact model IDs remain available for compatible endpoints.
-Cloud providers require your own credentials and may charge for use.
-Ollama and Apple Intelligence offer local processing options.
 
 Vocabulary entries preserve names and technical terms during AI processing.
 Cloud AI receives those entries with the text submitted for processing.
 
+## Meetings
+
+Record your microphone or your microphone with system audio.
+Meetings use the input device selected in Dictation.
+System capture includes application audio and requests macOS permission when needed.
+Pause and resume recording, then transcribe saved audio with your local speech engine.
+Completed audio parts and transcription progress remain available after interruption.
+
+Correct transcript passages, then prepare cited notes and work briefs through your chosen AI connection.
+Recording and transcription work without AI processing.
+Review statements and source evidence before copying a brief or exporting the meeting.
+Exports contain readable Markdown and versioned JSON. Audio is excluded.
+Take prepared work to the human or agent workflow you prefer.
+
 ## Privacy and local data
 
 Audio capture runs during recording. Speech recognition runs locally.
-Optional cloud AI receives the transcript or selected text and the applicable instructions.
+Optional cloud AI receives submitted text and the applicable instructions through API or CLI connections.
 History stores transcription records locally. Manage those records in Settings → History.
+Meetings retain audio, transcripts, and prepared work on the Mac until you delete or export them.
 Provider credentials stay in an owner-only file on the Mac.
 Diagnostics include local timing and error logs.
 
