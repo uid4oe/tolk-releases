@@ -513,5 +513,18 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.4/tolk-0.2.4.dmg" length="9784624" type="application/octet-stream" sparkle:edSignature="xTNcVFhintW+IKM1s2dWw9k9I+bFQXmOHFgbG+/tGtELbLlRcIfLSvYZv+Pr947oHLAzIYU1sMiTNg3qwvZoDA==" />
     </item>
-  <item><title>Version 0.3.0</title><description>Redesigned Settings, new speech engines, updated AI options, and more reliable dictation. Improved macOS app selection and corrected automatic updates. Requires Apple Silicon and macOS 15 or later.</description><pubDate>Sat, 07 Nov 2026 15:38:00 +0000</pubDate><sparkle:version>2</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.3.0/tolk-0.3.0.dmg" length="9082657" type="application/octet-stream" sparkle:edSignature="RQAjm/3OJN2BBeREFdf8R0NA/sjtIeBhA9/mUo4WUMYI4SyPlKYJFo/GHyuPCd+mUaolhL1z6nrMbthHi7LtDQ==" /></item></channel>
+  <item><title>Version 0.3.0</title><description>Redesigned Settings, new speech engines, updated AI options, and more reliable dictation. Improved macOS app selection and corrected automatic updates. Requires Apple Silicon and macOS 15 or later.</description><pubDate>Sat, 07 Nov 2026 15:38:00 +0000</pubDate><sparkle:version>2</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.3.0/tolk-0.3.0.dmg" length="9082657" type="application/octet-stream" sparkle:edSignature="RQAjm/3OJN2BBeREFdf8R0NA/sjtIeBhA9/mUo4WUMYI4SyPlKYJFo/GHyuPCd+mUaolhL1z6nrMbthHi7LtDQ==" /></item><item><title>Version 0.4.0</title><description>Tolk 0.4.0 adds meeting workflows and subscription CLI connections.
+
+- Use installed Claude Code and Codex CLIs alongside existing API-key and on-device AI connections.
+- Record meetings with microphone and optional system audio, with pause, recovery, and resumable local transcription.
+- Prepare cited notes and editable work briefs. Export portable Markdown and JSON for people and agent tools.
+- Use the refined settings layout, three speech engines, and clearer recording controls.
+- Improve capture ownership, shared model inference, saved-data recovery, and shutdown reliability.
+
+Available speech engines: Parakeet Ultra, Parakeet Redux, and Apple Speech.
+CLI connections require the installed command and its existing subscription login.
+
+Requires Apple Silicon and macOS 15 or later.
+These builds use Tolk Dev signing and are not notarized by Apple.
+</description><pubDate>Sat, 07 Nov 2026 23:37:48 +0100</pubDate><sparkle:version>3</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.0/tolk-0.4.0.dmg" length="5338534" type="application/octet-stream" sparkle:edSignature="CtnnCg/RIdTxguEufT92sOxGXw3oKNvELRIOX7UX63s+CxNGethHHeyjjIqXG0ODcGJG2ognDERqmEf4gdRzDQ==" /></item></channel>
 </rss>
