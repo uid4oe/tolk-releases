@@ -547,5 +547,15 @@ Herdr remains optional. Copy, Export, and Core-only workflows remain available.
 This refinement also improves save-error visibility, cancellation, quit handling, compact layouts, and review recovery after interrupted saves.
 
 Apple Silicon. macOS 15 or later. Signed application; not notarized.
-</description><pubDate>Sun, 08 Nov 2026 14:28:07 +0100</pubDate><sparkle:version>6</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.3/tolk-0.4.3.dmg" length="6346406" type="application/octet-stream" sparkle:edSignature="2+keA+kgy2mKZLPFj/UQBjNWv4YANojI+uzplTvH3t/uhmTJD+1kTeWoqgd+2q4c4AgTSyyyUngTg34LBhLiDw==" /></item></channel>
+</description><pubDate>Sun, 08 Nov 2026 14:28:07 +0100</pubDate><sparkle:version>6</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.3/tolk-0.4.3.dmg" length="6346406" type="application/octet-stream" sparkle:edSignature="2+keA+kgy2mKZLPFj/UQBjNWv4YANojI+uzplTvH3t/uhmTJD+1kTeWoqgd+2q4c4AgTSyyyUngTg34LBhLiDw==" /></item><item><title>Version 0.4.4</title><description>Tolk 0.4.4 refines the productivity workspace and external handoffs.
+
+- Use a wider workspace with source context beside notes and reviews.
+- Review and edit prepared work in the main area. Keep drafts across navigation and window closure.
+- Continue in Codex or Claude desktop apps after explicit review. Tolk never submits the task automatically.
+- Use Haiku and Luna defaults for Claude Code and Codex CLI enrichment. Explicit model choices remain available.
+- Open Herdr from linked work with bounded startup handling and clear tab-selection guidance.
+- Keep dictation available after closing the workspace window.
+
+This Apple Silicon release requires macOS 15 or later. It uses Tolk Dev signing and is not notarized.
+</description><pubDate>Sun, 08 Nov 2026 16:51:32 +0100</pubDate><sparkle:version>7</sparkle:version><sparkle:shortVersionString>0.4.4</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.4/tolk-0.4.4.dmg" length="6540605" type="application/octet-stream" sparkle:edSignature="wlswuDtCKK2aL3sWf0OyPz/P9jbrbMXv3ioVg5jnIK2X+7WZ8Ir92eKMMF5iIkLHfB97/9ecg2HfEOMeYZ43BA==" /></item></channel>
 </rss>
