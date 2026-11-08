@@ -536,5 +536,16 @@ This release also improves revision checks, capture cancellation, unsaved-draft 
 Typed workspace use supports Set Up Later without microphone, model, or AI setup.
 
 Apple Silicon. macOS 15 or later. The application is signed and is not notarized.
-</description><pubDate>Sun, 08 Nov 2026 02:29:18 +0100</pubDate><sparkle:version>5</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.2/tolk-0.4.2.dmg" length="6268245" type="application/octet-stream" sparkle:edSignature="6BgUiQxl2Ddt/YDHex6uC5fftmMe/Hx2rkJmHunV3SbzgrApoCaT/LmjPzEjC9r46kWxfznW+3wqKFVCbypADQ==" /></item></channel>
+</description><pubDate>Sun, 08 Nov 2026 02:29:18 +0100</pubDate><sparkle:version>5</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.2/tolk-0.4.2.dmg" length="6268245" type="application/octet-stream" sparkle:edSignature="6BgUiQxl2Ddt/YDHex6uC5fftmMe/Hx2rkJmHunV3SbzgrApoCaT/LmjPzEjC9r46kWxfznW+3wqKFVCbypADQ==" /></item><item><title>Version 0.4.3</title><description>Prepare work in fewer steps.
+Prepare Work saves input and opens one Review &amp; Start screen, with the workflow and folder above the proposal.
+Tolk remembers the last valid confirmed destination.
+
+Herdr sessions now attach to a local Herdr space when its app is installed.
+Reveal in Herdr attaches an existing session without launching another one. Select its tab in Herdr.
+Herdr remains optional. Copy, Export, and Core-only workflows remain available.
+
+This refinement also improves save-error visibility, cancellation, quit handling, compact layouts, and review recovery after interrupted saves.
+
+Apple Silicon. macOS 15 or later. Signed application; not notarized.
+</description><pubDate>Sun, 08 Nov 2026 14:28:07 +0100</pubDate><sparkle:version>6</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.3/tolk-0.4.3.dmg" length="6346406" type="application/octet-stream" sparkle:edSignature="2+keA+kgy2mKZLPFj/UQBjNWv4YANojI+uzplTvH3t/uhmTJD+1kTeWoqgd+2q4c4AgTSyyyUngTg34LBhLiDw==" /></item></channel>
 </rss>
