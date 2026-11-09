@@ -576,5 +576,14 @@ This Apple Silicon release requires macOS 15 or later. It uses Tolk Dev signing 
 - Notes and todos keep their editing state during automatic saves and resizing. Undo is available for deleted captures and subtasks.
 - Codex and Claude handoffs start with the selected task or reviewed goal.
 
-For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Mon, 09 Nov 2026 22:28:24 +0100</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.4.6</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.6/tolk-0.4.6.dmg" length="6934612" type="application/octet-stream" sparkle:edSignature="GHYl47FYwmm/UNRtAnhEc//EP6lzVeWXQXGzenFV7r56TjCvGBNWlqgfyyT69mZdHvW3M6zRJxCZ8TCVd0/SAA==" /></item></channel>
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Mon, 09 Nov 2026 22:28:24 +0100</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.4.6</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.6/tolk-0.4.6.dmg" length="6934612" type="application/octet-stream" sparkle:edSignature="GHYl47FYwmm/UNRtAnhEc//EP6lzVeWXQXGzenFV7r56TjCvGBNWlqgfyyT69mZdHvW3M6zRJxCZ8TCVd0/SAA==" /></item><item><title>Version 0.4.7</title><description>- Release capture reservations when startup stops early or a Quick Action declines the handoff.
+- Bound long AI streams and keep valid text when Anthropic sends invalid usage counts.
+- Keep a recovery copy when Tolk cannot restore a settings backup. History cleanup skips unnecessary writes and retains rows if saving fails.
+- Save edited notes and todos faster, especially when they contain many source passages.
+- Preserve saved Herdr paths while Workflows loads. Apply the automatic update preference with one settings write.
+- Use consistent AI endpoint validation and send the saved Anthropic thinking mode.
+- Keep complete lines in diagnostic previews. Read meeting checkpoints through the shared private file reader.
+- Fit Settings forms to the available window space.
+
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 00:01:48 +0100</pubDate><sparkle:version>10</sparkle:version><sparkle:shortVersionString>0.4.7</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.7/tolk-0.4.7.dmg" length="6937711" type="application/octet-stream" sparkle:edSignature="rC8kSgFu0IiJYJi2enfcNyYFl/aLQvKevDV+Z708JHoZ9dDiqeqs60KHoOwcXJpc2TJLamz7NDVT5E1uFrcYAg==" /></item></channel>
 </rss>
