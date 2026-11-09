@@ -569,5 +569,12 @@ This Apple Silicon release requires macOS 15 or later. It uses Tolk Dev signing 
 - Preserve edits through concurrent saves, navigation, window closure, and Quit.
 
 This Apple Silicon release requires macOS 15 or later. It uses Tolk Dev signing and is not notarized.
-</description><pubDate>Sun, 08 Nov 2026 19:26:02 +0100</pubDate><sparkle:version>8</sparkle:version><sparkle:shortVersionString>0.4.5</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.5/tolk-0.4.5.dmg" length="6724336" type="application/octet-stream" sparkle:edSignature="aU53pHFOYJK9uSjGV0JNrhuyibFwA7AkbEgNQs/nFEEIQPv168hz2EpJo38pVZbhGW2FtqP3weNMCwquhhJNAw==" /></item></channel>
+</description><pubDate>Sun, 08 Nov 2026 19:26:02 +0100</pubDate><sparkle:version>8</sparkle:version><sparkle:shortVersionString>0.4.5</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.5/tolk-0.4.5.dmg" length="6724336" type="application/octet-stream" sparkle:edSignature="aU53pHFOYJK9uSjGV0JNrhuyibFwA7AkbEgNQs/nFEEIQPv168hz2EpJo38pVZbhGW2FtqP3weNMCwquhhJNAw==" /></item><item><title>Version 0.4.6</title><description>- Save the text shown in Quick Action as a note or todo. Tolk keeps the original selection as source context.
+- A green outline confirms the save, then the Quick Action card closes.
+- Find saved work under Captures, with search and filtering together. Configure workflow profiles in Settings.
+- Click disclosure titles to expand sections. Editor sheets are larger and fit the current window.
+- Notes and todos keep their editing state during automatic saves and resizing. Undo is available for deleted captures and subtasks.
+- Codex and Claude handoffs start with the selected task or reviewed goal.
+
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Mon, 09 Nov 2026 22:28:24 +0100</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.4.6</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.6/tolk-0.4.6.dmg" length="6934612" type="application/octet-stream" sparkle:edSignature="GHYl47FYwmm/UNRtAnhEc//EP6lzVeWXQXGzenFV7r56TjCvGBNWlqgfyyT69mZdHvW3M6zRJxCZ8TCVd0/SAA==" /></item></channel>
 </rss>
