@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>tolk updates</title>
     <link>https://github.com/uid4oe/tolk-releases</link>
@@ -11,7 +12,7 @@
       <sparkle:version>0.1.0</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.0/tolk-0.1.0.dmg" length="8705349" type="application/octet-stream" sparkle:edSignature="oNf3omTXSW+7COClKG1wqJ6kk4QzCyFoYTiH9bzHJkUFR7MLGqVKhdtUlBAWzHu8i/6p4F2mO58FbjSWep0FBA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.0/tolk-0.1.0.dmg" length="8705349" type="application/octet-stream" sparkle:edSignature="oNf3omTXSW+7COClKG1wqJ6kk4QzCyFoYTiH9bzHJkUFR7MLGqVKhdtUlBAWzHu8i/6p4F2mO58FbjSWep0FBA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.1</title>
@@ -20,7 +21,7 @@
       <sparkle:version>0.1.1</sparkle:version>
       <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.1/tolk-0.1.1.dmg" length="8707253" type="application/octet-stream" sparkle:edSignature="wQhmlSzNXhkE8oOeH0rdzRGScMWc8gV0nZzFt14VoETIvrZXP9u+7WTX5nKZLSJmfgl4yFVxAFuWohSmZDixBA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.1/tolk-0.1.1.dmg" length="8707253" type="application/octet-stream" sparkle:edSignature="wQhmlSzNXhkE8oOeH0rdzRGScMWc8gV0nZzFt14VoETIvrZXP9u+7WTX5nKZLSJmfgl4yFVxAFuWohSmZDixBA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.2</title>
@@ -29,7 +30,7 @@
       <sparkle:version>0.1.2</sparkle:version>
       <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.2/tolk-0.1.2.dmg" length="8707557" type="application/octet-stream" sparkle:edSignature="NND7GKuakKbwCQmC5I8gw6zl+VmeiVLng5Lpch/SrIfYPxXk9arWXzWfOgiOU1kksYS1Vg+eeMlMK5aNc1VXCQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.2/tolk-0.1.2.dmg" length="8707557" type="application/octet-stream" sparkle:edSignature="NND7GKuakKbwCQmC5I8gw6zl+VmeiVLng5Lpch/SrIfYPxXk9arWXzWfOgiOU1kksYS1Vg+eeMlMK5aNc1VXCQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.3</title>
@@ -38,7 +39,7 @@
       <sparkle:version>0.1.3</sparkle:version>
       <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.3/tolk-0.1.3.dmg" length="8751684" type="application/octet-stream" sparkle:edSignature="qzEnvw7t1qVoaKqPXkLdzsnd6RNxhil8aXGoM59K/rvv7Vhs0ZB4elv9Zp5wY8ATXPgRLqXkHKPTPCssqVt7Aw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.3/tolk-0.1.3.dmg" length="8751684" type="application/octet-stream" sparkle:edSignature="qzEnvw7t1qVoaKqPXkLdzsnd6RNxhil8aXGoM59K/rvv7Vhs0ZB4elv9Zp5wY8ATXPgRLqXkHKPTPCssqVt7Aw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.4</title>
@@ -47,7 +48,7 @@
       <sparkle:version>0.1.4</sparkle:version>
       <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.4/tolk-0.1.4.dmg" length="8723940" type="application/octet-stream" sparkle:edSignature="EKDmFg6Ja6Hv03u/7JxxSPJ+duEbN2Hukpq/Ar8ysmez/nPZ3YxUGbHDVE4G2cPOLowzvLkvJkf8UASiBeF/Dw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.4/tolk-0.1.4.dmg" length="8723940" type="application/octet-stream" sparkle:edSignature="EKDmFg6Ja6Hv03u/7JxxSPJ+duEbN2Hukpq/Ar8ysmez/nPZ3YxUGbHDVE4G2cPOLowzvLkvJkf8UASiBeF/Dw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.5</title>
@@ -64,7 +65,7 @@
       <sparkle:version>0.1.5</sparkle:version>
       <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.5/tolk-0.1.5.dmg" length="8546862" type="application/octet-stream" sparkle:edSignature="BIhCvRbKvb0scB9A00wGf6u8xD+n2pwow8V6SpVOt5Dz0yCpXqS2/a4jzhU2W8d8QHab2lkt4NuleAm8ccUmDg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.5/tolk-0.1.5.dmg" length="8546862" type="application/octet-stream" sparkle:edSignature="BIhCvRbKvb0scB9A00wGf6u8xD+n2pwow8V6SpVOt5Dz0yCpXqS2/a4jzhU2W8d8QHab2lkt4NuleAm8ccUmDg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.6</title>
@@ -73,7 +74,7 @@
       <sparkle:version>0.1.6</sparkle:version>
       <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.6/tolk-0.1.6.dmg" length="8700979" type="application/octet-stream" sparkle:edSignature="9GMS6R2+pXjKZDT/ABkJ/B/BFD1X/FiNg6TFawdRoj3fsJ1wkWNHt/z9d/6CPpXICJbZk7n3ApKzRQ2q5gKKAg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.6/tolk-0.1.6.dmg" length="8700979" type="application/octet-stream" sparkle:edSignature="9GMS6R2+pXjKZDT/ABkJ/B/BFD1X/FiNg6TFawdRoj3fsJ1wkWNHt/z9d/6CPpXICJbZk7n3ApKzRQ2q5gKKAg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.7</title>
@@ -82,7 +83,7 @@
       <sparkle:version>0.1.7</sparkle:version>
       <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.7/tolk-0.1.7.dmg" length="8730890" type="application/octet-stream" sparkle:edSignature="4X8ne21pWsM0YI3dFhc5pbfVU92W2t3+LxKy4vwzKB/bfXIoQDCa0o7rv7bJNIQFWsCszPR830cL/NmoQ6TNBg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.7/tolk-0.1.7.dmg" length="8730890" type="application/octet-stream" sparkle:edSignature="4X8ne21pWsM0YI3dFhc5pbfVU92W2t3+LxKy4vwzKB/bfXIoQDCa0o7rv7bJNIQFWsCszPR830cL/NmoQ6TNBg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.8</title>
@@ -91,7 +92,7 @@
       <sparkle:version>0.1.8</sparkle:version>
       <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.8/tolk-0.1.8.dmg" length="8711460" type="application/octet-stream" sparkle:edSignature="XNebRrIaZ8B+mFS1h35J2D9/DUjwKc2cnVJ3tUK4dh075S7SbZMPc54EE1ozetRtTKcAQEd7H1LpZ9P95I1XCQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.8/tolk-0.1.8.dmg" length="8711460" type="application/octet-stream" sparkle:edSignature="XNebRrIaZ8B+mFS1h35J2D9/DUjwKc2cnVJ3tUK4dh075S7SbZMPc54EE1ozetRtTKcAQEd7H1LpZ9P95I1XCQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.9</title>
@@ -100,7 +101,7 @@
       <sparkle:version>0.1.9</sparkle:version>
       <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.9/tolk-0.1.9.dmg" length="8728017" type="application/octet-stream" sparkle:edSignature="5NVr9xTPxUSOfuFdlfnNH/VqfvpC0NIwSJQkOf3IKMhAQh5gbvY2MzDg/8p6E1HzHPfagO84cBdC2QaKVpiQCw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.9/tolk-0.1.9.dmg" length="8728017" type="application/octet-stream" sparkle:edSignature="5NVr9xTPxUSOfuFdlfnNH/VqfvpC0NIwSJQkOf3IKMhAQh5gbvY2MzDg/8p6E1HzHPfagO84cBdC2QaKVpiQCw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.10</title>
@@ -113,7 +114,7 @@
       <sparkle:version>0.1.10</sparkle:version>
       <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.10/tolk-0.1.10.dmg" length="8721235" type="application/octet-stream" sparkle:edSignature="daxvrEX9FSpW+ZA1TMay31BfLWJ1g5KLL5VP1mKYY42z/XalOy35GwvAmIoeoe4AWgTNv7mNZOZKCO1RfhghCA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.10/tolk-0.1.10.dmg" length="8721235" type="application/octet-stream" sparkle:edSignature="daxvrEX9FSpW+ZA1TMay31BfLWJ1g5KLL5VP1mKYY42z/XalOy35GwvAmIoeoe4AWgTNv7mNZOZKCO1RfhghCA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.11</title>
@@ -124,7 +125,7 @@
       <sparkle:version>0.1.11</sparkle:version>
       <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.11/tolk-0.1.11.dmg" length="8722754" type="application/octet-stream" sparkle:edSignature="sqGKqo18V3z9L+6bw9CbuA2Xp1YXt6DekSDmDwoBOIkwA8vGCjHaAmupPAj1ijRd8p1HZ3V2mety22bOLq+mAg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.11/tolk-0.1.11.dmg" length="8722754" type="application/octet-stream" sparkle:edSignature="sqGKqo18V3z9L+6bw9CbuA2Xp1YXt6DekSDmDwoBOIkwA8vGCjHaAmupPAj1ijRd8p1HZ3V2mety22bOLq+mAg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.12</title>
@@ -137,7 +138,7 @@
       <sparkle:version>0.1.12</sparkle:version>
       <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.12/tolk-0.1.12.dmg" length="8728159" type="application/octet-stream" sparkle:edSignature="vxDpwHPvcVYN21hfoZqJ/ouVCEQkFmftdvkSD/rnR7k06mGPkTscZ2sm7MxMOsTsSJnMwWlInByup9V+6CQiAA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.12/tolk-0.1.12.dmg" length="8728159" type="application/octet-stream" sparkle:edSignature="vxDpwHPvcVYN21hfoZqJ/ouVCEQkFmftdvkSD/rnR7k06mGPkTscZ2sm7MxMOsTsSJnMwWlInByup9V+6CQiAA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.13</title>
@@ -150,7 +151,7 @@
       <sparkle:version>0.1.13</sparkle:version>
       <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.13/tolk-0.1.13.dmg" length="8724030" type="application/octet-stream" sparkle:edSignature="zuVdMdiza1hh4EKuNFAHUslRBPQnE3T7+mZgGRolwlsgz/Y5KhWDf/MWA1imoXQI5rjFRkQF5rxQvlpPv9VnCw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.13/tolk-0.1.13.dmg" length="8724030" type="application/octet-stream" sparkle:edSignature="zuVdMdiza1hh4EKuNFAHUslRBPQnE3T7+mZgGRolwlsgz/Y5KhWDf/MWA1imoXQI5rjFRkQF5rxQvlpPv9VnCw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.14</title>
@@ -164,7 +165,7 @@
       <sparkle:version>0.1.14</sparkle:version>
       <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.14/tolk-0.1.14.dmg" length="8725456" type="application/octet-stream" sparkle:edSignature="9JiVgTpOgs+wYYxUnTUCGfzC5M4wOhk0niWcd29EUYM+GvdGB/zOXf207G7BkGvKJwdGCxZNTDvMaF3yb/CHCA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.14/tolk-0.1.14.dmg" length="8725456" type="application/octet-stream" sparkle:edSignature="9JiVgTpOgs+wYYxUnTUCGfzC5M4wOhk0niWcd29EUYM+GvdGB/zOXf207G7BkGvKJwdGCxZNTDvMaF3yb/CHCA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.15</title>
@@ -173,7 +174,7 @@
       <sparkle:version>0.1.15</sparkle:version>
       <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.15/tolk-0.1.15.dmg" length="8723252" type="application/octet-stream" sparkle:edSignature="kJMyYPU1Eg7VEzz9WQL2H3hcAMBtNrPj7SVlWTSq30eWzgGXBK8uXIDsS3jx2t2HqrZR7YfUySdbuTSiMvaeBA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.15/tolk-0.1.15.dmg" length="8723252" type="application/octet-stream" sparkle:edSignature="kJMyYPU1Eg7VEzz9WQL2H3hcAMBtNrPj7SVlWTSq30eWzgGXBK8uXIDsS3jx2t2HqrZR7YfUySdbuTSiMvaeBA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.16</title>
@@ -185,7 +186,7 @@
       <sparkle:version>0.1.16</sparkle:version>
       <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.16/tolk-0.1.16.dmg" length="8723977" type="application/octet-stream" sparkle:edSignature="X9DmLm1x9vOdIkn7tNw192ZMGczEwcfAx5UwAZSm6TCJ0Mt/M1NE90xsLFNvQwXpc2bQjelg7pxd7xxRYWYdAQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.16/tolk-0.1.16.dmg" length="8723977" type="application/octet-stream" sparkle:edSignature="X9DmLm1x9vOdIkn7tNw192ZMGczEwcfAx5UwAZSm6TCJ0Mt/M1NE90xsLFNvQwXpc2bQjelg7pxd7xxRYWYdAQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.17</title>
@@ -194,7 +195,7 @@
       <sparkle:version>0.1.17</sparkle:version>
       <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.17/tolk-0.1.17.dmg" length="8725300" type="application/octet-stream" sparkle:edSignature="9eesYpMRDQ0J7BaHuY2yozOKFcZFiY9m6By7eAAhJAXCpBvnEe6XFN7wMCJKVeY7gauLucl34/jqFEwYgAEtCA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.17/tolk-0.1.17.dmg" length="8725300" type="application/octet-stream" sparkle:edSignature="9eesYpMRDQ0J7BaHuY2yozOKFcZFiY9m6By7eAAhJAXCpBvnEe6XFN7wMCJKVeY7gauLucl34/jqFEwYgAEtCA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.18</title>
@@ -203,7 +204,7 @@
       <sparkle:version>0.1.18</sparkle:version>
       <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.18/tolk-0.1.18.dmg" length="8725557" type="application/octet-stream" sparkle:edSignature="kWXIprtMKc5FoiDFo8f9QYSCtsS1t4ABeZJs4RbZ4WtC44iQXukrP06xgPUilsfjqWG0SD4k0EjiJRji2CoCDA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.18/tolk-0.1.18.dmg" length="8725557" type="application/octet-stream" sparkle:edSignature="kWXIprtMKc5FoiDFo8f9QYSCtsS1t4ABeZJs4RbZ4WtC44iQXukrP06xgPUilsfjqWG0SD4k0EjiJRji2CoCDA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.19</title>
@@ -212,7 +213,7 @@
       <sparkle:version>0.1.19</sparkle:version>
       <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.19/tolk-0.1.19.dmg" length="8725555" type="application/octet-stream" sparkle:edSignature="g3DwTSrN5SzWnEDpKrBDLlLRpqrUFL8MzKT0+AWuodBZbl/J/8zV+sC6jSJs8HY7GRPoUxu3BJde/TYR9wysDg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.19/tolk-0.1.19.dmg" length="8725555" type="application/octet-stream" sparkle:edSignature="g3DwTSrN5SzWnEDpKrBDLlLRpqrUFL8MzKT0+AWuodBZbl/J/8zV+sC6jSJs8HY7GRPoUxu3BJde/TYR9wysDg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.20</title>
@@ -221,7 +222,7 @@
       <sparkle:version>0.1.20</sparkle:version>
       <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.20/tolk-0.1.20.dmg" length="8725590" type="application/octet-stream" sparkle:edSignature="1/JP90yzMce1pCDPmc4MwW+b7vPRz3JT63AtwtUVW88IlmsikoYKJUiC4HHWGtJkM4XDDJgobNN3ngfZweS2DQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.20/tolk-0.1.20.dmg" length="8725590" type="application/octet-stream" sparkle:edSignature="1/JP90yzMce1pCDPmc4MwW+b7vPRz3JT63AtwtUVW88IlmsikoYKJUiC4HHWGtJkM4XDDJgobNN3ngfZweS2DQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.21</title>
@@ -230,7 +231,7 @@
       <sparkle:version>0.1.21</sparkle:version>
       <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.21/tolk-0.1.21.dmg" length="8716499" type="application/octet-stream" sparkle:edSignature="gIVdbdM8WokpPTx8BSiiUiY3lobU15olx0SDb3zqnOVVWrp+MzOBNomfAP5xxQbt16pG9/bOVDCBRNMVbuQXAg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.21/tolk-0.1.21.dmg" length="8716499" type="application/octet-stream" sparkle:edSignature="gIVdbdM8WokpPTx8BSiiUiY3lobU15olx0SDb3zqnOVVWrp+MzOBNomfAP5xxQbt16pG9/bOVDCBRNMVbuQXAg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.22</title>
@@ -239,7 +240,7 @@
       <sparkle:version>0.1.22</sparkle:version>
       <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.22/tolk-0.1.22.dmg" length="8731530" type="application/octet-stream" sparkle:edSignature="gyHKakORtyjcpFGHehyBYF/uL6odAsNFRmWMqNeOjQThcWNX1pBoMODKAgt1sSzKyeHZIM1YV6cTiroX0Y1WCA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.22/tolk-0.1.22.dmg" length="8731530" type="application/octet-stream" sparkle:edSignature="gyHKakORtyjcpFGHehyBYF/uL6odAsNFRmWMqNeOjQThcWNX1pBoMODKAgt1sSzKyeHZIM1YV6cTiroX0Y1WCA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.23</title>
@@ -248,7 +249,7 @@
       <sparkle:version>0.1.23</sparkle:version>
       <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.23/tolk-0.1.23.dmg" length="8733059" type="application/octet-stream" sparkle:edSignature="qqvT52T607UOkgIU2h3kdksYdsyHNTvHsx85xpWkwK6AfyqC1BgQfjjnBFmBUho6GoADtACd3xvqVusjGqZwDw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.23/tolk-0.1.23.dmg" length="8733059" type="application/octet-stream" sparkle:edSignature="qqvT52T607UOkgIU2h3kdksYdsyHNTvHsx85xpWkwK6AfyqC1BgQfjjnBFmBUho6GoADtACd3xvqVusjGqZwDw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.24</title>
@@ -257,7 +258,7 @@
       <sparkle:version>0.1.24</sparkle:version>
       <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.24/tolk-0.1.24.dmg" length="8728161" type="application/octet-stream" sparkle:edSignature="pQdz/8dn1yUYY1/Z5EwtWNumf3He76PqMyl6dfc3jblp4+2X85eWd8FN3OMdqBW+YRiekpfwQ4wrVlCpgx6HAA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.24/tolk-0.1.24.dmg" length="8728161" type="application/octet-stream" sparkle:edSignature="pQdz/8dn1yUYY1/Z5EwtWNumf3He76PqMyl6dfc3jblp4+2X85eWd8FN3OMdqBW+YRiekpfwQ4wrVlCpgx6HAA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.25</title>
@@ -266,7 +267,7 @@
       <sparkle:version>0.1.25</sparkle:version>
       <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.25/tolk-0.1.25.dmg" length="8720742" type="application/octet-stream" sparkle:edSignature="BmojlMDrIFX/Fr4E4ouptOPbzm4RhRZAZ7Ilrr2QbCRGy5725Mb2+oo/T0yQazbf1vBjJb/2+wvyoGAZvD3PCQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.25/tolk-0.1.25.dmg" length="8720742" type="application/octet-stream" sparkle:edSignature="BmojlMDrIFX/Fr4E4ouptOPbzm4RhRZAZ7Ilrr2QbCRGy5725Mb2+oo/T0yQazbf1vBjJb/2+wvyoGAZvD3PCQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.26</title>
@@ -275,7 +276,7 @@
       <sparkle:version>0.1.26</sparkle:version>
       <sparkle:shortVersionString>0.1.26</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.26/tolk-0.1.26.dmg" length="8730696" type="application/octet-stream" sparkle:edSignature="YvkRLiLEhwraeoowtbTwJXZ1qOUwSR9jJyEvaXSmF9DABFyK7qBFeXhBQIU9XYLSjjx2Z5oRpGcpSJe8DUZuAQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.26/tolk-0.1.26.dmg" length="8730696" type="application/octet-stream" sparkle:edSignature="YvkRLiLEhwraeoowtbTwJXZ1qOUwSR9jJyEvaXSmF9DABFyK7qBFeXhBQIU9XYLSjjx2Z5oRpGcpSJe8DUZuAQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.27</title>
@@ -295,7 +296,7 @@
       <sparkle:version>0.1.27</sparkle:version>
       <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.27/tolk-0.1.27.dmg" length="8760096" type="application/octet-stream" sparkle:edSignature="d/zNX5ZN8Vzt2kbSGgETLmPahtVII9lGKdVU6k5zTGjaXzE46IeFru5OYoswSAMatezA8TT/k16Re3+fVnh1Aw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.27/tolk-0.1.27.dmg" length="8760096" type="application/octet-stream" sparkle:edSignature="d/zNX5ZN8Vzt2kbSGgETLmPahtVII9lGKdVU6k5zTGjaXzE46IeFru5OYoswSAMatezA8TT/k16Re3+fVnh1Aw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.28</title>
@@ -307,7 +308,7 @@
       <sparkle:version>0.1.28</sparkle:version>
       <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.28/tolk-0.1.28.dmg" length="8762157" type="application/octet-stream" sparkle:edSignature="9VwJw28KO8nnAniHKNQIEXwAMj93Fu7i4Og1bBSvjxtguHol9Wl9ZizCOIsNhxdEB6QqN8ciV2KofnKm6+PNDg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.28/tolk-0.1.28.dmg" length="8762157" type="application/octet-stream" sparkle:edSignature="9VwJw28KO8nnAniHKNQIEXwAMj93Fu7i4Og1bBSvjxtguHol9Wl9ZizCOIsNhxdEB6QqN8ciV2KofnKm6+PNDg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.29</title>
@@ -316,7 +317,7 @@
       <sparkle:version>0.1.29</sparkle:version>
       <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.29/tolk-0.1.29.dmg" length="8837986" type="application/octet-stream" sparkle:edSignature="tBjn6tOQb6UczDrk/LdOrj6rENL2FNPPwcNOPFDVayitdfzeSULVWYgYorPF23L2sPcwqXYI+yXz2GICtxJnAw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.29/tolk-0.1.29.dmg" length="8837986" type="application/octet-stream" sparkle:edSignature="tBjn6tOQb6UczDrk/LdOrj6rENL2FNPPwcNOPFDVayitdfzeSULVWYgYorPF23L2sPcwqXYI+yXz2GICtxJnAw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.30</title>
@@ -343,7 +344,7 @@ Eval harness
       <sparkle:version>0.1.30</sparkle:version>
       <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.30/tolk-0.1.30.dmg" length="8833897" type="application/octet-stream" sparkle:edSignature="JoZtTnaBtnHUpzQubgvh7lI83qLbF01no9TE54D4biwZAzX7QrP3SvSUejzYhBGCqdq6XxRF9XVK/vvzfHnxBA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.30/tolk-0.1.30.dmg" length="8833897" type="application/octet-stream" sparkle:edSignature="JoZtTnaBtnHUpzQubgvh7lI83qLbF01no9TE54D4biwZAzX7QrP3SvSUejzYhBGCqdq6XxRF9XVK/vvzfHnxBA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.31</title>
@@ -362,7 +363,7 @@ Eval harness
       <sparkle:version>0.1.31</sparkle:version>
       <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.31/tolk-0.1.31.dmg" length="8857356" type="application/octet-stream" sparkle:edSignature="t9l3vFeJOgmYfDMrpGXWMtLOp7lAPqTFjeZbGnaI3YRrnO3YqRX6D7tbShtKObyA7r23YKQiEBdyhTof0WnZDw==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.31/tolk-0.1.31.dmg" length="8857356" type="application/octet-stream" sparkle:edSignature="t9l3vFeJOgmYfDMrpGXWMtLOp7lAPqTFjeZbGnaI3YRrnO3YqRX6D7tbShtKObyA7r23YKQiEBdyhTof0WnZDw=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.32</title>
@@ -371,7 +372,7 @@ Eval harness
       <sparkle:version>0.1.32</sparkle:version>
       <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.32/tolk-0.1.32.dmg" length="8858254" type="application/octet-stream" sparkle:edSignature="GmMmjdN/lANc3t2F0M4zvn1zDKP13o8o5000dMxhJWGb8FmGcrWslECiOfh3gbWZFu/wNvLIa8oQ88GPQT8qDQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.32/tolk-0.1.32.dmg" length="8858254" type="application/octet-stream" sparkle:edSignature="GmMmjdN/lANc3t2F0M4zvn1zDKP13o8o5000dMxhJWGb8FmGcrWslECiOfh3gbWZFu/wNvLIa8oQ88GPQT8qDQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.33</title>
@@ -380,7 +381,7 @@ Eval harness
       <sparkle:version>0.1.33</sparkle:version>
       <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.33/tolk-0.1.33.dmg" length="8859675" type="application/octet-stream" sparkle:edSignature="OwZYU4O5WzLHCATcV4AlVoyyQW5tKTpA2zN4Q/3Dw6wrD2wczIRayccENgbh+OAQMYoIPcafueko0NEPRI+bAg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.33/tolk-0.1.33.dmg" length="8859675" type="application/octet-stream" sparkle:edSignature="OwZYU4O5WzLHCATcV4AlVoyyQW5tKTpA2zN4Q/3Dw6wrD2wczIRayccENgbh+OAQMYoIPcafueko0NEPRI+bAg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.34</title>
@@ -389,7 +390,7 @@ Eval harness
       <sparkle:version>0.1.34</sparkle:version>
       <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.34/tolk-0.1.34.dmg" length="8862872" type="application/octet-stream" sparkle:edSignature="0EbiChFK18cmC9rNFjPGEhFCm/hCRZZhltFIDNvu0wldaZfyPlQlumKNJiuKxu2Bw7HJdWTnAGIRwguvRojZCA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.34/tolk-0.1.34.dmg" length="8862872" type="application/octet-stream" sparkle:edSignature="0EbiChFK18cmC9rNFjPGEhFCm/hCRZZhltFIDNvu0wldaZfyPlQlumKNJiuKxu2Bw7HJdWTnAGIRwguvRojZCA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.35</title>
@@ -398,7 +399,7 @@ Eval harness
       <sparkle:version>0.1.35</sparkle:version>
       <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.35/tolk-0.1.35.dmg" length="8857521" type="application/octet-stream" sparkle:edSignature="QNUPaiABlUsGTcQH+M8FrGyrMcDZqM4AGR7oYLnTzJuNai3TRetYlUpU0ZPOiMSjLllDLTT6VdlFtkmwLcwfCQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.35/tolk-0.1.35.dmg" length="8857521" type="application/octet-stream" sparkle:edSignature="QNUPaiABlUsGTcQH+M8FrGyrMcDZqM4AGR7oYLnTzJuNai3TRetYlUpU0ZPOiMSjLllDLTT6VdlFtkmwLcwfCQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.36</title>
@@ -409,7 +410,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.1.36</sparkle:version>
       <sparkle:shortVersionString>0.1.36</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.36/tolk-0.1.36.dmg" length="8857664" type="application/octet-stream" sparkle:edSignature="UzJ42Ju6UJ2jHXT1GJ8xEETaazKA+97paIRJiLDe8e6mKkQeB2H+MFx06d8exTRSYU7S4mIZSy4GMOciaA+6Cg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.36/tolk-0.1.36.dmg" length="8857664" type="application/octet-stream" sparkle:edSignature="UzJ42Ju6UJ2jHXT1GJ8xEETaazKA+97paIRJiLDe8e6mKkQeB2H+MFx06d8exTRSYU7S4mIZSy4GMOciaA+6Cg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.37</title>
@@ -418,7 +419,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.1.37</sparkle:version>
       <sparkle:shortVersionString>0.1.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.37/tolk-0.1.37.dmg" length="8858876" type="application/octet-stream" sparkle:edSignature="skbabMLl0Dbk1NcT7VxcNtis59jRqRVWxMY3Qaw4NtDf1BxRm/xlXsSlLX3hQmToKw3TbNu1odQq7X0nGUoUCQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.37/tolk-0.1.37.dmg" length="8858876" type="application/octet-stream" sparkle:edSignature="skbabMLl0Dbk1NcT7VxcNtis59jRqRVWxMY3Qaw4NtDf1BxRm/xlXsSlLX3hQmToKw3TbNu1odQq7X0nGUoUCQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.38</title>
@@ -427,7 +428,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.1.38</sparkle:version>
       <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.38/tolk-0.1.38.dmg" length="8865599" type="application/octet-stream" sparkle:edSignature="DtRfnaXzWSeK496whJi3fXoHCTSYlo1Kcq72upcFqLqvEMCggAj48S8csDi+HAmn6x8pY3xfzWk40BMXDhYODg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.38/tolk-0.1.38.dmg" length="8865599" type="application/octet-stream" sparkle:edSignature="DtRfnaXzWSeK496whJi3fXoHCTSYlo1Kcq72upcFqLqvEMCggAj48S8csDi+HAmn6x8pY3xfzWk40BMXDhYODg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.39</title>
@@ -436,7 +437,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.1.39</sparkle:version>
       <sparkle:shortVersionString>0.1.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.39/tolk-0.1.39.dmg" length="8865631" type="application/octet-stream" sparkle:edSignature="fT4h8/e3cHxFKoBTkUFSV4lKcegvB6cQsxPKItG+AZeG+WUga28ZKlu/knfcn4SkwV8MaMrrWJVnu2eGc4ObAQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.39/tolk-0.1.39.dmg" length="8865631" type="application/octet-stream" sparkle:edSignature="fT4h8/e3cHxFKoBTkUFSV4lKcegvB6cQsxPKItG+AZeG+WUga28ZKlu/knfcn4SkwV8MaMrrWJVnu2eGc4ObAQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.40</title>
@@ -445,7 +446,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.1.40</sparkle:version>
       <sparkle:shortVersionString>0.1.40</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.40/tolk-0.1.40.dmg" length="8956622" type="application/octet-stream" sparkle:edSignature="tu6QdF4DPOz68uxGYUWhC3SfDbPFNJM0S1NRl+zfbsHLKPOnVGiio/IRR0hFm8B5hRFAodR4NpcC9xBPfjVuAA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.40/tolk-0.1.40.dmg" length="8956622" type="application/octet-stream" sparkle:edSignature="tu6QdF4DPOz68uxGYUWhC3SfDbPFNJM0S1NRl+zfbsHLKPOnVGiio/IRR0hFm8B5hRFAodR4NpcC9xBPfjVuAA=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.41</title>
@@ -454,7 +455,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.1.41</sparkle:version>
       <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.41/tolk-0.1.41.dmg" length="8955230" type="application/octet-stream" sparkle:edSignature="IgXQ4UOtmH7mSo3kDJqIMjhmqtncP1WVagxi6y96UPDaYI3NexZFd1K9DjTDE257aWbZW/UVMNJpc99ogS8uBg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.41/tolk-0.1.41.dmg" length="8955230" type="application/octet-stream" sparkle:edSignature="IgXQ4UOtmH7mSo3kDJqIMjhmqtncP1WVagxi6y96UPDaYI3NexZFd1K9DjTDE257aWbZW/UVMNJpc99ogS8uBg=="></enclosure>
     </item>
     <item>
       <title>Version 0.1.42</title>
@@ -463,7 +464,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.1.42</sparkle:version>
       <sparkle:shortVersionString>0.1.42</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.42/tolk-0.1.42.dmg" length="8939618" type="application/octet-stream" sparkle:edSignature="2dr6FI01+cBrXzk0C0RjZW+GpXnl7gcKYrgzbXM5otoF9FTU5UXl/QUKmE38H2WFz4cuzNIADBjsB7syILOTCg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.1.42/tolk-0.1.42.dmg" length="8939618" type="application/octet-stream" sparkle:edSignature="2dr6FI01+cBrXzk0C0RjZW+GpXnl7gcKYrgzbXM5otoF9FTU5UXl/QUKmE38H2WFz4cuzNIADBjsB7syILOTCg=="></enclosure>
     </item>
     <item>
       <title>Version 0.2.0</title>
@@ -472,7 +473,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.2.0</sparkle:version>
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.0/tolk-0.2.0.dmg" length="9766721" type="application/octet-stream" sparkle:edSignature="3tm1S0/bsNV6IBjaPc7a8hCnMd5qdgSq6RFqCvlMV5PVWdzV3SFFRLku6ZXtdg5d2ci1sud/NSIQOEeYJU2jBg==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.0/tolk-0.2.0.dmg" length="9766721" type="application/octet-stream" sparkle:edSignature="3tm1S0/bsNV6IBjaPc7a8hCnMd5qdgSq6RFqCvlMV5PVWdzV3SFFRLku6ZXtdg5d2ci1sud/NSIQOEeYJU2jBg=="></enclosure>
     </item>
     <item>
       <title>Version 0.2.1</title>
@@ -481,7 +482,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.2.1</sparkle:version>
       <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.1/tolk-0.2.1.dmg" length="9764827" type="application/octet-stream" sparkle:edSignature="SH+pjwUxPLEwYqIEgphity9O+ID0RGGCLfcv8FPEfPQx0ylSYhjGQXnrtiWicTmHd4MTRtabcCBZbPvO/VJgAA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.1/tolk-0.2.1.dmg" length="9764827" type="application/octet-stream" sparkle:edSignature="SH+pjwUxPLEwYqIEgphity9O+ID0RGGCLfcv8FPEfPQx0ylSYhjGQXnrtiWicTmHd4MTRtabcCBZbPvO/VJgAA=="></enclosure>
     </item>
     <item>
       <title>Version 0.2.2</title>
@@ -490,7 +491,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.2.2</sparkle:version>
       <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.2/tolk-0.2.2.dmg" length="9767059" type="application/octet-stream" sparkle:edSignature="WagEVZVPXEO/lms2VZftCZ1iQyJjdUWu0FP/W9Nl7YssDJZv92jiGRg5Xuk8MUDdcUUvntL2GxjToFBVZUziAQ==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.2/tolk-0.2.2.dmg" length="9767059" type="application/octet-stream" sparkle:edSignature="WagEVZVPXEO/lms2VZftCZ1iQyJjdUWu0FP/W9Nl7YssDJZv92jiGRg5Xuk8MUDdcUUvntL2GxjToFBVZUziAQ=="></enclosure>
     </item>
     <item>
       <title>Version 0.2.3</title>
@@ -502,7 +503,7 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.2.3</sparkle:version>
       <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.3/tolk-0.2.3.dmg" length="9779971" type="application/octet-stream" sparkle:edSignature="L8YPeVyvucvNIrKCdnddmGh972ZCubXfR2RQvWnzdDOFbKNby183dA3TF5X+5B7J1tHFEDc2Xl7Y1RGHE6+uAA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.3/tolk-0.2.3.dmg" length="9779971" type="application/octet-stream" sparkle:edSignature="L8YPeVyvucvNIrKCdnddmGh972ZCubXfR2RQvWnzdDOFbKNby183dA3TF5X+5B7J1tHFEDc2Xl7Y1RGHE6+uAA=="></enclosure>
     </item>
     <item>
       <title>Version 0.2.4</title>
@@ -511,9 +512,9 @@ When dictation runs, macOS automatically reduces other apps' audio (Spotify, You
       <sparkle:version>0.2.4</sparkle:version>
       <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.4/tolk-0.2.4.dmg" length="9784624" type="application/octet-stream" sparkle:edSignature="xTNcVFhintW+IKM1s2dWw9k9I+bFQXmOHFgbG+/tGtELbLlRcIfLSvYZv+Pr947oHLAzIYU1sMiTNg3qwvZoDA==" />
+      <enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.2.4/tolk-0.2.4.dmg" length="9784624" type="application/octet-stream" sparkle:edSignature="xTNcVFhintW+IKM1s2dWw9k9I+bFQXmOHFgbG+/tGtELbLlRcIfLSvYZv+Pr947oHLAzIYU1sMiTNg3qwvZoDA=="></enclosure>
     </item>
-  <item><title>Version 0.3.0</title><description>Redesigned Settings, new speech engines, updated AI options, and more reliable dictation. Improved macOS app selection and corrected automatic updates. Requires Apple Silicon and macOS 15 or later.</description><pubDate>Sat, 07 Nov 2026 15:38:00 +0000</pubDate><sparkle:version>2</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.3.0/tolk-0.3.0.dmg" length="9082657" type="application/octet-stream" sparkle:edSignature="RQAjm/3OJN2BBeREFdf8R0NA/sjtIeBhA9/mUo4WUMYI4SyPlKYJFo/GHyuPCd+mUaolhL1z6nrMbthHi7LtDQ==" /></item><item><title>Version 0.4.0</title><description>Tolk 0.4.0 adds meeting workflows and subscription CLI connections.
+  <item><title>Version 0.3.0</title><description>Redesigned Settings, new speech engines, updated AI options, and more reliable dictation. Improved macOS app selection and corrected automatic updates. Requires Apple Silicon and macOS 15 or later.</description><pubDate>Sat, 07 Nov 2026 15:38:00 +0000</pubDate><sparkle:version>2</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.3.0/tolk-0.3.0.dmg" length="9082657" type="application/octet-stream" sparkle:edSignature="RQAjm/3OJN2BBeREFdf8R0NA/sjtIeBhA9/mUo4WUMYI4SyPlKYJFo/GHyuPCd+mUaolhL1z6nrMbthHi7LtDQ=="></enclosure></item><item><title>Version 0.4.0</title><description>Tolk 0.4.0 adds meeting workflows and subscription CLI connections.
 
 - Use installed Claude Code and Codex CLIs alongside existing API-key and on-device AI connections.
 - Record meetings with microphone and optional system audio, with pause, recovery, and resumable local transcription.
@@ -526,7 +527,7 @@ CLI connections require the installed command and its existing subscription logi
 
 Requires Apple Silicon and macOS 15 or later.
 These builds use Tolk Dev signing and are not notarized by Apple.
-</description><pubDate>Sat, 07 Nov 2026 23:37:48 +0100</pubDate><sparkle:version>3</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.0/tolk-0.4.0.dmg" length="5338534" type="application/octet-stream" sparkle:edSignature="CtnnCg/RIdTxguEufT92sOxGXw3oKNvELRIOX7UX63s+CxNGethHHeyjjIqXG0ODcGJG2ognDERqmEf4gdRzDQ==" /></item><item><title>Version 0.4.1</title><description>Improve Claude Code and Codex CLI discovery and account access checks. Add executable selection, custom login folders, clear access recovery, and safe setup details. Preserve settings drafts and prevent stale readiness results.</description><pubDate>Sun, 08 Nov 2026 00:32:40 +0100</pubDate><sparkle:version>4</sparkle:version><sparkle:shortVersionString>0.4.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.1/tolk-0.4.1.dmg" length="5419057" type="application/octet-stream" sparkle:edSignature="8ZxILosCMkeMB40EwUMt+uHJyTQTtrkG/9wcrE3iTvs4FeSntJXJcQYirUTwSEC3MeU1NK6ctKYoYZEenjG5BA==" /></item><item><title>Version 0.4.2</title><description>Prepare work from selected text, notes, and meeting follow-ups.
+</description><pubDate>Sat, 07 Nov 2026 23:37:48 +0100</pubDate><sparkle:version>3</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.0/tolk-0.4.0.dmg" length="5338534" type="application/octet-stream" sparkle:edSignature="CtnnCg/RIdTxguEufT92sOxGXw3oKNvELRIOX7UX63s+CxNGethHHeyjjIqXG0ODcGJG2ognDERqmEf4gdRzDQ=="></enclosure></item><item><title>Version 0.4.1</title><description>Improve Claude Code and Codex CLI discovery and account access checks. Add executable selection, custom login folders, clear access recovery, and safe setup details. Preserve settings drafts and prevent stale readiness results.</description><pubDate>Sun, 08 Nov 2026 00:32:40 +0100</pubDate><sparkle:version>4</sparkle:version><sparkle:shortVersionString>0.4.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.1/tolk-0.4.1.dmg" length="5419057" type="application/octet-stream" sparkle:edSignature="8ZxILosCMkeMB40EwUMt+uHJyTQTtrkG/9wcrE3iTvs4FeSntJXJcQYirUTwSEC3MeU1NK6ctKYoYZEenjG5BA=="></enclosure></item><item><title>Version 0.4.2</title><description>Prepare work from selected text, notes, and meeting follow-ups.
 Keep source evidence, annotations, todos, and reviewed briefs together in the new Home and Inbox workspace.
 
 Copy or export portable work packets. Optionally launch selected workflows through Herdr Core.
@@ -536,7 +537,7 @@ This release also improves revision checks, capture cancellation, unsaved-draft 
 Typed workspace use supports Set Up Later without microphone, model, or AI setup.
 
 Apple Silicon. macOS 15 or later. The application is signed and is not notarized.
-</description><pubDate>Sun, 08 Nov 2026 02:29:18 +0100</pubDate><sparkle:version>5</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.2/tolk-0.4.2.dmg" length="6268245" type="application/octet-stream" sparkle:edSignature="6BgUiQxl2Ddt/YDHex6uC5fftmMe/Hx2rkJmHunV3SbzgrApoCaT/LmjPzEjC9r46kWxfznW+3wqKFVCbypADQ==" /></item><item><title>Version 0.4.3</title><description>Prepare work in fewer steps.
+</description><pubDate>Sun, 08 Nov 2026 02:29:18 +0100</pubDate><sparkle:version>5</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.2/tolk-0.4.2.dmg" length="6268245" type="application/octet-stream" sparkle:edSignature="6BgUiQxl2Ddt/YDHex6uC5fftmMe/Hx2rkJmHunV3SbzgrApoCaT/LmjPzEjC9r46kWxfznW+3wqKFVCbypADQ=="></enclosure></item><item><title>Version 0.4.3</title><description>Prepare work in fewer steps.
 Prepare Work saves input and opens one Review &amp; Start screen, with the workflow and folder above the proposal.
 Tolk remembers the last valid confirmed destination.
 
@@ -547,7 +548,7 @@ Herdr remains optional. Copy, Export, and Core-only workflows remain available.
 This refinement also improves save-error visibility, cancellation, quit handling, compact layouts, and review recovery after interrupted saves.
 
 Apple Silicon. macOS 15 or later. Signed application; not notarized.
-</description><pubDate>Sun, 08 Nov 2026 14:28:07 +0100</pubDate><sparkle:version>6</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.3/tolk-0.4.3.dmg" length="6346406" type="application/octet-stream" sparkle:edSignature="2+keA+kgy2mKZLPFj/UQBjNWv4YANojI+uzplTvH3t/uhmTJD+1kTeWoqgd+2q4c4AgTSyyyUngTg34LBhLiDw==" /></item><item><title>Version 0.4.4</title><description>Tolk 0.4.4 refines the productivity workspace and external handoffs.
+</description><pubDate>Sun, 08 Nov 2026 14:28:07 +0100</pubDate><sparkle:version>6</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.3/tolk-0.4.3.dmg" length="6346406" type="application/octet-stream" sparkle:edSignature="2+keA+kgy2mKZLPFj/UQBjNWv4YANojI+uzplTvH3t/uhmTJD+1kTeWoqgd+2q4c4AgTSyyyUngTg34LBhLiDw=="></enclosure></item><item><title>Version 0.4.4</title><description>Tolk 0.4.4 refines the productivity workspace and external handoffs.
 
 - Use a wider workspace with source context beside notes and reviews.
 - Review and edit prepared work in the main area. Keep drafts across navigation and window closure.
@@ -557,7 +558,7 @@ Apple Silicon. macOS 15 or later. Signed application; not notarized.
 - Keep dictation available after closing the workspace window.
 
 This Apple Silicon release requires macOS 15 or later. It uses Tolk Dev signing and is not notarized.
-</description><pubDate>Sun, 08 Nov 2026 16:51:32 +0100</pubDate><sparkle:version>7</sparkle:version><sparkle:shortVersionString>0.4.4</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.4/tolk-0.4.4.dmg" length="6540605" type="application/octet-stream" sparkle:edSignature="wlswuDtCKK2aL3sWf0OyPz/P9jbrbMXv3ioVg5jnIK2X+7WZ8Ir92eKMMF5iIkLHfB97/9ecg2HfEOMeYZ43BA==" /></item><item><title>Version 0.4.5</title><description>Tolk 0.4.5 gives captured text a useful place beside dictation and Quick Actions.
+</description><pubDate>Sun, 08 Nov 2026 16:51:32 +0100</pubDate><sparkle:version>7</sparkle:version><sparkle:shortVersionString>0.4.4</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.4/tolk-0.4.4.dmg" length="6540605" type="application/octet-stream" sparkle:edSignature="wlswuDtCKK2aL3sWf0OyPz/P9jbrbMXv3ioVg5jnIK2X+7WZ8Ir92eKMMF5iIkLHfB97/9ecg2HfEOMeYZ43BA=="></enclosure></item><item><title>Version 0.4.5</title><description>Tolk 0.4.5 gives captured text a useful place beside dictation and Quick Actions.
 
 - Save selected text as a note or todo directly.
 - Keep original source context, add intent, and track optional subtasks.
@@ -569,14 +570,14 @@ This Apple Silicon release requires macOS 15 or later. It uses Tolk Dev signing 
 - Preserve edits through concurrent saves, navigation, window closure, and Quit.
 
 This Apple Silicon release requires macOS 15 or later. It uses Tolk Dev signing and is not notarized.
-</description><pubDate>Sun, 08 Nov 2026 19:26:02 +0100</pubDate><sparkle:version>8</sparkle:version><sparkle:shortVersionString>0.4.5</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.5/tolk-0.4.5.dmg" length="6724336" type="application/octet-stream" sparkle:edSignature="aU53pHFOYJK9uSjGV0JNrhuyibFwA7AkbEgNQs/nFEEIQPv168hz2EpJo38pVZbhGW2FtqP3weNMCwquhhJNAw==" /></item><item><title>Version 0.4.6</title><description>- Save the text shown in Quick Action as a note or todo. Tolk keeps the original selection as source context.
+</description><pubDate>Sun, 08 Nov 2026 19:26:02 +0100</pubDate><sparkle:version>8</sparkle:version><sparkle:shortVersionString>0.4.5</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.5/tolk-0.4.5.dmg" length="6724336" type="application/octet-stream" sparkle:edSignature="aU53pHFOYJK9uSjGV0JNrhuyibFwA7AkbEgNQs/nFEEIQPv168hz2EpJo38pVZbhGW2FtqP3weNMCwquhhJNAw=="></enclosure></item><item><title>Version 0.4.6</title><description>- Save the text shown in Quick Action as a note or todo. Tolk keeps the original selection as source context.
 - A green outline confirms the save, then the Quick Action card closes.
 - Find saved work under Captures, with search and filtering together. Configure workflow profiles in Settings.
 - Click disclosure titles to expand sections. Editor sheets are larger and fit the current window.
 - Notes and todos keep their editing state during automatic saves and resizing. Undo is available for deleted captures and subtasks.
 - Codex and Claude handoffs start with the selected task or reviewed goal.
 
-For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Mon, 09 Nov 2026 22:28:24 +0100</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.4.6</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.6/tolk-0.4.6.dmg" length="6934612" type="application/octet-stream" sparkle:edSignature="GHYl47FYwmm/UNRtAnhEc//EP6lzVeWXQXGzenFV7r56TjCvGBNWlqgfyyT69mZdHvW3M6zRJxCZ8TCVd0/SAA==" /></item><item><title>Version 0.4.7</title><description>- Release capture reservations when startup stops early or a Quick Action declines the handoff.
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Mon, 09 Nov 2026 22:28:24 +0100</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.4.6</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.6/tolk-0.4.6.dmg" length="6934612" type="application/octet-stream" sparkle:edSignature="GHYl47FYwmm/UNRtAnhEc//EP6lzVeWXQXGzenFV7r56TjCvGBNWlqgfyyT69mZdHvW3M6zRJxCZ8TCVd0/SAA=="></enclosure></item><item><title>Version 0.4.7</title><description>- Release capture reservations when startup stops early or a Quick Action declines the handoff.
 - Bound long AI streams and keep valid text when Anthropic sends invalid usage counts.
 - Keep a recovery copy when Tolk cannot restore a settings backup. History cleanup skips unnecessary writes and retains rows if saving fails.
 - Save edited notes and todos faster, especially when they contain many source passages.
@@ -585,26 +586,36 @@ For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev sig
 - Keep complete lines in diagnostic previews. Read meeting checkpoints through the shared private file reader.
 - Fit Settings forms to the available window space.
 
-For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 00:01:48 +0100</pubDate><sparkle:version>10</sparkle:version><sparkle:shortVersionString>0.4.7</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.7/tolk-0.4.7.dmg" length="6937711" type="application/octet-stream" sparkle:edSignature="rC8kSgFu0IiJYJi2enfcNyYFl/aLQvKevDV+Z708JHoZ9dDiqeqs60KHoOwcXJpc2TJLamz7NDVT5E1uFrcYAg==" /></item><item><title>Version 0.4.8</title><description>- Give split menus more room around the chevron. The wider area opens the menu in New, Open With, and Add Annotation.
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 00:01:48 +0100</pubDate><sparkle:version>10</sparkle:version><sparkle:shortVersionString>0.4.7</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.7/tolk-0.4.7.dmg" length="6937711" type="application/octet-stream" sparkle:edSignature="rC8kSgFu0IiJYJi2enfcNyYFl/aLQvKevDV+Z708JHoZ9dDiqeqs60KHoOwcXJpc2TJLamz7NDVT5E1uFrcYAg=="></enclosure></item><item><title>Version 0.4.8</title><description>- Give split menus more room around the chevron. The wider area opens the menu in New, Open With, and Add Annotation.
 - Use consistent button padding and icon targets in the workspace, Settings, History, and setup screens.
 - Align note and todo titles with workspace headers. Give Settings titles more space below the tabs.
 - Put Retry Save in the original Quick Action button slot and give the error message the full card width.
 
-For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 00:31:34 +0100</pubDate><sparkle:version>11</sparkle:version><sparkle:shortVersionString>0.4.8</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.8/tolk-0.4.8.dmg" length="6960926" type="application/octet-stream" sparkle:edSignature="wdq+YZ7L1PtYkOnLWo/x9VBqGDJzyJWdxwxOM+hGXh2L9moNH90DBhP/LI3QwUsPDUCfk6AZM25/5yokwXDyBw==" /></item><item><title>Version 0.4.9</title><description>- Choose Iterate or press the shortcut again to revise the current Quick Action draft, including manual edits.
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 00:31:34 +0100</pubDate><sparkle:version>11</sparkle:version><sparkle:shortVersionString>0.4.8</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.8/tolk-0.4.8.dmg" length="6960926" type="application/octet-stream" sparkle:edSignature="wdq+YZ7L1PtYkOnLWo/x9VBqGDJzyJWdxwxOM+hGXh2L9moNH90DBhP/LI3QwUsPDUCfk6AZM25/5yokwXDyBw=="></enclosure></item><item><title>Version 0.4.9</title><description>- Choose Iterate or press the shortcut again to revise the current Quick Action draft, including manual edits.
 - Retry replays a failed request. Failed or canceled iterations keep the last completed draft.
 - Make both selection overlay sizes 20% wider and taller. Use text-only buttons for Iterate, Save Note, and Add Todo.
 - Fix a layout crash when switching notes and todos. Keep the current editor visible while a capture opens.
 - Record structured dictation timings and failure codes. Keep test logs separate from real sessions.
 
-For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 01:27:52 +0100</pubDate><sparkle:version>12</sparkle:version><sparkle:shortVersionString>0.4.9</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.9/tolk-0.4.9.dmg" length="6991276" type="application/octet-stream" sparkle:edSignature="IfZ9NT0LvJ081NCHZfVi305fgEp0PIQj9jlOpwAz5OdUCJo0qWIzAS9w6DpXb+zEyLeSWKCTWKYOlACzrLV2Bg==" /></item><item><title>Version 0.4.10</title><description>- Retake records a fresh Quick Action instruction against the original selection. Iterate uses the displayed draft.
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 01:27:52 +0100</pubDate><sparkle:version>12</sparkle:version><sparkle:shortVersionString>0.4.9</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.9/tolk-0.4.9.dmg" length="6991276" type="application/octet-stream" sparkle:edSignature="IfZ9NT0LvJ081NCHZfVi305fgEp0PIQj9jlOpwAz5OdUCJo0qWIzAS9w6DpXb+zEyLeSWKCTWKYOlACzrLV2Bg=="></enclosure></item><item><title>Version 0.4.10</title><description>- Retake records a fresh Quick Action instruction against the original selection. Iterate uses the displayed draft.
 - Retake keeps the previous draft visible during recording and preserves it if the request fails. Retry repeats the failed request.
 - The selection overlay gives the waveform and action chips more vertical space. Result text has a slightly tighter inset, and Save Note and Add Todo sit farther from the bottom.
 - Model loading clears its progress when canceled. Retired project files and unused code were removed, and the agent documentation now maps the current architecture.
 
-For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 01:59:31 +0100</pubDate><sparkle:version>13</sparkle:version><sparkle:shortVersionString>0.4.10</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.10/tolk-0.4.10.dmg" length="6995260" type="application/octet-stream" sparkle:edSignature="nn1k9LEuUGakqbB4ScN6+pBea94olqKBimJX69OkWT6qq+8HPYXVRqSCS9tTB93pwROYRnAm1l6Imm1+FnXUAQ==" /></item><item><title>Version 0.4.11</title><description>- Record and Prepare now creates a transcript and prepared work after you stop. Transcript Only keeps processing on your Mac.
+For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev signing and is not notarized.</description><pubDate>Tue, 10 Nov 2026 01:59:31 +0100</pubDate><sparkle:version>13</sparkle:version><sparkle:shortVersionString>0.4.10</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.10/tolk-0.4.10.dmg" length="6995260" type="application/octet-stream" sparkle:edSignature="nn1k9LEuUGakqbB4ScN6+pBea94olqKBimJX69OkWT6qq+8HPYXVRqSCS9tTB93pwROYRnAm1l6Imm1+FnXUAQ=="></enclosure></item><item><title>Version 0.4.11</title><description>- Record and Prepare now creates a transcript and prepared work after you stop. Transcript Only keeps processing on your Mac.
 - Refine starts recording from a note, todo, or reviewed meeting brief. Iterate adds spoken follow-ups to the current draft.
-- Save a refined note as a todo with subtasks. Existing todos keep their subtasks and completion states.</description><pubDate>Tue, 10 Nov 2026 23:47:34 +0100</pubDate><sparkle:version>14</sparkle:version><sparkle:shortVersionString>0.4.11</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.11/tolk-0.4.11.dmg" length="7074985" type="application/octet-stream" sparkle:edSignature="wf3ENVmf0QmtjI3zRRnu7OGpH8WxjyrqOauKez9UG7GZoDqe6L/9rLWO/TCKn/gzdJ5vCk2Xi6hVOFecOxI6Bw==" /></item><item><title>Version 0.4.12</title><description>- Removed the lines between Quick Action rows. The panel now resizes correctly after a rapid reopen.
+- Save a refined note as a todo with subtasks. Existing todos keep their subtasks and completion states.</description><pubDate>Tue, 10 Nov 2026 23:47:34 +0100</pubDate><sparkle:version>14</sparkle:version><sparkle:shortVersionString>0.4.11</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.11/tolk-0.4.11.dmg" length="7074985" type="application/octet-stream" sparkle:edSignature="wf3ENVmf0QmtjI3zRRnu7OGpH8WxjyrqOauKez9UG7GZoDqe6L/9rLWO/TCKn/gzdJ5vCk2Xi6hVOFecOxI6Bw=="></enclosure></item><item><title>Version 0.4.12</title><description>- Removed the lines between Quick Action rows. The panel now resizes correctly after a rapid reopen.
 - Reduced audio conversion overhead. A newer clipboard copy releases the next paste from the previous restore delay.
 - Protected meeting checkpoints across store instances. Partial transcripts resume with the speech model that produced their saved passages.
-- Todo retries reopen saved edits. Open Quick Action cards honor the AI toggle, and custom provider URLs retain escaped paths.</description><pubDate>Wed, 11 Nov 2026 00:26:28 +0100</pubDate><sparkle:version>15</sparkle:version><sparkle:shortVersionString>0.4.12</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.12/tolk-0.4.12.dmg" length="7084311" type="application/octet-stream" sparkle:edSignature="2e8HF2/97IEpcnz1Qb0dy8jitd2FDd3N2ABuXD1YMp3ewGXKdOLyEMfsKpOAwcagwjRBd9R4gBuvP927ZcJADw==" /></item></channel>
-</rss>
+- Todo retries reopen saved edits. Open Quick Action cards honor the AI toggle, and custom provider URLs retain escaped paths.</description><pubDate>Wed, 11 Nov 2026 00:26:28 +0100</pubDate><sparkle:version>15</sparkle:version><sparkle:shortVersionString>0.4.12</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.12/tolk-0.4.12.dmg" length="7084311" type="application/octet-stream" sparkle:edSignature="2e8HF2/97IEpcnz1Qb0dy8jitd2FDd3N2ABuXD1YMp3ewGXKdOLyEMfsKpOAwcagwjRBd9R4gBuvP927ZcJADw=="></enclosure></item><item><title>Version 0.4.13</title><description>Security and privacy hardening for Tolk.
+
+- Remote AI connections require HTTPS. Local HTTP connections remain supported.
+- AI requests stay on the configured origin. Provider error bodies stay out of diagnostics.
+- Tolk checks access to saved API credentials and installed AI command-line executables more strictly.
+- Tolk verifies the update feed and checks update archive signatures before extraction.
+- Removed the unused Apple Events permission.
+- Public speech model downloads ignore inherited Hugging Face tokens and registry overrides.</description><pubDate>Wed, 11 Nov 2026 09:06:04 +0100</pubDate><sparkle:version>16</sparkle:version><sparkle:shortVersionString>0.4.13</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.13/tolk-0.4.13.dmg" length="7080839" type="application/octet-stream" sparkle:edSignature="E/IedXixU/soZDkTIj9P22e2ynZSHcXP8GB5B9WXEv4oO5Ud8CCXHcu1ppfKNyxhxt92x/sP2TSQE+XIelREAg=="></enclosure></item></channel>
+</rss><!-- sparkle-signatures:
+edSignature: 8sGeApkE2h/IARMwLGBg9bbCGOCmevih1/NF/YhK2kUdmsDc3lGaDgUs7axiO7G/9dtwhN74qZ8iGuEnoFXmAw==
+length: 59724
+-->
