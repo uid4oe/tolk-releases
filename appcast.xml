@@ -614,8 +614,15 @@ For Apple Silicon Macs running macOS 15 or later. This release uses Tolk Dev sig
 - Tolk checks access to saved API credentials and installed AI command-line executables more strictly.
 - Tolk verifies the update feed and checks update archive signatures before extraction.
 - Removed the unused Apple Events permission.
-- Public speech model downloads ignore inherited Hugging Face tokens and registry overrides.</description><pubDate>Wed, 11 Nov 2026 09:06:04 +0100</pubDate><sparkle:version>16</sparkle:version><sparkle:shortVersionString>0.4.13</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.13/tolk-0.4.13.dmg" length="7080839" type="application/octet-stream" sparkle:edSignature="E/IedXixU/soZDkTIj9P22e2ynZSHcXP8GB5B9WXEv4oO5Ud8CCXHcu1ppfKNyxhxt92x/sP2TSQE+XIelREAg=="></enclosure></item></channel>
+- Public speech model downloads ignore inherited Hugging Face tokens and registry overrides.</description><pubDate>Wed, 11 Nov 2026 09:06:04 +0100</pubDate><sparkle:version>16</sparkle:version><sparkle:shortVersionString>0.4.13</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.13/tolk-0.4.13.dmg" length="7080839" type="application/octet-stream" sparkle:edSignature="E/IedXixU/soZDkTIj9P22e2ynZSHcXP8GB5B9WXEv4oO5Ud8CCXHcu1ppfKNyxhxt92x/sP2TSQE+XIelREAg=="></enclosure></item><item><title>Version 0.4.14</title><description>- Type an instruction or follow-up in Quick Actions. The overlay stays compact while listening or processing and expands for the result.
+- Recover more selected text in Slack and other web-based apps. Replace checks that the original selection is still safe to edit.
+- Export a note or todo as Markdown, add a subtask with Shift+Return, and save a capture with its title cleared.
+- Open a capture in another app or start a workflow from the same menu. See live status for linked Herdr sessions while the capture is open.
+- Give compatible local MCP clients read-only access to saved captures. Enable it from Settings or Setup Assistant.
+- Use narrower native scrollbars, more consistent toolbar spacing, and shared draft editors that keep your changes after a failed save.
+
+For Apple Silicon Macs running macOS 15 or later. This build uses Tolk Dev signing.</description><pubDate>Wed, 11 Nov 2026 23:11:44 +0100</pubDate><sparkle:version>17</sparkle:version><sparkle:shortVersionString>0.4.14</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.14/tolk-0.4.14.dmg" length="7317071" type="application/octet-stream" sparkle:edSignature="4jiocWSikWooOXE1IAqZgZSuvBYzztSprz+0UPBQiWVWwiLFunmxNR+wTi1ccAR7XM8nD4dklVKF0vIqxmpaCg=="></enclosure></item></channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8sGeApkE2h/IARMwLGBg9bbCGOCmevih1/NF/YhK2kUdmsDc3lGaDgUs7axiO7G/9dtwhN74qZ8iGuEnoFXmAw==
-length: 59724
+edSignature: nYvQ/dO6zRyIdYmKEb8RL4VM1zkHgT0uvWmQ0FEYORcu4veyvRsSF68Hgx9oP8hEUyhJWXd1zafBUN25/6hDDg==
+length: 61136
 -->
