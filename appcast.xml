@@ -647,8 +647,12 @@ If you sync Notes or Todos, update all your Macs together. Older Tolk versions c
 
 Long meeting transcripts open faster. Meeting checkpoints, audio processing, and waveform updates do less work.
 
-Codex dictation cleanup can finish longer rewrites. Codex and Claude text processing now ask for one finished result.</description><pubDate>Fri, 13 Nov 2026 15:33:18 +0100</pubDate><sparkle:version>27</sparkle:version><sparkle:shortVersionString>0.4.24</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.24/tolk-0.4.24.dmg" length="9275938" type="application/octet-stream" sparkle:edSignature="71icADxSgVCem4H4memW7Frihp5G443kmM0mHnLGcvUfVY47BovxzZjTcAWbv4cY004CHwBRSLBI5t/jvZ16AA=="></enclosure></item></channel>
+Codex dictation cleanup can finish longer rewrites. Codex and Claude text processing now ask for one finished result.</description><pubDate>Fri, 13 Nov 2026 15:33:18 +0100</pubDate><sparkle:version>27</sparkle:version><sparkle:shortVersionString>0.4.24</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.24/tolk-0.4.24.dmg" length="9275938" type="application/octet-stream" sparkle:edSignature="71icADxSgVCem4H4memW7Frihp5G443kmM0mHnLGcvUfVY47BovxzZjTcAWbv4cY004CHwBRSLBI5t/jvZ16AA=="></enclosure></item><item><title>Version 0.4.25</title><description>Saving a note or todo now updates its library entry directly. Large libraries refresh faster, and meeting recovery and Diagnostics use less work and memory.
+
+Codex processing keeps valid responses after a reconnect. Standalone trash controls now use a shared neutral icon.
+
+This update also improves speech task cancellation, sync recovery, and shared search and permission controls.</description><pubDate>Fri, 13 Nov 2026 17:31:49 +0100</pubDate><sparkle:version>28</sparkle:version><sparkle:shortVersionString>0.4.25</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.25/tolk-0.4.25.dmg" length="9289599" type="application/octet-stream" sparkle:edSignature="j/aDoaTZy5z+iz+sIJfEd56c37INuDG+B0+ODX62E9vHrj93+Q2ddINAgdGqG2Gjgzzj3zILmMDOlOmnvpyDAA=="></enclosure></item></channel>
 </rss><!-- sparkle-signatures:
-edSignature: SD5HPzE8Qzt9/GzRAfLlZy64pIJy/VWutd1HB2G9fykAqlQWgOTPG24tdl2o/Uxf3RrTgptkofvsLPsz05GdAA==
-length: 70573
+edSignature: 9dnh7lEMTaSVpBYim3eWgFGQjkZp8cZkRmb1YxjoN4B5z9y3U87earoZQdGfKpEIXJXmxrYNjQi5O7b5ICSYBw==
+length: 71511
 -->
