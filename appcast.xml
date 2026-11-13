@@ -5,7 +5,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <title>tolk updates</title>
     <link>https://github.com/uid4oe/tolk-releases</link>
     <description>tolk application updates</description>
-    <item><title>Version 0.4.23</title><description>Button hover and press feedback now covers the full control. Split chevrons and overflow menus have larger, consistent targets. Quick Action and dictation use consistent footer spacing. Refine saves changes directly to the current note or todo. Run Workflow appears before Open in App.</description><pubDate>Fri, 13 Nov 2026 14:17:25 +0100</pubDate><sparkle:version>26</sparkle:version><sparkle:shortVersionString>0.4.23</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.23/tolk-0.4.23.dmg" length="9266485" type="application/octet-stream" sparkle:edSignature="urA7fPpRT0PUO9skNxq1z0IUBEQn6F2+ZEquhe287ijip1VVhGx3iGA2V3rDnpMfh50Mi1lgc1dx68zp+Q/ZBg=="></enclosure></item><item><title>Version 0.4.24</title><description>Home now lets you type or dictate a draft and save it as a note or todo. The pickup list puts sessions waiting for your response first.
+    <item><title>Version 0.4.24</title><description>Home now lets you type or dictate a draft and save it as a note or todo. The pickup list puts sessions waiting for your response first.
 
 Long meeting transcripts open faster. Meeting checkpoints, audio processing, and waveform updates do less work.
 
@@ -18,6 +18,6 @@ This update also improves speech task cancellation, sync recovery, and shared se
 - Meeting recordings checkpoint with less disk work and recover more reliably after interruptions.
 - Codex CLI timeout diagnostics distinguish startup, authentication, and response processing.</description><pubDate>Fri, 13 Nov 2026 20:17:02 +0100</pubDate><sparkle:version>29</sparkle:version><sparkle:shortVersionString>0.4.26</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.26/tolk-0.4.26.dmg" length="9343631" type="application/octet-stream" sparkle:edSignature="Dkkuk2owH5Uq1MTAvWMqIzP5voTdLb7dds9nTDBfgua57arrMUJo/OpCNzAKbnUw/Hs3jiiueY5v1BlleTdyAg=="></enclosure></item></channel>
 </rss><!-- sparkle-signatures:
-edSignature: Ww+jEWf4B9M3mbYc2hA019m/xVUknrEvjllZOK/tvDBS+kMr1bjDYzwa1rip/+aw22PV/DQ+1a6Ab7Ar0AlSDg==
-length: 4294
+edSignature: WxF5i/OnulaeQu9cqjhbtwUGshRnaIxcT1hfClxG8hQIl309nFGpBo3ZdjOtX7jRqbRIZ4+OsG8/5PlsKO8ZDA==
+length: 3454
 -->
