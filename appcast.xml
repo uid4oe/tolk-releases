@@ -639,8 +639,12 @@ For Apple Silicon Macs running macOS 15 or later. This build uses Tolk Dev signi
 - A confirmed local workflow opens its Herdr terminal in the workspace. Switch back to the note or todo and return without losing your place. Stopped sessions keep their output visible.
 - Add Annotation opens a text field. Previously transcribed annotations remain editable.
 - Edit Prompt sits next to the default dictation prompt. Workflow settings show profiles and the Herdr connection.
-- Optional usage analytics starts off. You can enable it in Settings → General → Privacy.</description><pubDate>Fri, 13 Nov 2026 01:02:36 +0100</pubDate><sparkle:version>24</sparkle:version><sparkle:shortVersionString>0.4.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.21/tolk-0.4.21.dmg" length="9285177" type="application/octet-stream" sparkle:edSignature="MEkk3XRVjZYf12GjO3kr4zuGsyXfpalc6wH+X4XkmSrCCep73leXXw5lqLwSOKsr/yGBn06uTF5ti9jfEMOLBA=="></enclosure></item></channel>
+- Optional usage analytics starts off. You can enable it in Settings → General → Privacy.</description><pubDate>Fri, 13 Nov 2026 01:02:36 +0100</pubDate><sparkle:version>24</sparkle:version><sparkle:shortVersionString>0.4.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.21/tolk-0.4.21.dmg" length="9285177" type="application/octet-stream" sparkle:edSignature="MEkk3XRVjZYf12GjO3kr4zuGsyXfpalc6wH+X4XkmSrCCep73leXXw5lqLwSOKsr/yGBn06uTF5ti9jfEMOLBA=="></enclosure></item><item><title>Version 0.4.22</title><description>- Keep an editable note or todo above its Herdr terminal in a resizable split. Terminal input keeps its shortcuts while focused, and the sidebar shows session status.
+- Simplify Herdr connection settings and give split-button chevrons more space.
+- Reduce the data stored by Notes and Todos sync and tighten Analytics consent.
+
+If you sync Notes or Todos, update all your Macs together. Older Tolk versions cannot read records converted by this release.</description><pubDate>Fri, 13 Nov 2026 08:38:52 +0100</pubDate><sparkle:version>25</sparkle:version><sparkle:shortVersionString>0.4.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.22/tolk-0.4.22.dmg" length="9855156" type="application/octet-stream" sparkle:edSignature="kXLGlclm7YLCIh4vDCRaWVorGG0sxeCB3HVyn62IYnsip+cfHQOD3F/V3hZCfOCh1ehO4YWfRZB3003f/7tjDw=="></enclosure></item></channel>
 </rss><!-- sparkle-signatures:
-edSignature: gv5MtC2ILvCDrAflu36WFl1vBNI/3bS31fob9b60SsfCFX6rNdsDbTL5maOnoQaluYpBdduxk6F9RaD0LOUwAw==
-length: 67803
+edSignature: 3zrROwmSuZdpujOo6nOKl478w5Yphfhh6a7e5NVaX7TZnubQjVzvfkiXOm+jjoEOwh9Mr8fzicp5Tw1DwfcHAQ==
+length: 68811
 -->
