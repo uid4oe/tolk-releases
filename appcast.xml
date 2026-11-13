@@ -13,8 +13,11 @@ Codex dictation cleanup can finish longer rewrites. Codex and Claude text proces
 
 Codex processing keeps valid responses after a reconnect. Standalone trash controls now use a shared neutral icon.
 
-This update also improves speech task cancellation, sync recovery, and shared search and permission controls.</description><pubDate>Fri, 13 Nov 2026 17:31:49 +0100</pubDate><sparkle:version>28</sparkle:version><sparkle:shortVersionString>0.4.25</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.25/tolk-0.4.25.dmg" length="9289599" type="application/octet-stream" sparkle:edSignature="j/aDoaTZy5z+iz+sIJfEd56c37INuDG+B0+ODX62E9vHrj93+Q2ddINAgdGqG2Gjgzzj3zILmMDOlOmnvpyDAA=="></enclosure></item></channel>
+This update also improves speech task cancellation, sync recovery, and shared search and permission controls.</description><pubDate>Fri, 13 Nov 2026 17:31:49 +0100</pubDate><sparkle:version>28</sparkle:version><sparkle:shortVersionString>0.4.25</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.25/tolk-0.4.25.dmg" length="9289599" type="application/octet-stream" sparkle:edSignature="j/aDoaTZy5z+iz+sIJfEd56c37INuDG+B0+ODX62E9vHrj93+Q2ddINAgdGqG2Gjgzzj3zILmMDOlOmnvpyDAA=="></enclosure></item><item><title>Version 0.4.26</title><description>- Home shows sessions that need attention, running work, and recent captures. Respond opens the linked session without losing the note or todo.
+- The sidebar shows session status in text. Captures keep their session pane when you return, and the Sessions menu switches between linked runs.
+- Meeting recordings checkpoint with less disk work and recover more reliably after interruptions.
+- Codex CLI timeout diagnostics distinguish startup, authentication, and response processing.</description><pubDate>Fri, 13 Nov 2026 20:17:02 +0100</pubDate><sparkle:version>29</sparkle:version><sparkle:shortVersionString>0.4.26</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/uid4oe/tolk-releases/releases/download/v0.4.26/tolk-0.4.26.dmg" length="9343631" type="application/octet-stream" sparkle:edSignature="Dkkuk2owH5Uq1MTAvWMqIzP5voTdLb7dds9nTDBfgua57arrMUJo/OpCNzAKbnUw/Hs3jiiueY5v1BlleTdyAg=="></enclosure></item></channel>
 </rss><!-- sparkle-signatures:
-edSignature: z00y/q1XmyEczMVdDDEW28ZDYK9gIsEmpjP9UzqTTpKRZjCKFfaCdryIEm2mEqVB1YBVSicGcKN7Y9o3pgI6Dw==
-length: 3257
+edSignature: Ww+jEWf4B9M3mbYc2hA019m/xVUknrEvjllZOK/tvDBS+kMr1bjDYzwa1rip/+aw22PV/DQ+1a6Ab7Ar0AlSDg==
+length: 4294
 -->
