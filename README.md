@@ -3,7 +3,7 @@
 System-wide dictation, writing tools, and meeting workflows for macOS.
 Press your shortcut, speak, and press again to paste the transcript into the active app.
 
-[Download the latest release](https://github.com/uid4oe/tolk-releases/releases/latest).
+[See Tolk in action](https://uid4oe.github.io/tolk-releases/) or [download the latest release](https://github.com/uid4oe/tolk-releases/releases/latest).
 
 ## Requirements and installation
 
@@ -30,7 +30,7 @@ Hold the stop press past the long-press threshold to send Return after pasting.
 ## Quick Actions
 
 Select text and press the shortcut to open writing tools when AI is available.
-Choose an action or speak a custom instruction.
+Choose an action, speak a custom instruction, or type one.
 Results appear in the card as generation progresses when the connection supports streaming.
 Replace requires a supported editable selection. Copy also works with read-only selections.
 Customize the actions in Settings.
@@ -72,17 +72,27 @@ Completed audio parts and transcription progress remain available after interrup
 Correct transcript passages, then prepare cited notes and work briefs through your chosen AI connection.
 Recording and transcription work without AI processing.
 Review statements and source evidence before copying a brief or exporting the meeting.
-Exports contain readable Markdown and versioned JSON. Audio is excluded.
+Export the meeting to Markdown. Audio stays on your Mac.
 Take prepared work to the human or agent workflow you prefer.
+
+## Notes, todos, and workflows
+
+Save selected text or a Quick Action result as a note or todo.
+Keep the source with your edits, annotations, and subtasks.
+Open an unsent draft in Codex. Tolk copies the task when opening Claude.
+With Herdr Core, run a configured workflow and open its live terminal below the note or todo.
+Enable local MCP access in Settings to let a configured assistant read saved captures.
 
 ## Privacy and local data
 
 Audio capture runs during recording. Speech recognition runs locally.
 Optional cloud AI receives submitted text and the applicable instructions through API or CLI connections.
-History stores transcription records locally. Manage those records in Settings → History.
-Meetings retain audio, transcripts, and prepared work on the Mac until you delete or export them.
+History stores transcription records locally. Manage them in the History tab.
+Tolk stores meeting audio, transcripts, and prepared work on your Mac. Exporting a meeting leaves its local record in place.
 Provider credentials stay in an owner-only file on the Mac.
 Diagnostics include local timing and error logs.
+Accounts are optional. Notes, todos, and personalization sync only when you enable the corresponding setting.
+Usage analytics starts off and has a separate setting.
 
 ## Distribution
 
@@ -90,4 +100,4 @@ Tolk is closed source.
 This repository contains the download page, release information, and update feed.
 Release assets contain the compiled app and required runtime resources.
 The private application source, development files, and signing keys are not distributed.
-GitHub's automatic source archives contain only this public repository's metadata.
+GitHub's automatic source archives contain the public website and release feed.

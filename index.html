@@ -1,109 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>tolk</title>
-<link rel="icon" href="data:,">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    background: #0d0d0d;
-    color: #e0e0e0;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow-y: auto;
-  }
-
-  /* App-icon sine wave as a quiet page-scale watermark. Drifts slowly
-     left to suggest motion. A radial mask punches a hole behind the
-     card so the wave never crosses the title/tagline/button. */
-  .wave-bg {
-    position: fixed;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
-    overflow: hidden;
-    display: grid;
-    place-items: center;
-    -webkit-mask-image: radial-gradient(ellipse 360px 220px at center, transparent 35%, black 85%);
-            mask-image: radial-gradient(ellipse 360px 220px at center, transparent 35%, black 85%);
-  }
-  .wave-bg svg {
-    /* Twice the viewport so a -50% translate completes one full period
-       seamlessly. Path inside spans two identical periods. */
-    width: min(180vw, 2200px);
-    height: auto;
-    opacity: 0.12;
-    animation: wave-drift 22s linear infinite;
-  }
-  .wave-bg path {
-    fill: none;
-    stroke: #ffffff;
-    stroke-width: 10;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-  @keyframes wave-drift {
-    from { transform: translateX(0); }
-    to   { transform: translateX(-50%); }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .wave-bg svg { animation: none; }
-  }
-
-  .card { max-width: 480px; width: 90%; padding: 48px 40px; text-align: center; position: relative; z-index: 1; }
-  h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; color: #fff; }
-  .tagline { font-size: 15px; color: #888; margin-bottom: 32px; }
-  .download { display: inline-block; padding: 12px 32px; background: #fff; color: #0d0d0d; font-size: 15px; font-weight: 600; border-radius: 8px; text-decoration: none; transition: opacity 0.15s; }
-  .download:hover { opacity: 0.85; }
-  .meta { margin-top: 24px; font-size: 13px; color: #555; }
-  .meta a { color: #888; text-decoration: none; }
-  .meta a:hover { text-decoration: underline; }
-  .version { display: inline-block; margin-top: 16px; font-size: 12px; color: #444; font-family: 'SF Mono', monospace; }
-  .notes { margin-top: 12px; font-size: 12px; color: #555; max-width: 360px; margin-left: auto; margin-right: auto; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dictate into Mac apps, rewrite selected text, and turn meeting transcripts into notes and next steps with Tolk.">
+  <meta name="theme-color" content="#f7f6f1">
+  <meta property="og:title" content="Tolk — On-device dictation for Mac">
+  <meta property="og:description" content="On-device dictation, writing tools, and meeting capture for macOS.">
+  <meta property="og:image" content="https://uid4oe.github.io/tolk-releases/assets/workspace.png">
+  <title>Tolk — On-device dictation and writing tools for Mac</title>
+  <link rel="icon" href="assets/tolk.png" type="image/png">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead wrap">
+    <a class="brand" href="./" aria-label="Tolk home"><img src="assets/tolk.png" width="38" height="38" alt="">tolk</a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#release">Release</a>
+    </nav>
+    <a class="button button-outline header-download" data-download href="https://github.com/uid4oe/tolk-releases/releases/latest">Get Tolk <span aria-hidden="true">↗</span></a>
+  </header>
 
-<div class="wave-bg" aria-hidden="true">
-  <!-- Two identical sine periods (0–600, 600–1200). Translating the
-       SVG by -50% moves the visible portion forward by exactly one
-       period, so the loop wraps with no visible seam. -->
-  <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
-    <path d="M 0 100 C 100 30 200 30 300 100 C 400 170 500 170 600 100 C 700 30 800 30 900 100 C 1000 170 1100 170 1200 100"/>
-  </svg>
-</div>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> On-device dictation for Mac</p>
+        <h1 id="hero-title">Speak where<br><em>you write.</em></h1>
+        <p class="lede">Press a shortcut, speak, and press again to insert text in your Mac app. Rewrite selected text or turn a meeting into notes and next steps.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" data-download href="https://github.com/uid4oe/tolk-releases/releases/latest">Download for Mac <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#features">Explore features <span aria-hidden="true">↘</span></a>
+        </div>
+        <p class="requirements">Apple Silicon <span aria-hidden="true">·</span> macOS <span data-minimum>15</span> or later</p>
+      </div>
 
-<div class="card">
-  <h1>tolk</h1>
-  <p class="tagline">press. speak. done.</p>
-  <a class="download" id="dl" href="https://github.com/uid4oe/tolk-releases/releases/latest">download for Apple Silicon</a>
-  <div class="meta">
-    <p>macOS 15 or later · Apple Silicon</p>
-    <a href="https://github.com/uid4oe/tolk-releases/releases">all releases</a>
-  </div>
-  <span class="version" id="ver"></span>
-  <p class="notes" id="notes"></p>
-</div>
-<script>
-fetch('appcast.xml').then(r=>r.text()).then(xml=>{
-  const d=new DOMParser().parseFromString(xml,'text/xml');
-  const items=d.querySelectorAll('item');
-  if(!items.length)return;
-  const latest=[...items].reverse().find(item=>!item.getElementsByTagNameNS('http://www.andymatuschak.org/xml-namespaces/sparkle','channel').length);
-  if(!latest)return;
-  const v=latest.querySelector('shortVersionString');
-  const u=latest.querySelector('enclosure');
-  const desc=latest.querySelector('description');
-  if(v)document.getElementById('ver').textContent='v'+v.textContent;
-  if(u)document.getElementById('dl').href=u.getAttribute('url');
-  if(desc&&desc.textContent)document.getElementById('notes').textContent=desc.textContent;
-});
-</script>
+      <figure class="dictation-demo" aria-labelledby="demo-caption">
+        <video width="1440" height="928" poster="assets/dictation-poster.png" controls playsinline preload="none" aria-label="Dictation example" aria-describedby="demo-caption">
+          <source src="assets/dictation.mp4" type="video/mp4">
+          <a href="assets/dictation.mp4">Download the dictation example</a>
+        </video>
+        <figcaption id="demo-caption">Native Tolk overlay with a simulated transcript. Press once to record and again to insert text.</figcaption>
+      </figure>
+    </section>
+
+    <section class="features wrap" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <h2 id="features-title">From words to work.</h2>
+        <p>Work with text where you find it. Save the pieces you want to come back to.</p>
+      </div>
+      <div class="feature-index">
+        <a href="#writing"><span class="feature-mark" aria-hidden="true">✦</span><span><strong>Rewrite selected text</strong><small>Quick Actions</small></span><span class="index-arrow" aria-hidden="true">↘</span></a>
+        <a href="#meetings"><span class="feature-mark" aria-hidden="true">≋</span><span><strong>Capture a meeting</strong><small>Transcripts &amp; briefs</small></span><span class="index-arrow" aria-hidden="true">↘</span></a>
+        <a href="#workspace"><span class="feature-mark" aria-hidden="true">↳</span><span><strong>Pick up where you left off</strong><small>Notes, todos &amp; workflows</small></span><span class="index-arrow" aria-hidden="true">↘</span></a>
+      </div>
+
+      <article class="feature-detail" id="writing">
+        <div class="feature-copy">
+          <p class="eyebrow">Quick Actions</p>
+          <h3>Rewrite what’s already there.</h3>
+          <p>Select text and press your shortcut. Choose Fix or Shorten, or give your own instruction by voice or keyboard.</p>
+          <p>Review the draft and refine it. Copy it, replace an editable selection, or save it as a note or todo.</p>
+          <p class="feature-note">Quick Actions use the AI connection you choose.</p>
+        </div>
+        <figure class="feature-visual writing-visual">
+          <div class="source-example" aria-hidden="true"><p>Friday’s update</p><mark>We should probably try to send the updated draft at some point on Friday if it’s ready.</mark></div>
+          <a class="quick-shot" href="assets/quick-actions.png"><img src="assets/quick-actions.png" width="360" height="160" alt="Open the Quick Actions screenshot showing a typed instruction to shorten the draft." loading="lazy"></a>
+          <figcaption>A typed Quick Action over a sample draft</figcaption>
+        </figure>
+      </article>
+
+      <article class="feature-detail feature-reverse" id="meetings">
+        <div class="feature-copy">
+          <p class="eyebrow">Meetings</p>
+          <h3>Leave the meeting with a next step.</h3>
+          <p>Record your microphone, with optional system audio, and transcribe the recording on your Mac.</p>
+          <p>Use your AI connection to prepare notes and work briefs with references to the transcript. Review the details and export to Markdown.</p>
+        </div>
+        <figure class="feature-visual meeting-visual">
+          <a href="assets/meeting.png"><img src="assets/meeting.png" width="1080" height="745" alt="Open the meeting screenshot showing a reviewed work brief, task, and source evidence." loading="lazy"></a>
+          <figcaption>Reviewed brief from a sample meeting</figcaption>
+        </figure>
+      </article>
+
+      <article class="feature-detail" id="workspace">
+        <div class="feature-copy">
+          <p class="eyebrow">Workspace</p>
+          <h3>Keep the context with the task.</h3>
+          <p>Save a selection as a note or todo and keep its source alongside your edits. Add subtasks or annotations as the work takes shape.</p>
+          <p>Open an unsent draft in Codex or copy the task when opening Claude. With Herdr Core, run a configured workflow and keep its terminal below the note or todo in a resizable split.</p>
+        </div>
+        <figure class="feature-visual workspace-visual">
+          <a href="assets/workspace.png"><img src="assets/workspace.png" width="1000" height="600" alt="Open the workspace screenshot showing a note, a live Herdr terminal, and sidebar status." loading="lazy"></a>
+          <figcaption>Sample note with an attached Herdr session</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section class="privacy" id="privacy" aria-labelledby="privacy-title">
+      <div class="wrap privacy-inner">
+        <div>
+          <p class="eyebrow">Privacy</p>
+          <h2 id="privacy-title">Your voice is processed on your Mac.</h2>
+        </div>
+        <dl>
+          <div><dt>Dictation works without an account</dt><dd>Speech recognition runs on your Mac. Tolk stores meeting recordings, transcripts, and dictation history locally.</dd></div>
+          <div><dt>Choose how text is processed</dt><dd>AI is optional. For cloud AI, Tolk sends the text needed for each request to your chosen provider. Ollama and supported Apple Intelligence offer local alternatives.</dd></div>
+          <div><dt>Sync and analytics are off by default</dt><dd>Sign in to choose whether to sync notes, todos, and personalization. Usage analytics is a separate choice in Settings.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="release wrap" id="release" aria-labelledby="release-title">
+      <div>
+        <p class="eyebrow">Latest release <span data-version hidden></span></p>
+        <h2 id="release-title">Get Tolk for Mac.</h2>
+        <p>Apple Silicon with macOS <span data-minimum>15</span> or later. Open the DMG, drag Tolk into Applications, and follow setup.</p>
+        <div class="release-actions">
+          <a class="button button-primary" data-download href="https://github.com/uid4oe/tolk-releases/releases/latest">Download for Mac <span aria-hidden="true">↓</span></a>
+          <a class="text-link" data-release href="https://github.com/uid4oe/tolk-releases/releases/latest">Release notes <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="release-details">
+        <div class="release-summary" data-summary hidden>
+          <h3>What’s new</h3>
+          <ul></ul>
+        </div>
+        <details>
+          <summary>First launch and permissions</summary>
+          <p>The current download is signed and distributed without Apple notarization. If macOS blocks first launch, follow <a href="https://support.apple.com/en-us/102445">Apple’s Open Anyway instructions</a>.</p>
+          <p>Apple Intelligence requires macOS 26 and a supported Mac.</p>
+          <p>Allow microphone access to record. Allow Accessibility for shortcuts, selected text, and insertion. Meetings with system audio may request an additional permission.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <a class="brand" href="./" aria-label="Tolk home"><img src="assets/tolk.png" width="30" height="30" alt="">tolk</a>
+    <a href="https://github.com/uid4oe/tolk-releases/releases">All releases <span aria-hidden="true">↗</span></a>
+  </footer>
 </body>
 </html>
