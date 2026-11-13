@@ -60,6 +60,70 @@ async function loadStableRelease() {
   }
 }
 
+function setUpDemos() {
+  const navigation = document.querySelector(".demo-nav");
+  const tabs = Array.from(navigation.querySelectorAll("a"));
+  const panels = tabs.map(tab => document.getElementById(tab.hash.slice(1)));
+
+  function select(index) {
+    tabs.forEach((tab, position) => {
+      const active = position === index;
+      tab.setAttribute("aria-selected", String(active));
+      tab.tabIndex = active ? 0 : -1;
+      const panel = panels[position];
+      if (!active) panel.querySelector("video")?.pause();
+      panel.hidden = !active;
+    });
+  }
+
+  function selectFromLocation() {
+    const index = tabs.findIndex(tab => tab.hash === location.hash);
+    select(index < 0 ? 0 : index);
+  }
+
+  function activate(index) {
+    select(index);
+    const hash = tabs[index].hash;
+    if (location.hash !== hash) history.pushState(null, "", hash);
+  }
+
+  navigation.setAttribute("role", "tablist");
+  tabs.forEach((tab, index) => {
+    const panel = panels[index];
+    tab.id = panel.id + "-tab";
+    tab.setAttribute("role", "tab");
+    tab.setAttribute("aria-controls", panel.id);
+    panel.setAttribute("role", "tabpanel");
+    panel.setAttribute("aria-labelledby", tab.id);
+    panel.tabIndex = 0;
+
+    tab.addEventListener("click", event => {
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      activate(index);
+    });
+
+    tab.addEventListener("keydown", event => {
+      let next;
+      switch (event.key) {
+        case "ArrowRight": next = (index + 1) % tabs.length; break;
+        case "ArrowLeft": next = (index + tabs.length - 1) % tabs.length; break;
+        case "Home": next = 0; break;
+        case "End": next = tabs.length - 1; break;
+        case " ": next = index; break;
+        default: return;
+      }
+      event.preventDefault();
+      activate(next);
+      tabs[next].focus();
+    });
+  });
+
+  selectFromLocation();
+  window.addEventListener("hashchange", selectFromLocation);
+}
+
 loadStableRelease().catch(() => {
   // The links to GitHub Releases remain available if the feed cannot load.
 });
+setUpDemos();

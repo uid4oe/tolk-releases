@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Dictate into Mac apps, rewrite selected text, and turn meeting transcripts into notes and next steps with Tolk.">
-  <meta name="theme-color" content="#f7f6f1">
+  <meta name="theme-color" content="#0d0d0d">
   <meta property="og:title" content="Tolk — On-device dictation for Mac">
   <meta property="og:description" content="On-device dictation, writing tools, and meeting capture for macOS.">
-  <meta property="og:image" content="https://uid4oe.github.io/tolk-releases/assets/workspace.png">
+  <meta property="og:image" content="https://uid4oe.github.io/tolk-releases/assets/dictation-poster.png">
   <title>Tolk — On-device dictation and writing tools for Mac</title>
   <link rel="icon" href="assets/tolk.png" type="image/png">
   <link rel="stylesheet" href="site.css">
@@ -18,7 +18,7 @@
   <header class="masthead wrap">
     <a class="brand" href="./" aria-label="Tolk home"><img src="assets/tolk.png" width="38" height="38" alt="">tolk</a>
     <nav aria-label="Main navigation">
-      <a href="#features">Features</a>
+      <a href="#demos">Demos</a>
       <a href="#privacy">Privacy</a>
       <a href="#release">Release</a>
     </nav>
@@ -26,98 +26,107 @@
   </header>
 
   <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> On-device dictation for Mac</p>
-        <h1 id="hero-title">Speak where<br><em>you write.</em></h1>
-        <p class="lede">Press a shortcut, speak, and press again to insert text in your Mac app. Rewrite selected text or turn a meeting into notes and next steps.</p>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+          <path d="M0 100C100 30 200 30 300 100C400 170 500 170 600 100C700 30 800 30 900 100C1000 170 1100 170 1200 100"/>
+        </svg>
+      </div>
+      <div class="wrap hero-content">
+        <img class="hero-icon" src="assets/tolk.png" width="68" height="68" alt="">
+        <h1 id="hero-title">press. speak. done.</h1>
+        <p class="lede">Dictate into your Mac apps. Rewrite selected text or turn a meeting into notes and tasks.</p>
         <div class="hero-actions">
           <a class="button button-primary" data-download href="https://github.com/uid4oe/tolk-releases/releases/latest">Download for Mac <span aria-hidden="true">↓</span></a>
-          <a class="text-link" href="#features">Explore features <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#demos">Watch the demos <span aria-hidden="true">↓</span></a>
         </div>
-        <p class="requirements">Apple Silicon <span aria-hidden="true">·</span> macOS <span data-minimum>15</span> or later</p>
+        <p class="requirements">Apple Silicon · macOS <span data-minimum>15</span> or later</p>
       </div>
-
-      <figure class="dictation-demo" aria-labelledby="demo-caption">
-        <video width="1440" height="928" poster="assets/dictation-poster.png" controls playsinline preload="none" aria-label="Dictation example" aria-describedby="demo-caption">
-          <source src="assets/dictation.mp4" type="video/mp4">
-          <a href="assets/dictation.mp4">Download the dictation example</a>
-        </video>
-        <figcaption id="demo-caption">Native Tolk overlay with a simulated transcript. Press once to record and again to insert text.</figcaption>
-      </figure>
     </section>
 
-    <section class="features wrap" id="features" aria-labelledby="features-title">
-      <div class="section-heading">
-        <h2 id="features-title">From words to work.</h2>
-        <p>Work with text where you find it. Save the pieces you want to come back to.</p>
+    <section class="demos wrap" id="demos" aria-labelledby="demos-title">
+      <div class="section-heading" id="features">
+        <h2 id="demos-title">Tolk in action</h2>
       </div>
-      <div class="feature-index">
-        <a href="#writing"><span class="feature-mark" aria-hidden="true">✦</span><span><strong>Rewrite selected text</strong><small>Quick Actions</small></span><span class="index-arrow" aria-hidden="true">↘</span></a>
-        <a href="#meetings"><span class="feature-mark" aria-hidden="true">≋</span><span><strong>Capture a meeting</strong><small>Transcripts &amp; briefs</small></span><span class="index-arrow" aria-hidden="true">↘</span></a>
-        <a href="#workspace"><span class="feature-mark" aria-hidden="true">↳</span><span><strong>Pick up where you left off</strong><small>Notes, todos &amp; workflows</small></span><span class="index-arrow" aria-hidden="true">↘</span></a>
+      <nav class="demo-nav" aria-label="Product demos">
+        <a href="#dictation">Dictation</a>
+        <a href="#writing">Quick Actions</a>
+        <a href="#meetings">Meetings</a>
+        <a href="#workspace">Notes &amp; todos</a>
+      </nav>
+      <div class="demo-panels">
+        <article class="demo-panel" id="dictation" aria-labelledby="dictation-title">
+          <div class="demo-copy">
+            <h3 id="dictation-title">Dictate where you write</h3>
+            <p>Press your shortcut to record. Press it again to transcribe on your Mac and insert the text where you’re writing.</p>
+            <p class="demo-note">Dictation works without a Tolk account or AI connection.</p>
+          </div>
+          <figure class="demo-media">
+            <video width="1440" height="928" poster="assets/dictation-poster.png" controls playsinline preload="none" aria-label="Dictation demo" aria-describedby="dictation-caption">
+              <source src="assets/dictation.mp4" type="video/mp4">
+              <a href="assets/dictation.mp4">Download the dictation demo</a>
+            </video>
+            <figcaption id="dictation-caption">Sample audio transcribed on device with Parakeet Ultra.</figcaption>
+          </figure>
+        </article>
+
+        <article class="demo-panel" id="writing" aria-labelledby="writing-title">
+          <div class="demo-copy">
+            <h3 id="writing-title">Rewrite selected text</h3>
+            <p>Select text and press your shortcut. Choose a Quick Action or give your own instruction by voice or keyboard.</p>
+            <p>Use your AI connection to create a draft. Refine it, copy it, replace an editable selection, or save it as a note or todo.</p>
+          </div>
+          <figure class="demo-media writing-demo">
+            <div class="rewrite-example">
+              <div><span>Selected text</span><p>We should probably try to send the updated draft at some point on Friday if it’s ready.</p></div>
+              <div><span>Shortened draft</span><p>Let’s send the updated draft Friday if it’s ready.</p></div>
+            </div>
+            <a class="quick-shot" href="assets/quick-actions.png"><img src="assets/quick-actions.png" width="360" height="160" alt="Open a screenshot of the Quick Actions composer with a typed instruction." loading="lazy"></a>
+            <figcaption>Example rewrite and native Quick Actions composer.</figcaption>
+          </figure>
+        </article>
+
+        <article class="demo-panel" id="meetings" aria-labelledby="meetings-title">
+          <div class="demo-copy">
+            <h3 id="meetings-title">Record, transcribe, review</h3>
+            <p>Record your microphone with optional system audio. Tolk transcribes the recording on your Mac.</p>
+            <p>Use your AI connection to prepare notes and briefs with transcript references. Review them before sharing or exporting to Markdown.</p>
+          </div>
+          <figure class="demo-media meeting-demo">
+            <a href="assets/meeting.png"><img src="assets/meeting.png" width="650" height="745" alt="Open a screenshot of a reviewed meeting brief with transcript references and Save as Note." loading="lazy"></a>
+            <figcaption>Reviewed brief from a sample meeting.</figcaption>
+          </figure>
+        </article>
+
+        <article class="demo-panel" id="workspace" aria-labelledby="workspace-title">
+          <div class="demo-copy">
+            <h3 id="workspace-title">Keep the source with the task</h3>
+            <p>Save a selection or a draft as a note or todo. Add subtasks and annotations alongside the original context.</p>
+            <p>Open an unsent draft in Codex or copy the task to paste into Claude. Run a configured workflow with Herdr Core and keep its terminal below the task.</p>
+          </div>
+          <figure class="demo-media workspace-demo">
+            <a href="assets/workspace.png"><img src="assets/workspace.png" width="1000" height="600" alt="Open a screenshot of a note above a live Herdr terminal, with session status in the sidebar." loading="lazy"></a>
+            <figcaption>Sample note with an attached Herdr session.</figcaption>
+          </figure>
+        </article>
       </div>
-
-      <article class="feature-detail" id="writing">
-        <div class="feature-copy">
-          <p class="eyebrow">Quick Actions</p>
-          <h3>Rewrite what’s already there.</h3>
-          <p>Select text and press your shortcut. Choose Fix or Shorten, or give your own instruction by voice or keyboard.</p>
-          <p>Review the draft and refine it. Copy it, replace an editable selection, or save it as a note or todo.</p>
-          <p class="feature-note">Quick Actions use the AI connection you choose.</p>
-        </div>
-        <figure class="feature-visual writing-visual">
-          <div class="source-example" aria-hidden="true"><p>Friday’s update</p><mark>We should probably try to send the updated draft at some point on Friday if it’s ready.</mark></div>
-          <a class="quick-shot" href="assets/quick-actions.png"><img src="assets/quick-actions.png" width="360" height="160" alt="Open the Quick Actions screenshot showing a typed instruction to shorten the draft." loading="lazy"></a>
-          <figcaption>A typed Quick Action over a sample draft</figcaption>
-        </figure>
-      </article>
-
-      <article class="feature-detail feature-reverse" id="meetings">
-        <div class="feature-copy">
-          <p class="eyebrow">Meetings</p>
-          <h3>Leave the meeting with a next step.</h3>
-          <p>Record your microphone, with optional system audio, and transcribe the recording on your Mac.</p>
-          <p>Use your AI connection to prepare notes and work briefs with references to the transcript. Review the details and export to Markdown.</p>
-        </div>
-        <figure class="feature-visual meeting-visual">
-          <a href="assets/meeting.png"><img src="assets/meeting.png" width="1080" height="745" alt="Open the meeting screenshot showing a reviewed work brief, task, and source evidence." loading="lazy"></a>
-          <figcaption>Reviewed brief from a sample meeting</figcaption>
-        </figure>
-      </article>
-
-      <article class="feature-detail" id="workspace">
-        <div class="feature-copy">
-          <p class="eyebrow">Workspace</p>
-          <h3>Keep the context with the task.</h3>
-          <p>Save a selection as a note or todo and keep its source alongside your edits. Add subtasks or annotations as the work takes shape.</p>
-          <p>Open an unsent draft in Codex or copy the task when opening Claude. With Herdr Core, run a configured workflow and keep its terminal below the note or todo in a resizable split.</p>
-        </div>
-        <figure class="feature-visual workspace-visual">
-          <a href="assets/workspace.png"><img src="assets/workspace.png" width="1000" height="600" alt="Open the workspace screenshot showing a note, a live Herdr terminal, and sidebar status." loading="lazy"></a>
-          <figcaption>Sample note with an attached Herdr session</figcaption>
-        </figure>
-      </article>
     </section>
 
     <section class="privacy" id="privacy" aria-labelledby="privacy-title">
       <div class="wrap privacy-inner">
-        <div>
-          <p class="eyebrow">Privacy</p>
-          <h2 id="privacy-title">Your voice is processed on your Mac.</h2>
-        </div>
+        <h2 id="privacy-title">Privacy</h2>
         <dl>
-          <div><dt>Dictation works without an account</dt><dd>Speech recognition runs on your Mac. Tolk stores meeting recordings, transcripts, and dictation history locally.</dd></div>
-          <div><dt>Choose how text is processed</dt><dd>AI is optional. For cloud AI, Tolk sends the text needed for each request to your chosen provider. Ollama and supported Apple Intelligence offer local alternatives.</dd></div>
-          <div><dt>Sync and analytics are off by default</dt><dd>Sign in to choose whether to sync notes, todos, and personalization. Usage analytics is a separate choice in Settings.</dd></div>
+          <div><dt>On-device speech recognition</dt><dd>Tolk transcribes your audio on your Mac. Meeting recordings, transcripts, and dictation history are stored locally.</dd></div>
+          <div><dt>Optional AI processing</dt><dd>Cloud AI receives the text needed for each request. Ollama and supported Apple Intelligence can process text on your Mac.</dd></div>
+          <div><dt>Optional sync and analytics</dt><dd>Sign in to enable sync for notes, todos, or personalization. You can opt in to usage analytics separately in Settings.</dd></div>
         </dl>
       </div>
     </section>
 
     <section class="release wrap" id="release" aria-labelledby="release-title">
       <div>
-        <p class="eyebrow">Latest release <span data-version hidden></span></p>
-        <h2 id="release-title">Get Tolk for Mac.</h2>
+        <p class="version" data-version hidden></p>
+        <h2 id="release-title">Download Tolk</h2>
         <p>Apple Silicon with macOS <span data-minimum>15</span> or later. Open the DMG, drag Tolk into Applications, and follow setup.</p>
         <div class="release-actions">
           <a class="button button-primary" data-download href="https://github.com/uid4oe/tolk-releases/releases/latest">Download for Mac <span aria-hidden="true">↓</span></a>
