@@ -10,7 +10,7 @@ function compareVersion(a, b) {
 }
 
 async function loadStableRelease() {
-  const response = await fetch("appcast.xml");
+  const response = await fetch("appcast.xml", { cache: "no-cache" });
   if (!response.ok) return;
 
   const feed = new DOMParser().parseFromString(await response.text(), "text/xml");
@@ -96,6 +96,7 @@ function setUpDemos() {
     panel.setAttribute("role", "tabpanel");
     panel.setAttribute("aria-labelledby", tab.id);
     panel.tabIndex = 0;
+    setUpDemoPlayer(panel.querySelector("video"));
 
     tab.addEventListener("click", event => {
       if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -121,6 +122,32 @@ function setUpDemos() {
 
   selectFromLocation();
   window.addEventListener("hashchange", selectFromLocation);
+}
+
+function setUpDemoPlayer(video) {
+  const frame = document.createElement("div");
+  frame.className = "video-frame";
+  video.before(frame);
+  frame.append(video);
+
+  const button = document.createElement("button");
+  button.className = "demo-play";
+  button.type = "button";
+  button.textContent = "▶  Play demo";
+  frame.append(button);
+  video.controls = false;
+
+  button.addEventListener("click", async () => {
+    try {
+      await video.play();
+    } catch {
+      video.controls = true;
+      return;
+    }
+    video.controls = true;
+    video.focus();
+    button.hidden = true;
+  });
 }
 
 loadStableRelease().catch(() => {
